@@ -1,0 +1,5 @@
+.panel-heading {
+    font-size: 1.5em !important;
+    background: linear-gradient(to bottom, #00ced1, #20b2aa);
+    border-color: #87cefa !important;
+}
