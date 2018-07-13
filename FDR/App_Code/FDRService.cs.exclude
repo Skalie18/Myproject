@@ -1,0 +1,54 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Serialization;
+using System.ServiceModel;
+using System.ServiceModel.Activation;
+using System.Text;
+
+// NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "FdrService" in code, svc and config file together.
+[AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
+public class FdrService : IFdrService
+{
+
+    public int AddNewEntity(MultiNationalEntityList mne)
+    {
+        if(mne == null ) { return -100; }
+        return mne.Save();
+    }
+    public int AddNewMne(
+        decimal partyId
+        , string taxpayerReferenceNumber
+        , int yearofAssessment
+        , string registeredName
+        , string tradingName
+        , string registrationNumber
+        , DateTime financialYearEnd
+        , decimal turnoverAmount
+        , string nameUltimateHoldingCo
+        , string ultimateHoldingCompanyResOutSaInd
+        , string taxResidencyCountryCodeUltimateHoldingCompany
+        , string ultimateHoldingCoIncomeTaxRefNo
+        , string masterLocalFileRequiredInd
+        , string cbCReportRequiredInd
+        , DateTime datestamp)
+    {
+        return DatabaseWriter.SaveNewEntity(
+            partyId,
+            taxpayerReferenceNumber,
+            yearofAssessment,
+            registeredName,
+            tradingName,
+            registrationNumber,
+            financialYearEnd,
+            turnoverAmount,
+            nameUltimateHoldingCo,
+            ultimateHoldingCompanyResOutSaInd,
+            taxResidencyCountryCodeUltimateHoldingCompany,
+            ultimateHoldingCoIncomeTaxRefNo,
+            masterLocalFileRequiredInd,
+            cbCReportRequiredInd,
+            datestamp
+            );
+    }
+}

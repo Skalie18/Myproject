@@ -1,0 +1,17 @@
+D:\Projects\FRD_MNE_Services\FRD_MNE_Services\bin\Release\FRD_MNE_Services.exe.config
+D:\Projects\FRD_MNE_Services\FRD_MNE_Services\bin\Release\CBCArrivalNotification.htm
+D:\Projects\FRD_MNE_Services\FRD_MNE_Services\bin\Release\FileArrivalNotification.htm
+D:\Projects\FRD_MNE_Services\FRD_MNE_Services\bin\Release\FRD_MNE_Services.exe
+D:\Projects\FRD_MNE_Services\FRD_MNE_Services\bin\Release\FRD_MNE_Services.pdb
+D:\Projects\FRD_MNE_Services\FRD_MNE_Services\bin\Release\FDR.DataLayer.dll
+D:\Projects\FRD_MNE_Services\FRD_MNE_Services\bin\Release\Sars.Models.CBC.dll
+D:\Projects\FRD_MNE_Services\FRD_MNE_Services\bin\Release\Sars.Systems.dll
+D:\Projects\FRD_MNE_Services\FRD_MNE_Services\bin\Release\FDR.DataLayer.pdb
+D:\Projects\FRD_MNE_Services\FRD_MNE_Services\bin\Release\Sars.Models.CBC.pdb
+D:\Projects\FRD_MNE_Services\FRD_MNE_Services\bin\Release\Sars.Systems.pdb
+D:\Projects\FRD_MNE_Services\FRD_MNE_Services\bin\Release\Sars.Systems.xml
+D:\Projects\FRD_MNE_Services\FRD_MNE_Services\obj\x86\Release\FDRMultiNationalEnterpriseDataService.csprojResolveAssemblyReference.cache
+D:\Projects\FRD_MNE_Services\FRD_MNE_Services\obj\x86\Release\FRD_MNE_Services.ProjectInstaller.resources
+D:\Projects\FRD_MNE_Services\FRD_MNE_Services\obj\x86\Release\FDRMultiNationalEnterpriseDataService.csproj.GenerateResource.Cache
+D:\Projects\FRD_MNE_Services\FRD_MNE_Services\obj\x86\Release\FRD_MNE_Services.exe
+D:\Projects\FRD_MNE_Services\FRD_MNE_Services\obj\x86\Release\FRD_MNE_Services.pdb

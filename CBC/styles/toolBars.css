@@ -1,0 +1,45 @@
+﻿/* use this selector to apply style to the box containing all the toolbar buttons */
+.toolbar
+{
+	padding: 3px;
+	background-color: #DEE4EF;
+	border: solid 1px #999999;
+	float: left;
+}
+/* use this selector to apply style to all buttons regardless of their state */
+.toolbar .button a
+{		
+	background-color: #EFF2F8;
+	text-decoration: none;
+	padding: 3px 6px;
+	margin-right: 4px;
+	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	
+	border: solid 1px #999999;
+	cursor:pointer;
+	float: left;
+}
+/* use this selector to apply style to enabled buttons only */
+.toolbar .button_enabled a
+{
+	color: #1B3A7A;
+}
+/* use this selector to apply mouseover style to enabled buttons only */
+.toolbar .button_enabled a:hover
+{
+	background-color: #CAE4FF;
+	border: solid 1px #75BAFF;
+}
+/* use this selector to apply style to enabled buttons only */
+.toolbar .button_disabled a
+{
+	color: #B0B0B0;
+}
+/* use this selector to apply mouseover style to disabled buttons only */
+.toolbar .button_disabled a:hover
+{
+}
+

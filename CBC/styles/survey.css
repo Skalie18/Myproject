@@ -1,0 +1,150 @@
+﻿label {
+    font-family: verdana;
+}
+
+.requireddata {
+    border-bottom: 1px solid red !important;
+    background: #faffbd  !important;
+}
+
+input[type=submit]:disabled {
+    color: grey !important;
+    font-weight: bold;
+    cursor: not-allowed;
+}
+
+select:disabled {
+    color: grey !important;
+    font-weight: bold!important;
+    cursor: not-allowed!important;
+}
+input[type=text]:disabled {
+    color: grey !important;
+    font-weight: bold!important;
+    cursor: not-allowed!important;
+}
+a:disabled {
+    color: grey !important;
+    font-weight: bold!important;
+    cursor: not-allowed!important;
+}
+textarea:disabled {
+    color: grey !important;
+    font-weight: bold!important;
+    cursor: not-allowed!important;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #428bca;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    border-bottom:4px double #fff!important;
+    border-right:4px double #fff!important;
+    font-weight: bold;
+    font-size: 100%;
+    letter-spacing: 3px !important;
+    font-family: Tahoma;
+}
+
+
+
+
+input[type=text] {
+    color: #1B4F72;
+    font-weight: bold;
+    width: 99%;
+    padding: 2px;
+    border-bottom: 1px solid #428bca;
+    border-top: 1px solid #428bca;
+    border-left: 10px solid #428bca;
+    border-right: 1px solid #428bca;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 100%;
+    letter-spacing: 3px !important;
+    font-family: Tahoma;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+select {
+    padding: 4px;
+    font-weight: bold;
+    color: #336699;
+    width: 99%;
+    border-bottom: 1px solid #428bca;
+    border-top: 1px solid #428bca;
+    border-left: 10px solid #428bca;
+    border-right: 2px solid #428bca;
+    letter-spacing: 3px !important;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 100%;
+    letter-spacing: 3px !important;
+    font-family: Tahoma;
+}
+textarea {
+    font-weight: bold;
+    width: 93%;
+    padding: 2px;
+    color: #336699;
+    border-bottom: 1px solid #428bca;
+    border-top: 1px solid #428bca;
+    border-left: 10px solid #428bca;
+    border-right: 1px solid #428bca;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+   font-size: 100%;
+    letter-spacing: 3px !important;
+    font-family: Tahoma;
+}
+textarea:focus {
+    border: 1px solid silver;
+    box-shadow: inset 0 5px 5px #428bca;
+}
+
+section option {
+    letter-spacing: 3px!important;
+    padding: 2px;
+}
+
+input[type=checkbox]{
+    padding:4px;    
+}
+
+
+ .dates {
+     min-width: 300px !important;
+ }
+.toolbar div a {
+    height: 20px;
+    padding-top: 5px;
+    vertical-align: middle;
+}
+
+
+.responsive-container{
+    overflow-x:auto;
+}
+
+.tabel-with-no-borders td{
+    padding:0 !important;
+}
+select.ui-datepicker-month{
+      min-width:30px!important;
+      border-radius:0!important;
+      padding:4px!important;
+}
+select.ui-datepicker-year {
+    min-width: 20px !important;
+    border-radius: 0 !important;
+    padding: 4px !important;
+}
+ 

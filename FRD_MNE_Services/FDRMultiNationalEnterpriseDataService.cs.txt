@@ -1,0 +1,268 @@
+﻿using System;
+using System.Diagnostics;
+using System.ServiceProcess;
+using System.Text;
+using IBM.WMQ;
+
+namespace FRD_MNE_Services
+{
+    public partial class FDRMultiNationalEnterpriseDataService : ServiceBase
+    {
+        private const string EventSource = "Directives Service";
+        private const string LOG = "SARS Directives";
+        public FDRMultiNationalEnterpriseDataService()
+        {
+            InitializeComponent();
+            ReadMneRequests();
+        }
+        private static void ReadMneRequests()
+        {
+            bool keepGoing = true;
+            MQQueueManager mqQMgr = null;
+            MQQueue mqQueue = null;
+            while (keepGoing)
+            {
+                try
+                {
+                    mqQMgr = new MQQueueManager(
+                        MQConfigurationSettings.MNE_Equire_IN_QManagerName,
+                        MQConfigurationSettings.MNE_Equire_IN_QChannelName,
+                        MQConfigurationSettings.MNE_Equire_IN_QConnection);
+                }
+                catch (MQException mqe)
+                {
+                    keepGoing = false;
+                    LogEvent(mqe, EventLogEntryType.Error);
+                }
+                try
+                {
+                    if (mqQMgr == null)
+                    {
+                        LogEvent("[mqQMgr] object is not initialized");
+                        keepGoing = false;
+                        return;
+                    }
+                    mqQueue = mqQMgr.AccessQueue(MQConfigurationSettings.MNE_Equire_IN_QName,
+                        MQC.MQOO_INQUIRE + MQC.MQOO_INPUT_AS_Q_DEF + MQC.MQOO_FAIL_IF_QUIESCING);
+                }
+                catch (MQException mqe)
+                {
+                    keepGoing = false;
+                    LogEvent(mqe, EventLogEntryType.Error);
+                }
+                var mqMsg = new MQMessage();
+                var mqGetMsgOpts = new MQGetMessageOptions {WaitInterval = 10000};
+                mqGetMsgOpts.Options |= MQC.MQGMO_WAIT;
+                try
+                {
+                    if (mqQueue == null)
+                    {
+                        LogEvent("mqQueue object is not initialized");
+                        keepGoing = false;
+                        return;
+                    }
+                    if (mqQueue.CurrentDepth > 0)
+                    {
+                        mqQueue.Get(mqMsg, mqGetMsgOpts);
+                    }
+                    else
+                    {
+                        keepGoing = false;
+                        break;
+                    }
+                    if (string.Compare(mqMsg.Format, MQC.MQFMT_STRING, StringComparison.OrdinalIgnoreCase) == 0)
+                    {
+                        var message = mqMsg.ReadString(mqMsg.MessageLength);
+                        var request =Sars.Systems.Serialization.XmlObjectSerializer.ConvertXmlToObject<ThirdPartyDataActivityManagementRequest>(message);
+                        if (request != null)
+                        {
+                            var enquireResult = DbReader.Enquire(request.TaxRefNo, request.Year);
+                            if (enquireResult.HasRows)
+                            {
+                                var row = enquireResult[0];
+                                var correctCbCDeclarationInd = row["CorrectCbCDeclarationInd"].ToString();
+                                var correctMasterAndLocalFileInd = row["CorrectMasterAndLocalFileInd"].ToString();
+                                var submitCbCDeclarationInd = row["CbCReportRequiredInd"].ToString();
+                                var submitMasterAndLocalFileInd = row["MasterLocalFileRequiredInd"].ToString();
+
+                                var response = new ThirdPartyDataActivityManagementResponse
+                                {
+                                    CBC = new ThirdPartyDataActivityManagementResponseCBC
+                                    {
+                                        CorrectCbCDeclarationInd =
+                                            correctCbCDeclarationInd.Equals("Y") ? YesNoIndType.Y : YesNoIndType.N,
+                                        CorrectMasterAndLocalFileInd =
+                                            correctMasterAndLocalFileInd.Equals("Y") ? YesNoIndType.Y : YesNoIndType.N,
+                                        SubmitCbCDeclarationInd =
+                                            submitCbCDeclarationInd.Equals("Y") ? YesNoIndType.Y : YesNoIndType.N,
+                                        SubmitMasterAndLocalFileInd =
+                                            submitMasterAndLocalFileInd.Equals("Y") ? YesNoIndType.Y : YesNoIndType.N
+                                    }
+                                };
+
+                                var xml = Sars.Systems.Serialization.XmlObjectSerializer.GetXml(response);
+                                RespondToMneEnquire(xml);
+                            }
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Non-text message");
+                    }
+                }
+                catch (MQException mqe)
+                {
+                    keepGoing = false;
+                    if (mqe.Reason == MQC.MQRC_NO_MSG_AVAILABLE)
+                    {
+                        LogEvent(mqe, EventLogEntryType.Information);
+                    }
+                    else
+                    {
+                        if (mqe.Reason == MQC.MQRC_TRUNCATED_MSG_FAILED)
+                        {
+                            LogEvent("MQQueue::Get ended with " + mqe.ToString());
+                        }
+                    }
+                }
+            }
+        }
+        private static void RespondToMneEnquire(string xml)
+        {
+            MQQueueManager mqQMgr = null;
+            MQQueue mqQueue = null;
+
+
+            try
+            {
+
+                mqQMgr = new MQQueueManager
+                    (
+                    MQConfigurationSettings.MNE_Equire_OUT_QManagerName,
+                    MQConfigurationSettings.MNE_Equire_OUT_QChannelName,
+                    MQConfigurationSettings.MNE_Equire_OUT_QConnection
+                    );
+
+            }
+            catch (MQException mqe)
+            {
+                Console.WriteLine("create of MQQueueManager ended with " + mqe.ToString());
+            }
+
+            try
+            {
+                if (mqQMgr == null)
+                {
+                    LogEvent("[mqQMgr] object is not initialized");
+                    return;
+                }
+                mqQueue = mqQMgr.AccessQueue(MQConfigurationSettings.MNE_Equire_OUT_QName,
+                                              MQC.MQOO_OUTPUT                   // open queue for output
+                                              + MQC.MQOO_FAIL_IF_QUIESCING);   // but not if MQM stopping
+            }
+            catch (MQException mqe)
+            {
+                Console.WriteLine("MQQueueManager::AccessQueue ended with " + mqe.ToString());
+            }
+
+          
+            var message = xml;
+            var msgLen = message.Length;
+
+            if (msgLen > 0)
+            {
+                // put the next message to the queue
+                var mqMsg = new MQMessage
+                {
+                    Format = MQC.MQFMT_STRING,
+                    Encoding = MQC.MQCUOWC_ONLY,
+                    CharacterSet = MQC.MQIAMO_MSGS_DELIVERED,
+                    MessageType = MQC.MQMT_DATAGRAM
+                };
+                mqMsg.WriteString(message);
+
+                var mqPutMsgOpts = new MQPutMessageOptions();
+                try
+                {
+                    if (mqQueue == null)
+                    {
+                        LogEvent("[mqQueue] object is not initialized");
+                        return;
+                    }
+                    mqQueue.Put(mqMsg, mqPutMsgOpts);
+                }
+                catch (MQException mqe)
+                {
+                    LogEvent("MQQueue::Put ended with " + mqe);
+                }
+            }
+            try
+            {
+                //Close the Queue
+                if (mqQueue != null)
+                {
+                    mqQueue.Close();
+                }
+                if (mqQMgr != null)
+                {
+                    mqQMgr.Disconnect();
+                }
+            }
+            catch (MQException mqe)
+            {
+                LogEvent("Could not close Queue and/or Manager " + mqe);
+            }
+        }
+        protected override void OnStart(string[] args)
+        {
+        }
+        protected override void OnStop()
+        {
+        }
+        private static void LogEvent(Exception exception, EventLogEntryType type)
+        {
+            if (!EventLog.SourceExists(EventSource))
+            {
+                EventLog.CreateEventSource(EventSource, LOG);
+            }
+            if (exception != null)
+            {
+                var error = new StringBuilder();
+                error.AppendFormat("MESSAGE : {0}\n", exception.Message);
+
+                var oEventLog = new EventLog(LOG) { Source = EventSource };
+                oEventLog.WriteEntry(error.ToString(), type);
+            }
+        }
+        private static void LogEvent(string message)
+        {
+            if (!EventLog.SourceExists(EventSource))
+            {
+                EventLog.CreateEventSource(EventSource, LOG);
+            }
+
+            var error = new StringBuilder();
+            error.AppendFormat("MESSAGE : {0}\n", message);
+
+            var oEventLog = new EventLog(LOG) { Source = EventSource };
+            oEventLog.WriteEntry(error.ToString(), EventLogEntryType.Information);
+
+        }
+        private static void LogEvent(string message, EventLogEntryType type)
+        {
+            if (!EventLog.SourceExists(EventSource))
+            {
+                EventLog.CreateEventSource(EventSource, LOG);
+            }
+
+            var error = new StringBuilder();
+            error.AppendFormat("MESSAGE : {0}\n", message);
+
+            var oEventLog = new EventLog(LOG) { Source = EventSource };
+            oEventLog.WriteEntry(error.ToString(), type);
+        }
+
+
+        
+    }
+}

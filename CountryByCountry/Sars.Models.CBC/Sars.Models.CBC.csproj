@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EA4B8650-EB4D-48E2-8328-73232D4695E3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sars.Models.CBC</RootNamespace>
+    <AssemblyName>Sars.Models.CBC</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\Users\s1037927\Documents\Libraries\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddressType.cs" />
+    <Compile Include="ApplicationInformationV3_1.cs" />
+    <Compile Include="CBC01Data.cs" />
+    <Compile Include="SARSSubmitCountryByCountryDeclarationV1_2.cs" />
+    <Compile Include="ESBHeaderV7_1.cs" />
+    <Compile Include="ESBHeader_new_v000006.cs" />
+    <Compile Include="FileSubmissions.cs" />
+    <Compile Include="FileValidationOutcome.cs" />
+    <Compile Include="BusinessActivities.cs" />
+    <Compile Include="CBCReports.cs" />
+    <Compile Include="CBCReport_Address.cs" />
+    <Compile Include="CBCReport_BusinessActivities.cs" />
+    <Compile Include="CBCReport_ConstituentEntity.cs" />
+    <Compile Include="CBCReport_ConstituentEntityData.cs" />
+    <Compile Include="CBCReport_CoutryCodeSummaryRefCode.cs" />
+    <Compile Include="CBCReport_OtherInformation.cs" />
+    <Compile Include="CBCReport_Revenue.cs" />
+    <Compile Include="CBCReport_Summary.cs" />
+    <Compile Include="FileValidationOutcomeDetails.cs" />
+    <Compile Include="FormDefaults.cs" />
+    <Compile Include="LocalFileCategories.cs" />
+    <Compile Include="MasterFileCategories.cs" />
+    <Compile Include="MasterLocalFileNotificationEmailBodyTemplates.cs" />
+    <Compile Include="MasterLocalFileNotificationSMSBodyTemplates.cs" />
+    <Compile Include="MessageObject.cs" />
+    <Compile Include="MultiNationalEntity.cs" />
+    <Compile Include="OutGoingCBCDeclarations.cs" />
+    <Compile Include="PostalServices.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportEntity.cs" />
+    <Compile Include="EntityAddress.cs" />
+    <Compile Include="ReportEntityAdditionalInformation.cs" />
+    <Compile Include="ReportEntityContactPersonDetails.cs" />
+    <Compile Include="ReportingRoles.cs" />
+    <Compile Include="RequestReasonCodes.cs" />
+    <Compile Include="SentLetters.cs" />
+    <Compile Include="SummaryReferenceCodes.cs" />
+    <Compile Include="X_MessageSpec.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\SARS_DLL\DEV\Sars.Systems\SARS.Systems.csproj">
+      <Project>{b2041bad-5b8a-43a7-a7e9-13b775f8a4fc}</Project>
+      <Name>SARS.Systems</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

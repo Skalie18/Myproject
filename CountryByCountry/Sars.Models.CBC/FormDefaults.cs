@@ -1,0 +1,35 @@
+using System;
+using System.Data.Linq;
+using System.Data.Linq.Mapping;
+using Sars.Systems.Data;
+using System.Collections.Generic;
+
+namespace Sars.Models.CBC
+{
+    [Table(Name = "FormDefaults")]
+    public class FormDefaults : Sars.Systems.Data.DataAccessObject
+    {
+        public FormDefaults()
+        {
+        }
+
+        public FormDefaults(string procedure, Dictionary<string, object> parameters) : base(procedure, parameters)
+        {
+        }
+
+        [Column(Name = "Id"), DBQueryParameter("@Id")]
+        public int Id { get; set; }
+
+        [Column(Name = "Timestamp"), DBQueryParameter("@Timestamp")]
+        public DateTime Timestamp { get; set; }
+
+        [Column(Name = "MaxTotalAnnuityValue"), DBQueryParameter("@MaxTotalAnnuityValue")]
+        public decimal? MaxTotalAnnuityValue { get; set; }
+
+        [Column(Name = "DateModified"), DBQueryParameter("@DateModified")]
+        public DateTime? DateModified { get; set; }
+
+        [Column(Name = "IsActive"), DBQueryParameter("@IsActive")]
+        public bool IsActive { get; set; }
+    }
+}

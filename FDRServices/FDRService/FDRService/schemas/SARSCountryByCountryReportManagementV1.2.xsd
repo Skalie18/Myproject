@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:bt="http://www.sars.gov.za/enterpriseMessagingModel/GMD/BaseTypes/xml/schemas/version/55.1" xmlns:cbcMgt="http://www.sars.gov.za/enterpriseMessagingModel/CountryByCountryReportManagement/xml/schemas/version/1.2" targetNamespace="http://www.sars.gov.za/enterpriseMessagingModel/CountryByCountryReportManagement/xml/schemas/version/1.2" elementFormDefault="qualified">
+	<annotation>
+		<documentation>
+			2017-12-04 Dirk Grobler. First draft.
+			2017-12-14 Dirk Grobler. Added RequestOperation values and comments.
+			2018-04-25 Dirk Grobler. Aligned namespace to schema version.
+
+		</documentation>
+	</annotation>
+	<complexType name="CountryByCountryReportManagementRequestStructure">
+		<all>
+			<element name="RequestOperation" minOccurs="0" maxOccurs="1">
+				<simpleType>
+					<restriction base="string">
+						<enumeration value="SUBMIT_REPORT"/> 		<!-- Used for submitting outgoing report from SARS to OECD -->
+						<enumeration value="UPDATE_REPORT_STATUS"/> <!-- Used for updating the status of an outgoing report that was originally submitted -->
+						<enumeration value="RECEIVE_REPORT"/> 		<!-- Used for Incoming report from OECD to SARS -->
+						<enumeration value="ISSUE_REPORT_STATUS"/>	<!-- Used for issuing report status from SARS to OECD  -->
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="Destination" minOccurs="1" maxOccurs="1">
+				<annotation>
+					<documentation>Destination country code in 2 character format as per ISO3166 standard, or country code suffixed for hubs.
+E.g. IT for Italy, or IT.00 for Italy Hub					</documentation>
+				</annotation>
+				<simpleType>
+					<restriction base="string">
+						<minLength value="2"></minLength>
+						<pattern value=".{2,5}"></pattern>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="Filename" type="cbcMgt:FilenameType" minOccurs="1" maxOccurs="1">
+				<annotation>
+					<documentation>The filename of the compressed file specified in the FileContent element.</documentation>
+				</annotation>
+			</element>
+			<element name="FileContent" type="cbcMgt:FileContentType" minOccurs="1" maxOccurs="1"/>
+		</all>
+	</complexType>
+	<element name="CountryByCountryReportManagementRequest" type="cbcMgt:CountryByCountryReportManagementRequestStructure"/>
+	<simpleType name="FilenameType">
+		<restriction base="string">
+			<minLength value="1"/>
+			<maxLength value="256"/>
+		</restriction>
+	</simpleType>
+	<element name="CountryByCountryReportManagementResponse" type="cbcMgt:CountryByCountryReportManagementResponseStructure"/>
+	<complexType name="CountryByCountryReportManagementResponseStructure">
+		<all>
+			<element name="Filename" type="cbcMgt:FilenameType" minOccurs="1" maxOccurs="1"/>
+			<element name="FileContent" type="cbcMgt:FileContentType" minOccurs="1" maxOccurs="1"/>
+		</all>
+	</complexType>
+	<simpleType name="FileContentType">
+		<restriction base="string">
+			<minLength value="1"/>
+			<maxLength value="104857600"/>
+		</restriction>
+	</simpleType>
+</schema>

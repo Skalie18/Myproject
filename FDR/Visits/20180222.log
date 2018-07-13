@@ -1,0 +1,2103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/GenerateOutgoingCBCDeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/GenerateOutgoingCBCDeclataions.aspx</Url>
+    <Time>08:08:05 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/GenerateOutgoingCBCDeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/GenerateOutgoingCBCDeclataions.aspx</Url>
+    <Time>08:08:24 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>08:08:25 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>08:08:34 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/download.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/download.aspx?&amp;xid=1&amp;fname=South Africa</Url>
+    <Time>08:08:35 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>08:53:20 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>08:54:50 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>08:55:09 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>08:55:43 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>08:56:03 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2018</Url>
+    <Time>08:56:04 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2018</Url>
+    <Time>08:56:15 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>08:59:47 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>08:59:50 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>08:59:52 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>09:10:09 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>09:20:21 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2018</Url>
+    <Time>09:20:21 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2018</Url>
+    <Time>09:20:26 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>09:20:29 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2018</Url>
+    <Time>09:20:30 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>10:48:35 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>10:52:56 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>11:36:05 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>11:36:33 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2018</Url>
+    <Time>11:36:36 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>11:49:36 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>11:49:42 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2018</Url>
+    <Time>11:49:43 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2018</Url>
+    <Time>11:49:56 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>11:49:58 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2018</Url>
+    <Time>11:49:59 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>12:54:16 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>12:54:35 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2018</Url>
+    <Time>12:54:36 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>13:01:52 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>13:02:06 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2018</Url>
+    <Time>13:02:07 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/assignusertorole.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/assignusertorole.aspx</Url>
+    <Time>13:02:33 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>13:02:45 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/modifyrole.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/modifyrole.aspx</Url>
+    <Time>13:02:58 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>13:03:06 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewRoles.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewRoles.aspx</Url>
+    <Time>13:03:22 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewRoles.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewRoles.aspx</Url>
+    <Time>13:03:27 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewRoles.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewRoles.aspx</Url>
+    <Time>13:03:41 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewRoles.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewRoles.aspx</Url>
+    <Time>13:03:56 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/Default.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/Default.aspx</Url>
+    <Time>13:04:05 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>13:04:20 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctionGroups.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctionGroups.aspx</Url>
+    <Time>13:04:28 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctionGroups.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctionGroups.aspx</Url>
+    <Time>13:04:38 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctionGroups.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctionGroups.aspx</Url>
+    <Time>13:05:05 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>13:05:10 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/MapUrlToFunction.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/MapUrlToFunction.aspx</Url>
+    <Time>13:05:39 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/MapUrlToFunction.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/MapUrlToFunction.aspx</Url>
+    <Time>13:05:47 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/MapUrlToFunction.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/MapUrlToFunction.aspx</Url>
+    <Time>13:06:02 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>13:06:05 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctionGroups.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctionGroups.aspx</Url>
+    <Time>13:06:11 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctionGroups.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctionGroups.aspx</Url>
+    <Time>13:06:19 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctionGroups.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctionGroups.aspx</Url>
+    <Time>13:06:23 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctionGroups.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctionGroups.aspx</Url>
+    <Time>13:06:42 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>13:06:45 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/MapUrlToFunction.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/MapUrlToFunction.aspx</Url>
+    <Time>13:06:48 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>13:07:05 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctionGroups.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctionGroups.aspx</Url>
+    <Time>13:07:16 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctionGroups.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctionGroups.aspx</Url>
+    <Time>13:07:37 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctionGroups.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctionGroups.aspx</Url>
+    <Time>13:07:49 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctionGroups.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctionGroups.aspx</Url>
+    <Time>13:08:03 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctionGroups.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctionGroups.aspx</Url>
+    <Time>13:08:15 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>13:08:32 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/MapUrlToFunction.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/MapUrlToFunction.aspx</Url>
+    <Time>13:08:35 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/MapUrlToFunction.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/MapUrlToFunction.aspx</Url>
+    <Time>13:08:48 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>13:09:05 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctions.aspx</Url>
+    <Time>13:09:09 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctions.aspx</Url>
+    <Time>13:09:17 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctions.aspx</Url>
+    <Time>13:09:22 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctions.aspx</Url>
+    <Time>13:09:53 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>13:09:58 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/MapUrlToFunction.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/MapUrlToFunction.aspx</Url>
+    <Time>13:10:02 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>13:10:13 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctions.aspx</Url>
+    <Time>13:10:16 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctions.aspx</Url>
+    <Time>13:10:26 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctions.aspx</Url>
+    <Time>13:11:24 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>13:11:34 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/MapUrlToFunction.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/MapUrlToFunction.aspx</Url>
+    <Time>13:11:36 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/MapUrlToFunction.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/MapUrlToFunction.aspx</Url>
+    <Time>13:11:42 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/MapUrlToFunction.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/MapUrlToFunction.aspx</Url>
+    <Time>13:13:26 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>13:13:35 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>13:13:41 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>13:13:56 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>13:14:29 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>13:14:32 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/admin/default2.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/admin/default2.aspx</Url>
+    <Time>13:14:45 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/admin/default2.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/admin/default2.aspx</Url>
+    <Time>13:15:00 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/admin/default2.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/admin/default2.aspx</Url>
+    <Time>13:15:02 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/Default.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/Default.aspx</Url>
+    <Time>13:15:09 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/admin/default2.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/admin/default2.aspx</Url>
+    <Time>13:15:12 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/admin/default2.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/admin/default2.aspx</Url>
+    <Time>13:16:00 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/admin/default2.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/admin/default2.aspx</Url>
+    <Time>13:16:02 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/admin/default2.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/admin/default2.aspx</Url>
+    <Time>13:16:05 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/admin/default2.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/admin/default2.aspx</Url>
+    <Time>13:16:21 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/admin/default2.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/admin/default2.aspx</Url>
+    <Time>13:16:23 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/Default.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/Default.aspx</Url>
+    <Time>13:16:26 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>13:16:31 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>13:16:36 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>13:16:40 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>13:17:07 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>13:17:11 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>13:17:13 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>13:17:20 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>13:17:24 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>13:17:36 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/admin/default2.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/admin/default2.aspx</Url>
+    <Time>13:17:44 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>13:17:53 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>13:17:56 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>13:17:59 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/admin/default2.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/admin/default2.aspx</Url>
+    <Time>13:18:18 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/admin/default2.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/admin/default2.aspx</Url>
+    <Time>13:18:26 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/admin/default2.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/admin/default2.aspx</Url>
+    <Time>13:18:28 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>13:18:32 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/refreshmenu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/refreshmenu.aspx</Url>
+    <Time>13:18:35 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/refreshmenu.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/secureurl/refreshmenu.aspx</Url>
+    <Time>13:18:38 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/Default.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/Default.aspx</Url>
+    <Time>13:18:41 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>13:18:46 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>13:19:00 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>13:19:01 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>13:38:26 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>13:38:40 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2018</Url>
+    <Time>13:38:41 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>13:39:38 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>13:41:03 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>13:41:09 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>13:41:15 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>13:43:12 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>13:43:25 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>13:43:32 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>13:43:33 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>13:46:11 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>13:46:25 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>13:46:34 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>13:46:35 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>13:51:17 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>13:51:22 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>13:51:25 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>13:51:26 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>13:55:57 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>13:56:10 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>13:56:13 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>13:56:14 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>13:58:42 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>13:59:00 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>13:59:03 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>13:59:04 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>14:02:33 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:02:40 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:04:04 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:04:05 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>14:04:40 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>14:04:48 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2018</Url>
+    <Time>14:04:48 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>14:08:31 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:08:36 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>14:09:17 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:09:27 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:09:30 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:09:31 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>14:10:53 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:11:03 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:11:06 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:11:07 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>14:11:55 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:12:05 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:12:07 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:12:08 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:12:36 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/download.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/download.aspx?&amp;xid=1&amp;fname=South Africa</Url>
+    <Time>14:12:37 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:13:17 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>14:16:20 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:16:27 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:16:32 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:16:33 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:16:50 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>14:18:39 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:18:45 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:18:48 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:18:49 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:18:53 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>14:19:52 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:19:56 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:20:00 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:20:01 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>14:21:05 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:21:24 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:21:27 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:21:28 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:21:41 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>14:22:30 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>14:22:40 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:22:40 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:22:46 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/admin/default2.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/admin/default2.aspx</Url>
+    <Time>14:22:58 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/admin/default2.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/admin/default2.aspx</Url>
+    <Time>14:23:09 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/admin/default2.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/admin/default2.aspx</Url>
+    <Time>14:23:11 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:23:24 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:23:27 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:23:28 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:23:45 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>14:30:19 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:30:30 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:30:33 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:30:33 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:30:36 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>14:35:45 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>14:37:39 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:37:39 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:37:42 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>14:54:33 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:55:32 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>14:55:35 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:55:35 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>14:55:39 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>15:10:53 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>15:13:15 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>15:13:20 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>15:13:21 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>15:14:11 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/download.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/download.aspx?&amp;xid=1&amp;fname=South Africa</Url>
+    <Time>15:14:55 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>15:16:16 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>15:16:19 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>15:16:19 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>15:22:33 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>15:22:38 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>15:22:39 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>15:23:37 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017</Url>
+    <Time>15:23:38 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>15:24:59 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>15:26:06 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>15:26:18 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017&amp;Stat=3</Url>
+    <Time>15:26:18 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017&amp;Stat=3</Url>
+    <Time>15:26:52 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>15:28:59 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>15:46:33 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>15:47:41 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>15:47:43 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>15:48:21 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>15:51:22 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>15:51:51 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>15:54:33 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>15:54:52 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>15:55:48 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>15:55:53 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>15:55:59 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>15:56:08 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>15:56:13 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>15:56:20 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017&amp;Stat=2</Url>
+    <Time>15:56:25 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017&amp;Stat=2</Url>
+    <Time>15:56:31 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/download.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/download.aspx?&amp;xid=1&amp;fname=South Africa</Url>
+    <Time>15:56:36 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017&amp;Stat=2</Url>
+    <Time>15:56:41 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017&amp;Stat=2</Url>
+    <Time>15:57:17 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>16:01:45 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>16:02:04 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>16:02:09 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>16:02:12 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>16:02:21 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2018&amp;Stat=2</Url>
+    <Time>16:02:22 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2018&amp;Stat=2</Url>
+    <Time>16:02:27 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>16:02:51 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>16:02:54 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017&amp;Stat=3</Url>
+    <Time>16:02:54 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=1&amp;Period=2017&amp;Stat=3</Url>
+    <Time>16:03:32 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>16:04:07 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/MapUrlToFunction.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/MapUrlToFunction.aspx</Url>
+    <Time>16:04:52 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>16:04:59 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctions.aspx</Url>
+    <Time>16:05:10 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctions.aspx</Url>
+    <Time>16:05:16 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/ViewFunctions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/ViewFunctions.aspx</Url>
+    <Time>16:05:52 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>16:05:58 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/MapUrlToFunction.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/MapUrlToFunction.aspx</Url>
+    <Time>16:06:02 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/MapUrlToFunction.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/MapUrlToFunction.aspx</Url>
+    <Time>16:06:12 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/MapUrlToFunction.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/MapUrlToFunction.aspx</Url>
+    <Time>16:06:18 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/MapUrlToFunction.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/MapUrlToFunction.aspx</Url>
+    <Time>16:07:01 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/menu.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/menu.aspx</Url>
+    <Time>16:07:12 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>16:07:16 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>16:07:21 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>16:07:37 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>16:07:41 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>16:07:43 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>16:07:47 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>16:07:49 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>16:07:52 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>16:07:54 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>16:07:55 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/secureurl/AssignFunctionToRole.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/secureurl/AssignFunctionToRole.aspx</Url>
+    <Time>16:08:08 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>16:08:21 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>16:48:55 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>16:48:56 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>16:51:51 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>16:51:55 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2018&amp;Stat=3</Url>
+    <Time>16:51:56 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-22</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\S2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2018&amp;Stat=3</Url>
+    <Time>16:52:01 PM +02</Time>
+  </SystemRequest>
+</ArrayOfSystemRequest>

@@ -1,0 +1,125 @@
+﻿.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px;
+    min-height: 420px;
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+
+.frame {
+    border: 1px solid #bbb;
+    padding: 10px 10px 10px 10px;
+
+    margin-bottom:10px;   	 
+     
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+
+    /* Required for curvy corners on IE 5-8 
+    behavior: url(/Scripts/pie/PIE.htc);*/
+}
+
+
+
+
+
+legend
+{
+    border: 1px solid silver;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+
+.dates {
+    width: 150px;
+    height: 30px;
+     border: 1px solid silver;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.rounded
+{
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+.text-field-long {
+    width: 300px;
+    height: 30px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+.text-field-numbers {
+    width: 50px;
+    height: 30px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    text-align: center;
+}
+
+
+
+select {
+	width: 200px;
+    height: 30px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.submit-field {
+     border: 1px solid silver;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}

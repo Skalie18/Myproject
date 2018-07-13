@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<schema targetNamespace="http://www.sars.gov.za/GMD/StatusManagement/xml/schemas/version/1.14" elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:sttsMgt="http://www.sars.gov.za/GMD/StatusManagement/xml/schemas/version/1.14" xmlns:bt="http://www.sars.gov.za/enterpriseMessagingModel/GMD/BaseTypes/xml/schemas/version/54.13">
+	<annotation>
+		<documentation>
+				Nisch, 		2011-09-02, Schema Created
+				Q. Gabela,  2011-09-07, removed PaymentAmt and RefundAmt
+				Q. Gabela,  2011-09-08, Added mandatory TaxType element to the request and response
+				Q. Gabela,  2011-09-12, Added TaxDateRange, TaxPeriodRange and TaxYearRange elements and versioned up the schema and namespace to V1.3
+				Q. Gabela,  2011-09-12, Added TradingName element to the response and updated Reference Type to Identifier, versioned up the schema and namespace to V1.4
+				D. Grobler, 2011-09-27, Added ReasonCode and ReasonValue. 
+										CaseStatusDescription, ReasonDescription, ItemResolutionInd made optional on the response.
+				D. Grobler, 2012-02-07, Updated to reference version 54.4 of the BaseTypes for the Dividends Withholding Tax Project.
+				Q. Gabela, 2012-02-20, Updated Reference's Value to 128 instead of 35 length to cater for SOURCE_IDENTIFIER, added Supplied Data Type [request] and added FileStatusResults [response] and versioned up the schema to V1.7 from V1.6.
+				Nisch,		2011-02-27, Changed Reference's value to 36 characters and aligned restrictions with third party header
+				Q. Gabela, 2012-07-18, Added UpdateStatus to the RequestOperation enumeration, CaseStructure [Status, Description] to the StatusManagementRequest and referenced BaseTypes v54.9
+				D. Grobler, 2012-08-24, Renamed root element Status to StatusDetails. Updated namespace version.
+				E. du Preez, 2013-03-14, 	Changed SARSRequestReference and UniqueFileID in the FileStatusResult structure to allow 1 to 64 characters.
+											Referenced latest Basetype V54.12.
+				D. Grobler, 2013-10-03 Added ChannelIdentifier and Version to ProcessStatusResultStructure.
+									   SourceIdentifier and ReferenceStructure.Value max length increased to 144 to align to External BRS for Dividends Withholding Tax.
+									   Specified minimum length values for all fields where previously they weren't specified.
+				D. Grobler, 2013-10-07 Updated to reference latest base types. ChannelIdentifier moved to ProcessStatusResult structure.
+				D. Grobler, 2014-02-20 Added TaxRefNo to FileStatusResult structure. Updated namespace.
+		</documentation>
+	</annotation>
+	
+	<import schemaLocation="SARSGMD_BaseTypesV54.13.xsd" namespace="http://www.sars.gov.za/enterpriseMessagingModel/GMD/BaseTypes/xml/schemas/version/54.13"></import>
+	<simpleType name="RequestOperationType">
+		<restriction base="string">
+			<enumeration value="ENQUIRE_STATUS"></enumeration>
+			<enumeration value="UPDATE_STATUS"></enumeration>
+		</restriction>
+	</simpleType>
+	<simpleType name="UniqueReferenceType">
+    	<restriction base="string">
+    		<minLength value="1"></minLength>
+    		<maxLength value="64"></maxLength>
+    	</restriction>
+    </simpleType>
+	<complexType name="StatusManagementRequestStructure">
+		<all>
+			<element name="RequestOperation"
+				type="sttsMgt:RequestOperationType" maxOccurs="1" minOccurs="1">
+			</element>
+			<element name="SourceChannel" maxOccurs="1" minOccurs="1" type="bt:ChannelIDType">
+			</element>
+			<element name="Reference" type="sttsMgt:ReferenceStructure"
+				maxOccurs="1" minOccurs="1">
+			</element>
+			<element name="SubReference"
+				type="sttsMgt:SubReferenceStructure" maxOccurs="1" minOccurs="0">
+			</element>
+			<element name="TaxYearRange" maxOccurs="1" minOccurs="0"
+				type="sttsMgt:TaxYearRangeStructure">
+			</element>
+			<element name="TaxPeriodRange" maxOccurs="1" minOccurs="0"
+				type="sttsMgt:TaxPeriodRangeStructure">
+			</element>
+			<element name="TaxDateRange" maxOccurs="1" minOccurs="0"
+				type="sttsMgt:TaxDateRangeStructure">
+			</element>
+			<element name="TaxType" type="bt:TypeOfTaxType"
+				maxOccurs="1" minOccurs="1">
+			</element>
+			<element name="DataType" maxOccurs="1" minOccurs="0">
+				<simpleType>
+					<restriction base="string">
+						<minLength value="3"></minLength>
+						<maxLength value="3"></maxLength>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="StatusDetails" type="sttsMgt:StatusStructure"
+				maxOccurs="1" minOccurs="0">
+			</element>
+		</all>
+	</complexType>
+	<complexType name="StatusManagementResponseStructure">
+		<all>
+			<element name="CaseStatusResult"
+				type="sttsMgt:CaseStatusResultStructure" maxOccurs="1"
+				minOccurs="0">
+			</element>
+			<element name="WorkflowStatusResults" maxOccurs="1"
+				minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="WorkflowStatusResult"
+							type="sttsMgt:WorkflowStatusResultStructure" maxOccurs="20"
+							minOccurs="1">
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="ProcessStatusResults" maxOccurs="1"
+				minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="ProcessStatusResult"
+							type="sttsMgt:ProcessStatusResultStructure" minOccurs="1"
+							maxOccurs="20">
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="FileStatusResults" maxOccurs="1"
+				minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="FileStatusResult"
+							type="sttsMgt:FileStatusResultStructure" minOccurs="1"
+							maxOccurs="9999">
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+			
+			<element name="TaxType" type="bt:TypeOfTaxType"
+				maxOccurs="1" minOccurs="1">
+			</element>
+			<element name="TradingName" type="bt:OrganisationNameType"
+				maxOccurs="1" minOccurs="0">
+			</element>
+		</all>
+	</complexType>
+	<complexType name="WorkflowStatusResultStructure">
+		<all>
+			<element name="TaxYear" type="bt:YearType" maxOccurs="1" minOccurs="0"></element>
+			<element name="TaxPeriod" type="bt:PeriodType" maxOccurs="1" minOccurs="0"></element>
+			<element name="TaxDate" type="date" maxOccurs="1" minOccurs="0"></element>
+			<element name="TrackingStatusShortCode" maxOccurs="1" minOccurs="1">
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="10"></maxLength>
+						<minLength value="1"></minLength>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="Description" maxOccurs="1" minOccurs="1">
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="250"></maxLength>
+						<minLength value="1"></minLength>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="DateTimeCreated" type="dateTime" maxOccurs="1" minOccurs="1"></element>
+			<element name="Username" type="bt:UsernameType" maxOccurs="1" minOccurs="0"></element>
+			<element name="Note" maxOccurs="1" minOccurs="0">
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="250"></maxLength>
+						<minLength value="1"></minLength>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="RevisionNumber" maxOccurs="1" minOccurs="0">
+				<simpleType>
+					<restriction base="int">
+						<minInclusive value="0"></minInclusive>
+						<maxInclusive value="9"></maxInclusive>
+					</restriction>
+				</simpleType>
+			</element>
+		</all>
+	</complexType>
+	<complexType name="CaseStatusResultStructure">
+		<all>
+			<element name="CaseStatusCode" maxOccurs="1" minOccurs="1">
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="10"></maxLength>
+						<minLength value="1"></minLength>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="Description" maxOccurs="1" minOccurs="1">
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="250"></maxLength>
+						<minLength value="1"></minLength>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="DateTimeCreated" type="dateTime" maxOccurs="1" minOccurs="0"></element>
+			<element name="Username" type="bt:UsernameType" maxOccurs="1" minOccurs="0">
+			</element>
+			<element name="Note" maxOccurs="1" minOccurs="0">
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="250"></maxLength>
+						<minLength value="1"></minLength>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="ParentCaseNo" type="bt:CaseNoType" maxOccurs="1" minOccurs="0"></element>
+		</all>
+	</complexType>
+	<element name="StatusManagementRequest" type="sttsMgt:StatusManagementRequestStructure">
+	</element>
+	<element name="StatusManagementResponse" type="sttsMgt:StatusManagementResponseStructure">
+	</element>
+	<complexType name="ReferenceStructure">
+        <sequence>
+			<element name="Identifier" maxOccurs="1" minOccurs="1">
+				<simpleType>
+					<restriction base="string">
+						<enumeration value="TAX_REF_NO"></enumeration>
+						<enumeration value="CASE_NO"></enumeration>
+						<enumeration value="TRANSACTION_NO"></enumeration>
+						<enumeration value="PARTY_ID"></enumeration>
+						<enumeration value="ID_NO"></enumeration>
+						<enumeration value="PASSPORT_NO"></enumeration>
+						<enumeration value="SOURCE_IDENTIFIER"></enumeration>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="Value" maxOccurs="10" minOccurs="1">
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="144"></maxLength>
+						<minLength value="1"></minLength>
+					</restriction>
+				</simpleType>
+			</element>
+		</sequence>
+	</complexType>
+	<complexType name="SubReferenceStructure">
+		<all>
+			<element name="Type" maxOccurs="1" minOccurs="1">
+				<simpleType>
+					<restriction base="string">
+						<enumeration value="FORM_ID"></enumeration>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="Value" maxOccurs="1" minOccurs="1">
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="35"></maxLength>
+						<minLength value="1"></minLength>
+					</restriction>
+				</simpleType>
+			</element>
+		</all>
+	</complexType>
+	<complexType name="ProcessStatusResultStructure">
+		<all>
+			<element name="TaxYear" type="bt:YearType" maxOccurs="1"
+				minOccurs="0">
+			</element>
+			<element name="TaxPeriod" type="bt:PeriodType" maxOccurs="1"
+				minOccurs="0">
+			</element>
+			<element name="TaxDate" type="date" maxOccurs="1"
+				minOccurs="0">
+			</element>
+			<element name="ProcessStatusItems" maxOccurs="1"
+				minOccurs="0">
+				<complexType>
+					<sequence>
+						<element name="ProcessStatusItem"
+							type="sttsMgt:ProcessStatusItemStructure" maxOccurs="99"
+							minOccurs="1">
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="ReturnAmt"
+				type="bt:FinancialAmtDecimalType" maxOccurs="1" minOccurs="0">
+			</element>
+			<element name="AccountAmt"
+				type="bt:FinancialAmtDecimalType" maxOccurs="1" minOccurs="0">
+			</element>
+            <element name="ChannelIdentifier" maxOccurs="1" minOccurs="0" type="bt:ChannelIDType">
+			</element>
+        </all>
+	</complexType>
+	<complexType name="ProcessStatusItemStructure">
+		<all>
+			<element name="ProcessType" maxOccurs="1" minOccurs="0">
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="3"></maxLength>
+						<minLength value="1"></minLength>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="ProcessDescription" maxOccurs="1"
+				minOccurs="0">
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="250"></maxLength>
+						<minLength value="1"></minLength>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="CaseStatusDescription" maxOccurs="1"
+				minOccurs="0">
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="250"></maxLength>
+						<minLength value="1"></minLength>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="ReasonDescription" maxOccurs="1"
+				minOccurs="0">
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="250"></maxLength>
+						<minLength value="1"></minLength>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="ItemResolutionInd" maxOccurs="1"
+				minOccurs="0">
+				<simpleType>
+					<restriction base="string">
+						<enumeration value="GREEN"></enumeration>
+						<enumeration value="AMBER"></enumeration>
+						<enumeration value="RED"></enumeration>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="DateTimeCreated" type="dateTime"
+				maxOccurs="1" minOccurs="0">
+			</element>
+			<element name="Username" type="bt:UsernameType"
+				maxOccurs="1" minOccurs="0">
+			</element>
+			<element name="Note" maxOccurs="1" minOccurs="0">
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="250"></maxLength>
+						<minLength value="1"></minLength>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="ReasonCode" minOccurs="0" maxOccurs="1">
+				<simpleType>
+					<restriction base="string">
+						<minLength value="1"></minLength>
+						<maxLength value="4"></maxLength>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="ReasonValue" minOccurs="0" maxOccurs="1">
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="10"></maxLength>
+						<minLength value="1"></minLength>
+					</restriction>
+				</simpleType>
+			</element>
+		</all>
+	</complexType>
+
+	<complexType name="TaxPeriodRangeStructure">
+		<all>
+			<element name="FromTaxPeriod" type="bt:PeriodType"
+				maxOccurs="1" minOccurs="1">
+			</element>
+			<element name="ToTaxPeriod" type="bt:PeriodType"
+				maxOccurs="1" minOccurs="1">
+			</element>
+		</all>
+	</complexType>
+
+	<complexType name="TaxYearRangeStructure">
+		<all>
+			<element name="FromTaxYear" type="bt:YearType" maxOccurs="1"
+				minOccurs="1">
+			</element>
+			<element name="ToTaxYear" type="bt:YearType" maxOccurs="1"
+				minOccurs="1">
+			</element>
+		</all>
+	</complexType>
+
+	<complexType name="TaxDateRangeStructure">
+		<all>
+			<element name="FromTaxDate" type="date" maxOccurs="1"
+				minOccurs="1">
+			</element>
+			<element name="ToTaxDate" type="date" maxOccurs="1"
+				minOccurs="1">
+			</element>
+		</all>
+	</complexType>
+
+	<complexType name="FileStatusResultStructure">
+        <all>
+        	<element name="SourceIdentifier" maxOccurs="1"
+        		minOccurs="1">
+        		<simpleType>
+        			<restriction base="string">
+        				<minLength value="1"></minLength>
+        				<maxLength value="144"></maxLength>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="MessageCreateDate" type="dateTime"
+        		maxOccurs="1" minOccurs="1">
+        	</element>
+        	<element name="TransDate" type="date" maxOccurs="1"
+        		minOccurs="0">
+        	</element>
+        	<element name="TransPeriod" type="bt:PeriodType"
+        		maxOccurs="1" minOccurs="0">
+        	</element>
+        	<element name="TransYear" type="bt:YearType" maxOccurs="1"
+        		minOccurs="0">
+        	</element>
+        	<element name="UniqueFileID"
+        		type="sttsMgt:UniqueReferenceType" maxOccurs="1"
+        		minOccurs="1">
+        	</element>
+        	<element name="SARSRequestReference"
+        		type="sttsMgt:UniqueReferenceType" maxOccurs="1"
+        		minOccurs="0">
+        	</element>
+        	<element name="ChannelIdentifier" maxOccurs="1"
+        		minOccurs="1" type="bt:ChannelIDType">
+        	</element>
+        	<element name="FileResponseCode" maxOccurs="1"
+        		minOccurs="1">
+        		<simpleType>
+        			<restriction base="string">
+        				<length value="3"></length>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="FileResponseReason" minOccurs="0"
+        		maxOccurs="1">
+        		<simpleType>
+        			<restriction base="string">
+        				<minLength value="1"></minLength>
+        				<maxLength value="100"></maxLength>
+        			</restriction>
+        		</simpleType>
+        	</element>
+
+        	<element name="TotalNoOfSubmittedRecords"
+        		type="sttsMgt:NumberOfRecordsType" maxOccurs="1"
+        		minOccurs="0">
+        	</element>
+        	<element name="NoOfAcceptedRecords"
+        		type="sttsMgt:NumberOfRecordsType" maxOccurs="1"
+        		minOccurs="0">
+        	</element>
+        	<element name="NoOfRejectedRecords"
+        		type="sttsMgt:NumberOfRecordsType" maxOccurs="1"
+        		minOccurs="0">
+        	</element>
+        	<element name="NoOfWarningAcceptedRecords"
+        		type="sttsMgt:NumberOfRecordsType" maxOccurs="1"
+        		minOccurs="0">
+        	</element>
+        	<element name="NoOfDuplicatedRecords"
+        		type="sttsMgt:NumberOfRecordsType" maxOccurs="1"
+        		minOccurs="0">
+        	</element>
+        	<element name="TaxRefNo" type="bt:TaxRefNoType" minOccurs="1" maxOccurs="1"></element>
+        </all>
+	</complexType>
+
+	<complexType name="FileResponseStructure">
+		<all>
+			<element name="Description" maxOccurs="1" minOccurs="0">
+				<simpleType>
+					<restriction base="string">
+						<minLength value="1"></minLength>
+						<maxLength value="100"></maxLength>
+					</restriction>
+				</simpleType>
+			</element>
+		</all>
+	</complexType>
+
+	<simpleType name="NumberOfRecordsType">
+		<restriction base="integer">
+			<pattern value="\d{1,15}"></pattern>
+		</restriction>
+	</simpleType>
+
+
+	<complexType name="StatusStructure">
+		<all>
+			<element name="Status" maxOccurs="1" minOccurs="1">
+				<simpleType>
+					<restriction base="string">
+						<minLength value="1"></minLength>
+						<maxLength value="10"></maxLength>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="Description" maxOccurs="1" minOccurs="0">
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="250"></maxLength>
+						<minLength value="1"></minLength>
+					</restriction>
+				</simpleType>
+			</element>
+		</all>
+	</complexType>
+
+</schema>

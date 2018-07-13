@@ -1,0 +1,20 @@
+﻿using System;
+using System.ServiceModel;
+using System.ServiceModel.Web;
+
+// NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IFdrService" in both code and config file together.
+[ServiceContract]
+public interface IFdrService
+{
+    [OperationContract]
+    [WebGet]
+    int AddNewEntity(MultiNationalEntityList mne);
+
+    int AddNewMne(
+        decimal partyId, string taxpayerReferenceNumber, int yearofAssessment, string registeredName,
+        string tradingName, string registrationNumber, DateTime financialYearEnd, decimal turnoverAmount,
+        string nameUltimateHoldingCo, string ultimateHoldingCompanyResOutSaInd,
+        string taxResidencyCountryCodeUltimateHoldingCompany, string ultimateHoldingCoIncomeTaxRefNo,
+        string masterLocalFileRequiredInd, string cbCReportRequiredInd, DateTime datestamp
+        );
+}

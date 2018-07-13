@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/Default.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/Default.aspx</Url>
+    <Time>13:28:39 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>13:28:43 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>13:28:46 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017</Url>
+    <Time>13:28:46 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>13:28:46 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/FDR/Mics/urldescovery.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/Mics/urldescovery.aspx</Url>
+    <Time>13:36:41 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=0</Url>
+    <Time>13:36:48 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>13:36:51 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>13:36:55 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017</Url>
+    <Time>13:36:55 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>13:36:55 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>13:37:06 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>13:38:19 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>13:38:25 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>13:38:27 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>13:38:27 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>13:38:28 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/FDR/allocate/allocate.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/allocate/allocate.aspx</Url>
+    <Time>15:11:19 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/FDR/allocate/allocate.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/allocate/allocate.aspx</Url>
+    <Time>15:11:23 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/FDR/allocate/allocate.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/allocate/allocate.aspx</Url>
+    <Time>15:11:25 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/FDR/allocate/allocate.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/allocate/allocate.aspx</Url>
+    <Time>15:11:29 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/FDR/allocate/allocate.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/allocate/allocate.aspx</Url>
+    <Time>15:13:48 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/FDR/allocate/allocate.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/allocate/allocate.aspx</Url>
+    <Time>15:13:54 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/FDR/allocate/allocate.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/allocate/allocate.aspx</Url>
+    <Time>15:14:02 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/allocate/default.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/allocate/default.aspx</Url>
+    <Time>15:14:43 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/allocate/default.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/allocate/default.aspx</Url>
+    <Time>15:14:45 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/allocate/allocate.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/allocate/allocate.aspx?submissionId=20099&amp;bck=L2Zkci9hbGxvY2F0ZS9kZWZhdWx0LmFzcHg=</Url>
+    <Time>15:14:45 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/FDR/Mics/urldescovery.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/Mics/urldescovery.aspx</Url>
+    <Time>15:28:33 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/allocate/default.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/allocate/default.aspx</Url>
+    <Time>15:29:17 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/allocate/default.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/allocate/default.aspx</Url>
+    <Time>15:29:20 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/allocate/allocate.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/allocate/allocate.aspx?submissionId=20099&amp;bck=L2Zkci9hbGxvY2F0ZS9kZWZhdWx0LmFzcHg=</Url>
+    <Time>15:29:20 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/allocate/allocate.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/allocate/allocate.aspx?submissionId=20099&amp;bck=L2Zkci9hbGxvY2F0ZS9kZWZhdWx0LmFzcHg=</Url>
+    <Time>15:29:29 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/allocate/allocate.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/allocate/allocate.aspx?submissionId=20099&amp;bck=L2Zkci9hbGxvY2F0ZS9kZWZhdWx0LmFzcHg=</Url>
+    <Time>15:29:34 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/allocate/allocate.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/allocate/allocate.aspx?submissionId=20099&amp;bck=L2Zkci9hbGxvY2F0ZS9kZWZhdWx0LmFzcHg=</Url>
+    <Time>15:30:06 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/allocate/allocate.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/allocate/allocate.aspx?submissionId=20099&amp;bck=L2Zkci9hbGxvY2F0ZS9kZWZhdWx0LmFzcHg=</Url>
+    <Time>15:30:08 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/allocate/allocate.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/allocate/allocate.aspx?submissionId=20099&amp;bck=L2Zkci9hbGxvY2F0ZS9kZWZhdWx0LmFzcHg=</Url>
+    <Time>15:31:47 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/allocate/allocate.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/allocate/allocate.aspx?submissionId=20099&amp;bck=L2Zkci9hbGxvY2F0ZS9kZWZhdWx0LmFzcHg=</Url>
+    <Time>15:31:48 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/allocate/allocate.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/allocate/allocate.aspx?submissionId=20099&amp;bck=L2Zkci9hbGxvY2F0ZS9kZWZhdWx0LmFzcHg=</Url>
+    <Time>15:31:58 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-08</RequestTime>
+    <Path>/fdr/allocate/allocate.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/allocate/allocate.aspx?submissionId=20099&amp;bck=L2Zkci9hbGxvY2F0ZS9kZWZhdWx0LmFzcHg=</Url>
+    <Time>15:31:59 PM +02</Time>
+  </SystemRequest>
+</ArrayOfSystemRequest>

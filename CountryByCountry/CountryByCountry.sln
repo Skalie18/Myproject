@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F8F456F9-8830-4331-9D4F-39BEF994DE8B}"
+	ProjectSection(SolutionItems) = preProject
+		WebEssentials2015-Settings.json = WebEssentials2015-Settings.json
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FDR", "http://localhost/FDR", "{53A4B5F7-AE0A-4921-A863-56CAB0DF0DC2}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = ""
+		Debug.AspNetCompiler.VirtualPath = "/FDR"
+		Debug.AspNetCompiler.PhysicalPath = "..\FDR\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\FDR\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/FDR"
+		Release.AspNetCompiler.PhysicalPath = "..\FDR\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\FDR\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\FDR\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		DebugLocal|Any CPU = DebugLocal|Any CPU
+		DebugLocal|x64 = DebugLocal|x64
+		DebugLocal|x86 = DebugLocal|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53A4B5F7-AE0A-4921-A863-56CAB0DF0DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A4B5F7-AE0A-4921-A863-56CAB0DF0DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A4B5F7-AE0A-4921-A863-56CAB0DF0DC2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{53A4B5F7-AE0A-4921-A863-56CAB0DF0DC2}.Debug|x64.Build.0 = Debug|Any CPU
+		{53A4B5F7-AE0A-4921-A863-56CAB0DF0DC2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{53A4B5F7-AE0A-4921-A863-56CAB0DF0DC2}.Debug|x86.Build.0 = Debug|Any CPU
+		{53A4B5F7-AE0A-4921-A863-56CAB0DF0DC2}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A4B5F7-AE0A-4921-A863-56CAB0DF0DC2}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{53A4B5F7-AE0A-4921-A863-56CAB0DF0DC2}.DebugLocal|x64.ActiveCfg = Debug|Any CPU
+		{53A4B5F7-AE0A-4921-A863-56CAB0DF0DC2}.DebugLocal|x64.Build.0 = Debug|Any CPU
+		{53A4B5F7-AE0A-4921-A863-56CAB0DF0DC2}.DebugLocal|x86.ActiveCfg = Debug|Any CPU
+		{53A4B5F7-AE0A-4921-A863-56CAB0DF0DC2}.DebugLocal|x86.Build.0 = Debug|Any CPU
+		{53A4B5F7-AE0A-4921-A863-56CAB0DF0DC2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A4B5F7-AE0A-4921-A863-56CAB0DF0DC2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{53A4B5F7-AE0A-4921-A863-56CAB0DF0DC2}.Release|x64.ActiveCfg = Debug|Any CPU
+		{53A4B5F7-AE0A-4921-A863-56CAB0DF0DC2}.Release|x64.Build.0 = Debug|Any CPU
+		{53A4B5F7-AE0A-4921-A863-56CAB0DF0DC2}.Release|x86.ActiveCfg = Debug|Any CPU
+		{53A4B5F7-AE0A-4921-A863-56CAB0DF0DC2}.Release|x86.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://ptabrtfs01:8080/tfs/sarscollection
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = http://localhost/FDR
+		SccProjectName1 = ../FDR
+		SccLocalPath1 = http://localhost/FDR/
+		SccProjectEnlistmentChoice1 = 2
+	EndGlobalSection
+EndGlobal

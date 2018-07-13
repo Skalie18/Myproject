@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<schema
+	targetNamespace="http://www.sars.gov.za/enterpriseMessagingModel/ThirdPartyData/ThirdPartyDataActivityManagement/xml/schemas/version/1.1"
+	elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:cbcDecl="http://www.sars.gov.za/enterpriseMessagingModel/ThirdPartyData/CountryByCountryDeclaration/xml/schemas/version/1.1" xmlns:bt="http://www.sars.gov.za/enterpriseMessagingModel/GMD/BaseTypes/xml/schemas/version/55.2" xmlns:tdSubHeader="http://www.sars.gov.za/enterpriseMessagingModel/ThirdPartySubmissionHeader/xml/schemas/version/1.17" xmlns:tpdActMgt="http://www.sars.gov.za/enterpriseMessagingModel/ThirdPartyData/ThirdPartyDataActivityManagement/xml/schemas/version/1.1">
+	<import schemaLocation="SARSGMD_BaseTypesV55.2.xsd"
+		namespace="http://www.sars.gov.za/enterpriseMessagingModel/GMD/BaseTypes/xml/schemas/version/55.2">
+	</import>
+	<import schemaLocation="SARSThirdPartySubmissionHeaderV1.17.xsd" namespace="http://www.sars.gov.za/enterpriseMessagingModel/ThirdPartySubmissionHeader/xml/schemas/version/1.17"></import>
+	<annotation>
+		<documentation>
+			2017-08-16 Dirk Grobler. First draft.
+			217-08-28 Dirk Grobler. Added fields for corrections to the CBC response structure.
+		</documentation>
+	</annotation>
+	<element name="ThirdPartyDataActivityManagementRequest">
+		<complexType>
+			<all>
+
+				<element name="RequestOperation" minOccurs="1"
+					maxOccurs="1">
+					<simpleType>
+						<restriction base="string">
+							<enumeration value="ENQUIRE_ACTIVITY"></enumeration>
+						</restriction>
+					</simpleType>
+				</element>
+				<element name="TaxRefNo" type="bt:TaxRefNoType"
+					minOccurs="1" maxOccurs="1">
+				</element>
+				<element name="DataType"
+					type="tdSubHeader:ThirdPartyDataType" minOccurs="1"
+					maxOccurs="1">
+				</element>
+				<element name="Period" type="bt:PeriodType"
+					minOccurs="0" maxOccurs="1">
+				</element>
+				<element name="Year" type="bt:YearType" minOccurs="0"
+					maxOccurs="1">
+				</element>
+				<element name="Date" type="date" minOccurs="0"
+					maxOccurs="1">
+				</element>
+			</all>
+
+		</complexType>
+	</element>
+
+
+	<element name="ThirdPartyDataActivityManagementResponse">
+		<complexType>
+			<all>
+				<element name="CBC" minOccurs="1" maxOccurs="1">
+					<complexType>
+						<all>
+                            <element name="SubmitCbCDeclarationInd" type="bt:YesNoIndType" minOccurs="1" maxOccurs="1">
+                            	<annotation>
+                            		<documentation>Indicates whether a CBC Declaration can be submitted for this taxpayer, for the specified tax year.</documentation>
+                            	</annotation></element>
+							<element name="CorrectCbCDeclarationInd" type="bt:YesNoIndType" minOccurs="1" maxOccurs="1">
+								<annotation>
+									<documentation>Indicates whether a CBC Declaration can be corrected (RFC) for this taxpayer, for the specified tax year.</documentation>
+								</annotation></element>
+                            <element name="SubmitMasterAndLocalFileInd" type="bt:YesNoIndType" minOccurs="1" maxOccurs="1">
+                            	<annotation>
+                            		<documentation>Indicates whether a Local and Master File can be submitted for this taxpayer, for the specified tax year.</documentation>
+                            	</annotation></element>
+                            <element name="CorrectMasterAndLocalFileInd" type="bt:YesNoIndType" minOccurs="1" maxOccurs="1">
+                            	<annotation>
+                            		<documentation>Indicates whether a Local and Master File can be corrected (RFC) for this taxpayer, for the specified tax year.</documentation>
+                            	</annotation></element>
+						</all>
+					</complexType></element>
+			</all>
+		</complexType>
+	</element>
+</schema>

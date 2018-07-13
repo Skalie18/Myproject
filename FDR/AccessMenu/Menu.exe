@@ -1,0 +1,3671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Master And Local File Submissions</Description>
+    <Role>CBC Technician</Role>
+    <Function>Master And Local File Submissions</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician ENQUIRE MASTER-LOCAL FILES</Description>
+    <Role>CBC Technician</Role>
+    <Function>ENQUIRE MASTER-LOCAL FILES</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician NEW DECLARATIONS</Description>
+    <Role>CBC Technician</Role>
+    <Function>NEW DECLARATIONS</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Add User</Description>
+    <Role>CBC Technician</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician Validated</Description>
+    <Role>CBC Technician</Role>
+    <Function>Validated</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Domestic Incoming Data by Jurisdiction</Description>
+    <Role>CBC Technician</Role>
+    <Function>Domestic Incoming Data by Jurisdiction</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Foreign Outgoing Data</Description>
+    <Role>CBC Technician</Role>
+    <Function>Foreign Outgoing Data</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician FILE NOTIFICATION TEMPLATES</Description>
+    <Role>CBC Technician</Role>
+    <Function>EMAIL FILE NOTIFICATION TEMPLATES</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Main Menu</Description>
+    <Role>CBC Technician</Role>
+    <Function>Main Menu</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician Partially Validated</Description>
+    <Role>CBC Technician</Role>
+    <Function>Partially Validated</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician ACCEPTED WITH WARNINGS</Description>
+    <Role>CBC Technician</Role>
+    <Function>ACCEPTED WITH WARNINGS</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician VIEW SENT LETTERS</Description>
+    <Role>CBC Technician</Role>
+    <Function>VIEW SENT LETTERS</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician IN-PROGRESS</Description>
+    <Role>CBC Technician</Role>
+    <Function>IN-PROGRESS</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician View Reports</Description>
+    <Role>CBC Technician</Role>
+    <Function>View Reports</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Outgoing CBC Report Errors</Description>
+    <Role>CBC Technician</Role>
+    <Function>Outgoing CBC Report Errors</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Change User Role</Description>
+    <Role>CBC Technician</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Outgoing CBC Report Statuses</Description>
+    <Role>CBC Technician</Role>
+    <Function>Outgoing CBC Report Statuses</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Remove User</Description>
+    <Role>CBC Technician</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician Manage MNE List</Description>
+    <Role>CBC Technician</Role>
+    <Function>Manage MNE List</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician SMS FILE NOTIFICATION TEMPLATES</Description>
+    <Role>CBC Technician</Role>
+    <Function>SMS FILE NOTIFICATION TEMPLATES</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician NEW</Description>
+    <Role>CBC Technician</Role>
+    <Function>NEW SUBMISSIONS</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Foreign Incoming Data By Jurisdiction</Description>
+    <Role>CBC Technician</Role>
+    <Function>Foreign Incoming Data By Jurisdiction</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician DECLINED</Description>
+    <Role>CBC Technician</Role>
+    <Function>REJECTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician ENQUIRE U3TM</Description>
+    <Role>CBC Technician</Role>
+    <Function>ENQUIRE U3TM</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Partially Approved</Description>
+    <Role>CBC Technician</Role>
+    <Function>Partially Approved</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician User Profile</Description>
+    <Role>CBC Technician</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician APPROVED</Description>
+    <Role>CBC Technician</Role>
+    <Function>ACCEPTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician VIEWED DECLARATIONS</Description>
+    <Role>CBC Technician</Role>
+    <Function>VIEWED DECLARATIONS</Function>
+    <UserName>SARSGOV\admin-S1037927</UserName>
+    <SID>admin-S1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver VIEW SENT LETTERS</Description>
+    <Role>Approver</Role>
+    <Function>VIEW SENT LETTERS</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Foreign Incoming Data By Jurisdiction</Description>
+    <Role>Approver</Role>
+    <Function>Foreign Incoming Data By Jurisdiction</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Approve Packages</Description>
+    <Role>Approver</Role>
+    <Function>Approve Packages</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Master And Local Fles</Description>
+    <Role>Approver</Role>
+    <Function>Master And Local Fles</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Foreign Outgoing Data</Description>
+    <Role>Approver</Role>
+    <Function>Foreign Outgoing Data</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Genarate Package</Description>
+    <Role>Approver</Role>
+    <Function>Genarate Package</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Main Menu</Description>
+    <Role>Approver</Role>
+    <Function>Main Menu</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Void Package</Description>
+    <Role>Approver</Role>
+    <Function>Void Package</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Correct Package</Description>
+    <Role>Approver</Role>
+    <Function>Correct Package</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Outgoing CBC Report Errors</Description>
+    <Role>Approver</Role>
+    <Function>Outgoing CBC Report Errors</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Enquire Packages Status</Description>
+    <Role>Approver</Role>
+    <Function>Enquire Packages Status</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver EMAIL FILE NOTIFICATION TEMPLATES</Description>
+    <Role>Approver</Role>
+    <Function>EMAIL FILE NOTIFICATION TEMPLATES</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Outgoing CBC Report Statuses</Description>
+    <Role>Approver</Role>
+    <Function>Outgoing CBC Report Statuses</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Approve Foreign Packages</Description>
+    <Role>Approver</Role>
+    <Function>Approve Foreign Packages</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver SMS FILE NOTIFICATION TEMPLATES</Description>
+    <Role>Approver</Role>
+    <Function>SMS FILE NOTIFICATION TEMPLATES</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver ENQUIRE U3TM</Description>
+    <Role>Approver</Role>
+    <Function>ENQUIRE U3TM</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Manage MNE List</Description>
+    <Role>Approver</Role>
+    <Function>Manage MNE List</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Rejected Packages</Description>
+    <Role>Approver</Role>
+    <Function>Rejected Packages</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Rejected Foreign Packages</Description>
+    <Role>Approver</Role>
+    <Function>Rejected Foreign Packages</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Domestic Incoming Data by Jurisdiction</Description>
+    <Role>Approver</Role>
+    <Function>Domestic Incoming Data by Jurisdiction</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Approved Foreign Packages</Description>
+    <Role>Approver</Role>
+    <Function>Approved Foreign Packages</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Master And Local File Submissions</Description>
+    <Role>Approver</Role>
+    <Function>Master And Local File Submissions</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Package Status</Description>
+    <Role>Approver</Role>
+    <Function>Package Status</Function>
+    <UserName>SARSGOV\S1018617</UserName>
+    <SID>S1018617</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Remove User</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ACCEPTED SUBMISSIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ACCEPTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator User Profile</Description>
+    <Role>CBC Administrator</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator CBC_ApproveDataReady</Description>
+    <Role>CBC Administrator</Role>
+    <Function>CBC_ApproveDataReady</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Add User</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator REJECTED SUBMISSIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>REJECTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Main Menu</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Main Menu</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator View Reports</Description>
+    <Role>CBC Administrator</Role>
+    <Function>View Reports</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ENQUIRE MASTER-LOCAL FILES</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ENQUIRE MASTER-LOCAL FILES</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Declined Local Files</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Declined Local Files</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Partially Approved</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Partially Approved</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Change User Role</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator NEW DECLARATIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>NEW DECLARATIONS</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Validated</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Validated</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ACCEPTED WITH WARNINGS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ACCEPTED WITH WARNINGS</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator IN-PROGRESS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>IN-PROGRESS</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator NEW</Description>
+    <Role>CBC Administrator</Role>
+    <Function>NEW SUBMISSIONS</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator VIEWED DECLARATIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>VIEWED DECLARATIONS</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Approved Localfiles</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Approved Localfiles</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator New Local Files</Description>
+    <Role>CBC Administrator</Role>
+    <Function>New Local Files</Function>
+    <UserName>SARSGOV\S101ccs0</UserName>
+    <SID>S101ccs0</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator New Local Files</Description>
+    <Role>CBC Administrator</Role>
+    <Function>New Local Files</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator VIEWED DECLARATIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>VIEWED DECLARATIONS</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Approved Localfiles</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Approved Localfiles</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator NEW</Description>
+    <Role>CBC Administrator</Role>
+    <Function>NEW SUBMISSIONS</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ACCEPTED WITH WARNINGS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ACCEPTED WITH WARNINGS</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Validated</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Validated</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator NEW DECLARATIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>NEW DECLARATIONS</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Change User Role</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator IN-PROGRESS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>IN-PROGRESS</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Partially Approved</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Partially Approved</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Declined Local Files</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Declined Local Files</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ENQUIRE MASTER-LOCAL FILES</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ENQUIRE MASTER-LOCAL FILES</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator View Reports</Description>
+    <Role>CBC Administrator</Role>
+    <Function>View Reports</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Main Menu</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Main Menu</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator REJECTED SUBMISSIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>REJECTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Add User</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator CBC_ApproveDataReady</Description>
+    <Role>CBC Administrator</Role>
+    <Function>CBC_ApproveDataReady</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator User Profile</Description>
+    <Role>CBC Administrator</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ACCEPTED SUBMISSIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ACCEPTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Remove User</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\S101ccs1</UserName>
+    <SID>S101ccs1</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Package Status</Description>
+    <Role>Approver</Role>
+    <Function>Package Status</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Master And Local File Submissions</Description>
+    <Role>Approver</Role>
+    <Function>Master And Local File Submissions</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Approved Foreign Packages</Description>
+    <Role>Approver</Role>
+    <Function>Approved Foreign Packages</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Domestic Incoming Data by Jurisdiction</Description>
+    <Role>Approver</Role>
+    <Function>Domestic Incoming Data by Jurisdiction</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Rejected Foreign Packages</Description>
+    <Role>Approver</Role>
+    <Function>Rejected Foreign Packages</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Rejected Packages</Description>
+    <Role>Approver</Role>
+    <Function>Rejected Packages</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Manage MNE List</Description>
+    <Role>Approver</Role>
+    <Function>Manage MNE List</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver EMAIL FILE NOTIFICATION TEMPLATES</Description>
+    <Role>Approver</Role>
+    <Function>EMAIL FILE NOTIFICATION TEMPLATES</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver ENQUIRE U3TM</Description>
+    <Role>Approver</Role>
+    <Function>ENQUIRE U3TM</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver SMS FILE NOTIFICATION TEMPLATES</Description>
+    <Role>Approver</Role>
+    <Function>SMS FILE NOTIFICATION TEMPLATES</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Approve Foreign Packages</Description>
+    <Role>Approver</Role>
+    <Function>Approve Foreign Packages</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Outgoing CBC Report Statuses</Description>
+    <Role>Approver</Role>
+    <Function>Outgoing CBC Report Statuses</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Enquire Packages Status</Description>
+    <Role>Approver</Role>
+    <Function>Enquire Packages Status</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Main Menu</Description>
+    <Role>Approver</Role>
+    <Function>Main Menu</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Outgoing CBC Report Errors</Description>
+    <Role>Approver</Role>
+    <Function>Outgoing CBC Report Errors</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Correct Package</Description>
+    <Role>Approver</Role>
+    <Function>Correct Package</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Void Package</Description>
+    <Role>Approver</Role>
+    <Function>Void Package</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Genarate Package</Description>
+    <Role>Approver</Role>
+    <Function>Genarate Package</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Foreign Outgoing Data</Description>
+    <Role>Approver</Role>
+    <Function>Foreign Outgoing Data</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Master And Local Fles</Description>
+    <Role>Approver</Role>
+    <Function>Master And Local Fles</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Approve Packages</Description>
+    <Role>Approver</Role>
+    <Function>Approve Packages</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver VIEW SENT LETTERS</Description>
+    <Role>Approver</Role>
+    <Function>VIEW SENT LETTERS</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Foreign Incoming Data By Jurisdiction</Description>
+    <Role>Approver</Role>
+    <Function>Foreign Incoming Data By Jurisdiction</Function>
+    <UserName>SARSGOV\S101ccs2</UserName>
+    <SID>S101ccs2</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Approved Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Approved Foreign Packages</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Rejected Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Rejected Packages</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Incoming Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Incoming Packages</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Correct Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Correct Package</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Void Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Void Package</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Outgoing CBC Report Errors</Description>
+    <Role>Reviewer</Role>
+    <Function>Outgoing CBC Report Errors</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Change User Role</Description>
+    <Role>Reviewer</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Remove User</Description>
+    <Role>Reviewer</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Enquire Packages Status</Description>
+    <Role>Reviewer</Role>
+    <Function>Enquire Packages Status</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Outgoing CBC Report Statuses</Description>
+    <Role>Reviewer</Role>
+    <Function>Outgoing CBC Report Statuses</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Review Corrected Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Review Corrected Packages</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Master And Local File Submissions</Description>
+    <Role>Reviewer</Role>
+    <Function>Foreign Incoming Data By Jurisdiction</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Foreign Incoming Data by Jurisdiction</Description>
+    <Role>Reviewer</Role>
+    <Function>Master And Local File Submissions</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Rejected Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Rejected Foreign Packages</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Add User</Description>
+    <Role>Reviewer</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Foreign Outgoing Data</Description>
+    <Role>Reviewer</Role>
+    <Function>Domestic Incoming Data by Jurisdiction</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer User Profile</Description>
+    <Role>Reviewer</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Master And Local Fles</Description>
+    <Role>Reviewer</Role>
+    <Function>Master And Local Fles</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Review Voided Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Review Voided Packages</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Package Status</Description>
+    <Role>Reviewer</Role>
+    <Function>Package Status</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Domestic Incoming Data by Jurisdiction</Description>
+    <Role>Reviewer</Role>
+    <Function>Foreign Outgoing Data</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Verified Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Verified Foreign Packages</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Genarate Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Genarate Package</Function>
+    <UserName>SARSGOV\S101ccs3</UserName>
+    <SID>S101ccs3</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Package Status</Description>
+    <Role>Approver</Role>
+    <Function>Package Status</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Master And Local File Submissions</Description>
+    <Role>Approver</Role>
+    <Function>Master And Local File Submissions</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Approved Foreign Packages</Description>
+    <Role>Approver</Role>
+    <Function>Approved Foreign Packages</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Domestic Incoming Data by Jurisdiction</Description>
+    <Role>Approver</Role>
+    <Function>Domestic Incoming Data by Jurisdiction</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Rejected Packages</Description>
+    <Role>Approver</Role>
+    <Function>Rejected Packages</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Rejected Foreign Packages</Description>
+    <Role>Approver</Role>
+    <Function>Rejected Foreign Packages</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Manage MNE List</Description>
+    <Role>Approver</Role>
+    <Function>Manage MNE List</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Enquire Packages Status</Description>
+    <Role>Approver</Role>
+    <Function>Enquire Packages Status</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Outgoing CBC Report Statuses</Description>
+    <Role>Approver</Role>
+    <Function>Outgoing CBC Report Statuses</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Approve Foreign Packages</Description>
+    <Role>Approver</Role>
+    <Function>Approve Foreign Packages</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver SMS FILE NOTIFICATION TEMPLATES</Description>
+    <Role>Approver</Role>
+    <Function>SMS FILE NOTIFICATION TEMPLATES</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver ENQUIRE U3TM</Description>
+    <Role>Approver</Role>
+    <Function>ENQUIRE U3TM</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver EMAIL FILE NOTIFICATION TEMPLATES</Description>
+    <Role>Approver</Role>
+    <Function>EMAIL FILE NOTIFICATION TEMPLATES</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Main Menu</Description>
+    <Role>Approver</Role>
+    <Function>Main Menu</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Void Package</Description>
+    <Role>Approver</Role>
+    <Function>Void Package</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Correct Package</Description>
+    <Role>Approver</Role>
+    <Function>Correct Package</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Outgoing CBC Report Errors</Description>
+    <Role>Approver</Role>
+    <Function>Outgoing CBC Report Errors</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Foreign Outgoing Data</Description>
+    <Role>Approver</Role>
+    <Function>Foreign Outgoing Data</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Genarate Package</Description>
+    <Role>Approver</Role>
+    <Function>Genarate Package</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Master And Local Fles</Description>
+    <Role>Approver</Role>
+    <Function>Master And Local Fles</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Approve Packages</Description>
+    <Role>Approver</Role>
+    <Function>Approve Packages</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Foreign Incoming Data By Jurisdiction</Description>
+    <Role>Approver</Role>
+    <Function>Foreign Incoming Data By Jurisdiction</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver VIEW SENT LETTERS</Description>
+    <Role>Approver</Role>
+    <Function>VIEW SENT LETTERS</Function>
+    <UserName>SARSGOV\S101GC01</UserName>
+    <SID>S101GC01</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Approved Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Approved Foreign Packages</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Rejected Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Rejected Packages</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Outgoing CBC Report Errors</Description>
+    <Role>Reviewer</Role>
+    <Function>Outgoing CBC Report Errors</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Incoming Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Incoming Packages</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Correct Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Correct Package</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Void Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Void Package</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Change User Role</Description>
+    <Role>Reviewer</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Enquire Packages Status</Description>
+    <Role>Reviewer</Role>
+    <Function>Enquire Packages Status</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Remove User</Description>
+    <Role>Reviewer</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Outgoing CBC Report Statuses</Description>
+    <Role>Reviewer</Role>
+    <Function>Outgoing CBC Report Statuses</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Review Corrected Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Review Corrected Packages</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Master And Local File Submissions</Description>
+    <Role>Reviewer</Role>
+    <Function>Foreign Incoming Data By Jurisdiction</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Foreign Incoming Data by Jurisdiction</Description>
+    <Role>Reviewer</Role>
+    <Function>Master And Local File Submissions</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Add User</Description>
+    <Role>Reviewer</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Rejected Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Rejected Foreign Packages</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Foreign Outgoing Data</Description>
+    <Role>Reviewer</Role>
+    <Function>Domestic Incoming Data by Jurisdiction</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Master And Local Fles</Description>
+    <Role>Reviewer</Role>
+    <Function>Master And Local Fles</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Review Voided Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Review Voided Packages</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer User Profile</Description>
+    <Role>Reviewer</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Domestic Incoming Data by Jurisdiction</Description>
+    <Role>Reviewer</Role>
+    <Function>Foreign Outgoing Data</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Package Status</Description>
+    <Role>Reviewer</Role>
+    <Function>Package Status</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Verified Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Verified Foreign Packages</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Genarate Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Genarate Package</Function>
+    <UserName>SARSGOV\S101GC02</UserName>
+    <SID>S101GC02</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ACCEPTED SUBMISSIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ACCEPTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Remove User</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator User Profile</Description>
+    <Role>CBC Administrator</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator CBC_ApproveDataReady</Description>
+    <Role>CBC Administrator</Role>
+    <Function>CBC_ApproveDataReady</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Add User</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator REJECTED SUBMISSIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>REJECTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator View Reports</Description>
+    <Role>CBC Administrator</Role>
+    <Function>View Reports</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Main Menu</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Main Menu</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Partially Approved</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Partially Approved</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ENQUIRE MASTER-LOCAL FILES</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ENQUIRE MASTER-LOCAL FILES</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Declined Local Files</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Declined Local Files</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Change User Role</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator IN-PROGRESS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>IN-PROGRESS</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator NEW DECLARATIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>NEW DECLARATIONS</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Validated</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Validated</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ACCEPTED WITH WARNINGS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ACCEPTED WITH WARNINGS</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator NEW</Description>
+    <Role>CBC Administrator</Role>
+    <Function>NEW SUBMISSIONS</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Approved Localfiles</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Approved Localfiles</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator VIEWED DECLARATIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>VIEWED DECLARATIONS</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator New Local Files</Description>
+    <Role>CBC Administrator</Role>
+    <Function>New Local Files</Function>
+    <UserName>SARSGOV\S101GC03</UserName>
+    <SID>S101GC03</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator New Local Files</Description>
+    <Role>CBC Administrator</Role>
+    <Function>New Local Files</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator VIEWED DECLARATIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>VIEWED DECLARATIONS</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Approved Localfiles</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Approved Localfiles</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator NEW</Description>
+    <Role>CBC Administrator</Role>
+    <Function>NEW SUBMISSIONS</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ACCEPTED WITH WARNINGS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ACCEPTED WITH WARNINGS</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Validated</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Validated</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator NEW DECLARATIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>NEW DECLARATIONS</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator IN-PROGRESS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>IN-PROGRESS</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Change User Role</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Declined Local Files</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Declined Local Files</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ENQUIRE MASTER-LOCAL FILES</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ENQUIRE MASTER-LOCAL FILES</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Partially Approved</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Partially Approved</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Main Menu</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Main Menu</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator View Reports</Description>
+    <Role>CBC Administrator</Role>
+    <Function>View Reports</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator REJECTED SUBMISSIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>REJECTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Add User</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator CBC_ApproveDataReady</Description>
+    <Role>CBC Administrator</Role>
+    <Function>CBC_ApproveDataReady</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator User Profile</Description>
+    <Role>CBC Administrator</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Remove User</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ACCEPTED SUBMISSIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ACCEPTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S101GC13</UserName>
+    <SID>S101GC13</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User Remove User</Description>
+    <Role>CBC User</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\S101GC14</UserName>
+    <SID>S101GC14</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User ENQUIRE MASTER-LOCAL FILES</Description>
+    <Role>CBC User</Role>
+    <Function>ENQUIRE MASTER-LOCAL FILES</Function>
+    <UserName>SARSGOV\S101GC14</UserName>
+    <SID>S101GC14</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User REJECTED SUBMISSIONS</Description>
+    <Role>CBC User</Role>
+    <Function>REJECTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S101GC14</UserName>
+    <SID>S101GC14</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User ACCEPTED SUBMISSIONS</Description>
+    <Role>CBC User</Role>
+    <Function>ACCEPTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S101GC14</UserName>
+    <SID>S101GC14</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User NEW DECLARATIONS</Description>
+    <Role>CBC User</Role>
+    <Function>NEW DECLARATIONS</Function>
+    <UserName>SARSGOV\S101GC14</UserName>
+    <SID>S101GC14</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User Add User</Description>
+    <Role>CBC User</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\S101GC14</UserName>
+    <SID>S101GC14</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User VIEWED DECLARATIONS</Description>
+    <Role>CBC User</Role>
+    <Function>VIEWED DECLARATIONS</Function>
+    <UserName>SARSGOV\S101GC14</UserName>
+    <SID>S101GC14</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User NEW SUBMISSIONS</Description>
+    <Role>CBC User</Role>
+    <Function>NEW SUBMISSIONS</Function>
+    <UserName>SARSGOV\S101GC14</UserName>
+    <SID>S101GC14</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User ACCEPTED WITH WARNINGS</Description>
+    <Role>CBC User</Role>
+    <Function>ACCEPTED WITH WARNINGS</Function>
+    <UserName>SARSGOV\S101GC14</UserName>
+    <SID>S101GC14</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User Change User Role</Description>
+    <Role>CBC User</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\S101GC14</UserName>
+    <SID>S101GC14</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User User Profile</Description>
+    <Role>CBC User</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\S101GC14</UserName>
+    <SID>S101GC14</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User IN-PROGRESS</Description>
+    <Role>CBC User</Role>
+    <Function>IN-PROGRESS</Function>
+    <UserName>SARSGOV\S101GC14</UserName>
+    <SID>S101GC14</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Correct Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Correct Package</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Void Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Void Package</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Outgoing CBC Report Errors</Description>
+    <Role>Reviewer</Role>
+    <Function>Outgoing CBC Report Errors</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Incoming Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Incoming Packages</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Rejected Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Rejected Packages</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Approved Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Approved Foreign Packages</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Change User Role</Description>
+    <Role>Reviewer</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Outgoing CBC Report Statuses</Description>
+    <Role>Reviewer</Role>
+    <Function>Outgoing CBC Report Statuses</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Remove User</Description>
+    <Role>Reviewer</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Enquire Packages Status</Description>
+    <Role>Reviewer</Role>
+    <Function>Enquire Packages Status</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Review Corrected Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Review Corrected Packages</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Rejected Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Rejected Foreign Packages</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Add User</Description>
+    <Role>Reviewer</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Foreign Incoming Data by Jurisdiction</Description>
+    <Role>Reviewer</Role>
+    <Function>Master And Local File Submissions</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Master And Local File Submissions</Description>
+    <Role>Reviewer</Role>
+    <Function>Foreign Incoming Data By Jurisdiction</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer User Profile</Description>
+    <Role>Reviewer</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Review Voided Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Review Voided Packages</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Master And Local Fles</Description>
+    <Role>Reviewer</Role>
+    <Function>Master And Local Fles</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Foreign Outgoing Data</Description>
+    <Role>Reviewer</Role>
+    <Function>Domestic Incoming Data by Jurisdiction</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Domestic Incoming Data by Jurisdiction</Description>
+    <Role>Reviewer</Role>
+    <Function>Foreign Outgoing Data</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Package Status</Description>
+    <Role>Reviewer</Role>
+    <Function>Package Status</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Genarate Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Genarate Package</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Verified Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Verified Foreign Packages</Function>
+    <UserName>SARSGOV\S101GC16</UserName>
+    <SID>S101GC16</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Master And Local File Submissions</Description>
+    <Role>CBC Technician</Role>
+    <Function>Master And Local File Submissions</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician NEW DECLARATIONS</Description>
+    <Role>CBC Technician</Role>
+    <Function>NEW DECLARATIONS</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician ENQUIRE MASTER-LOCAL FILES</Description>
+    <Role>CBC Technician</Role>
+    <Function>ENQUIRE MASTER-LOCAL FILES</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Add User</Description>
+    <Role>CBC Technician</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Domestic Incoming Data by Jurisdiction</Description>
+    <Role>CBC Technician</Role>
+    <Function>Domestic Incoming Data by Jurisdiction</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician Validated</Description>
+    <Role>CBC Technician</Role>
+    <Function>Validated</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Foreign Outgoing Data</Description>
+    <Role>CBC Technician</Role>
+    <Function>Foreign Outgoing Data</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Main Menu</Description>
+    <Role>CBC Technician</Role>
+    <Function>Main Menu</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician FILE NOTIFICATION TEMPLATES</Description>
+    <Role>CBC Technician</Role>
+    <Function>EMAIL FILE NOTIFICATION TEMPLATES</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician IN-PROGRESS</Description>
+    <Role>CBC Technician</Role>
+    <Function>IN-PROGRESS</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician View Reports</Description>
+    <Role>CBC Technician</Role>
+    <Function>View Reports</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician VIEW SENT LETTERS</Description>
+    <Role>CBC Technician</Role>
+    <Function>VIEW SENT LETTERS</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician Partially Validated</Description>
+    <Role>CBC Technician</Role>
+    <Function>Partially Validated</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician ACCEPTED WITH WARNINGS</Description>
+    <Role>CBC Technician</Role>
+    <Function>ACCEPTED WITH WARNINGS</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Outgoing CBC Report Errors</Description>
+    <Role>CBC Technician</Role>
+    <Function>Outgoing CBC Report Errors</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Outgoing CBC Report Statuses</Description>
+    <Role>CBC Technician</Role>
+    <Function>Outgoing CBC Report Statuses</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Change User Role</Description>
+    <Role>CBC Technician</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Remove User</Description>
+    <Role>CBC Technician</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician Manage MNE List</Description>
+    <Role>CBC Technician</Role>
+    <Function>Manage MNE List</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician DECLINED</Description>
+    <Role>CBC Technician</Role>
+    <Function>REJECTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician ENQUIRE U3TM</Description>
+    <Role>CBC Technician</Role>
+    <Function>ENQUIRE U3TM</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Partially Approved</Description>
+    <Role>CBC Technician</Role>
+    <Function>Partially Approved</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician SMS FILE NOTIFICATION TEMPLATES</Description>
+    <Role>CBC Technician</Role>
+    <Function>SMS FILE NOTIFICATION TEMPLATES</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Foreign Incoming Data By Jurisdiction</Description>
+    <Role>CBC Technician</Role>
+    <Function>Foreign Incoming Data By Jurisdiction</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician NEW</Description>
+    <Role>CBC Technician</Role>
+    <Function>NEW SUBMISSIONS</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician APPROVED</Description>
+    <Role>CBC Technician</Role>
+    <Function>ACCEPTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician User Profile</Description>
+    <Role>CBC Technician</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician VIEWED DECLARATIONS</Description>
+    <Role>CBC Technician</Role>
+    <Function>VIEWED DECLARATIONS</Function>
+    <UserName>SARSGOV\S1020246</UserName>
+    <SID>S1020246</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Approved Localfiles</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Approved Localfiles</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator VIEWED DECLARATIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>VIEWED DECLARATIONS</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator New Local Files</Description>
+    <Role>CBC Administrator</Role>
+    <Function>New Local Files</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Validated</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Validated</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ACCEPTED WITH WARNINGS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ACCEPTED WITH WARNINGS</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator NEW</Description>
+    <Role>CBC Administrator</Role>
+    <Function>NEW SUBMISSIONS</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator NEW DECLARATIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>NEW DECLARATIONS</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator IN-PROGRESS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>IN-PROGRESS</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Change User Role</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Declined Local Files</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Declined Local Files</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ENQUIRE MASTER-LOCAL FILES</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ENQUIRE MASTER-LOCAL FILES</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Partially Approved</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Partially Approved</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator View Reports</Description>
+    <Role>CBC Administrator</Role>
+    <Function>View Reports</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Main Menu</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Main Menu</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator REJECTED SUBMISSIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>REJECTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Add User</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator CBC_ApproveDataReady</Description>
+    <Role>CBC Administrator</Role>
+    <Function>CBC_ApproveDataReady</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator User Profile</Description>
+    <Role>CBC Administrator</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Remove User</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ACCEPTED SUBMISSIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ACCEPTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S1037275</UserName>
+    <SID>S1037275</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Rejected Packages</Description>
+    <Role>Approver</Role>
+    <Function>Rejected Packages</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Package Status</Description>
+    <Role>Approver</Role>
+    <Function>Package Status</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Approved Foreign Packages</Description>
+    <Role>Approver</Role>
+    <Function>Approved Foreign Packages</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Master And Local File Submissions</Description>
+    <Role>Approver</Role>
+    <Function>Master And Local File Submissions</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Domestic Incoming Data by Jurisdiction</Description>
+    <Role>Approver</Role>
+    <Function>Domestic Incoming Data by Jurisdiction</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Rejected Foreign Packages</Description>
+    <Role>Approver</Role>
+    <Function>Rejected Foreign Packages</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Manage MNE List</Description>
+    <Role>Approver</Role>
+    <Function>Manage MNE List</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Outgoing CBC Report Statuses</Description>
+    <Role>Approver</Role>
+    <Function>Outgoing CBC Report Statuses</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver EMAIL FILE NOTIFICATION TEMPLATES</Description>
+    <Role>Approver</Role>
+    <Function>EMAIL FILE NOTIFICATION TEMPLATES</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver ENQUIRE U3TM</Description>
+    <Role>Approver</Role>
+    <Function>ENQUIRE U3TM</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver SMS FILE NOTIFICATION TEMPLATES</Description>
+    <Role>Approver</Role>
+    <Function>SMS FILE NOTIFICATION TEMPLATES</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Approve Foreign Packages</Description>
+    <Role>Approver</Role>
+    <Function>Approve Foreign Packages</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Outgoing CBC Report Errors</Description>
+    <Role>Approver</Role>
+    <Function>Outgoing CBC Report Errors</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Void Package</Description>
+    <Role>Approver</Role>
+    <Function>Void Package</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Correct Package</Description>
+    <Role>Approver</Role>
+    <Function>Correct Package</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Enquire Packages Status</Description>
+    <Role>Approver</Role>
+    <Function>Enquire Packages Status</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Main Menu</Description>
+    <Role>Approver</Role>
+    <Function>Main Menu</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Foreign Outgoing Data</Description>
+    <Role>Approver</Role>
+    <Function>Foreign Outgoing Data</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Genarate Package</Description>
+    <Role>Approver</Role>
+    <Function>Genarate Package</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Approve Packages</Description>
+    <Role>Approver</Role>
+    <Function>Approve Packages</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Foreign Incoming Data By Jurisdiction</Description>
+    <Role>Approver</Role>
+    <Function>Foreign Incoming Data By Jurisdiction</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver VIEW SENT LETTERS</Description>
+    <Role>Approver</Role>
+    <Function>VIEW SENT LETTERS</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Approver Master And Local Fles</Description>
+    <Role>Approver</Role>
+    <Function>Master And Local Fles</Function>
+    <UserName>SARSGOV\S1037721</UserName>
+    <SID>S1037721</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician User Profile</Description>
+    <Role>CBC Technician</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician VIEWED DECLARATIONS</Description>
+    <Role>CBC Technician</Role>
+    <Function>VIEWED DECLARATIONS</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician APPROVED</Description>
+    <Role>CBC Technician</Role>
+    <Function>ACCEPTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Partially Approved</Description>
+    <Role>CBC Technician</Role>
+    <Function>Partially Approved</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician ENQUIRE U3TM</Description>
+    <Role>CBC Technician</Role>
+    <Function>ENQUIRE U3TM</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician SMS FILE NOTIFICATION TEMPLATES</Description>
+    <Role>CBC Technician</Role>
+    <Function>SMS FILE NOTIFICATION TEMPLATES</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician NEW</Description>
+    <Role>CBC Technician</Role>
+    <Function>NEW SUBMISSIONS</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician DECLINED</Description>
+    <Role>CBC Technician</Role>
+    <Function>REJECTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Foreign Incoming Data By Jurisdiction</Description>
+    <Role>CBC Technician</Role>
+    <Function>Foreign Incoming Data By Jurisdiction</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician Manage MNE List</Description>
+    <Role>CBC Technician</Role>
+    <Function>Manage MNE List</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Outgoing CBC Report Statuses</Description>
+    <Role>CBC Technician</Role>
+    <Function>Outgoing CBC Report Statuses</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Remove User</Description>
+    <Role>CBC Technician</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Change User Role</Description>
+    <Role>CBC Technician</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Outgoing CBC Report Errors</Description>
+    <Role>CBC Technician</Role>
+    <Function>Outgoing CBC Report Errors</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician ACCEPTED WITH WARNINGS</Description>
+    <Role>CBC Technician</Role>
+    <Function>ACCEPTED WITH WARNINGS</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician VIEW SENT LETTERS</Description>
+    <Role>CBC Technician</Role>
+    <Function>VIEW SENT LETTERS</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician View Reports</Description>
+    <Role>CBC Technician</Role>
+    <Function>View Reports</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician IN-PROGRESS</Description>
+    <Role>CBC Technician</Role>
+    <Function>IN-PROGRESS</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician FILE NOTIFICATION TEMPLATES</Description>
+    <Role>CBC Technician</Role>
+    <Function>EMAIL FILE NOTIFICATION TEMPLATES</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Main Menu</Description>
+    <Role>CBC Technician</Role>
+    <Function>Main Menu</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician Partially Validated</Description>
+    <Role>CBC Technician</Role>
+    <Function>Partially Validated</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CMC Technician Validated</Description>
+    <Role>CBC Technician</Role>
+    <Function>Validated</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Domestic Incoming Data by Jurisdiction</Description>
+    <Role>CBC Technician</Role>
+    <Function>Domestic Incoming Data by Jurisdiction</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Foreign Outgoing Data</Description>
+    <Role>CBC Technician</Role>
+    <Function>Foreign Outgoing Data</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Master And Local File Submissions</Description>
+    <Role>CBC Technician</Role>
+    <Function>Master And Local File Submissions</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician NEW DECLARATIONS</Description>
+    <Role>CBC Technician</Role>
+    <Function>NEW DECLARATIONS</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician Add User</Description>
+    <Role>CBC Technician</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Technician ENQUIRE MASTER-LOCAL FILES</Description>
+    <Role>CBC Technician</Role>
+    <Function>ENQUIRE MASTER-LOCAL FILES</Function>
+    <UserName>SARSGOV\S1037927</UserName>
+    <SID>S1037927</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ACCEPTED SUBMISSIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ACCEPTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Remove User</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator CBC_ApproveDataReady</Description>
+    <Role>CBC Administrator</Role>
+    <Function>CBC_ApproveDataReady</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator User Profile</Description>
+    <Role>CBC Administrator</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator REJECTED SUBMISSIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>REJECTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Add User</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Main Menu</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Main Menu</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator View Reports</Description>
+    <Role>CBC Administrator</Role>
+    <Function>View Reports</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Partially Approved</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Partially Approved</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Declined Local Files</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Declined Local Files</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ENQUIRE MASTER-LOCAL FILES</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ENQUIRE MASTER-LOCAL FILES</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Change User Role</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator IN-PROGRESS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>IN-PROGRESS</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Validated</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Validated</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator NEW</Description>
+    <Role>CBC Administrator</Role>
+    <Function>NEW SUBMISSIONS</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ACCEPTED WITH WARNINGS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ACCEPTED WITH WARNINGS</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator NEW DECLARATIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>NEW DECLARATIONS</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Approved Localfiles</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Approved Localfiles</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator VIEWED DECLARATIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>VIEWED DECLARATIONS</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator New Local Files</Description>
+    <Role>CBC Administrator</Role>
+    <Function>New Local Files</Function>
+    <UserName>SARSGOV\S2015100</UserName>
+    <SID>S2015100</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Rejected Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Rejected Packages</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Approved Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Approved Foreign Packages</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Outgoing CBC Report Errors</Description>
+    <Role>Reviewer</Role>
+    <Function>Outgoing CBC Report Errors</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Incoming Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Incoming Packages</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Correct Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Correct Package</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Void Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Void Package</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Change User Role</Description>
+    <Role>Reviewer</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Outgoing CBC Report Statuses</Description>
+    <Role>Reviewer</Role>
+    <Function>Outgoing CBC Report Statuses</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Enquire Packages Status</Description>
+    <Role>Reviewer</Role>
+    <Function>Enquire Packages Status</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Remove User</Description>
+    <Role>Reviewer</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Review Corrected Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Review Corrected Packages</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Master And Local File Submissions</Description>
+    <Role>Reviewer</Role>
+    <Function>Foreign Incoming Data By Jurisdiction</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Rejected Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Rejected Foreign Packages</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Add User</Description>
+    <Role>Reviewer</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Review Voided Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Review Voided Packages</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Foreign Incoming Data by Jurisdiction</Description>
+    <Role>Reviewer</Role>
+    <Function>Master And Local File Submissions</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Master And Local Fles</Description>
+    <Role>Reviewer</Role>
+    <Function>Master And Local Fles</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer User Profile</Description>
+    <Role>Reviewer</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Foreign Outgoing Data</Description>
+    <Role>Reviewer</Role>
+    <Function>Domestic Incoming Data by Jurisdiction</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Genarate Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Genarate Package</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Verified Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Verified Foreign Packages</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Domestic Incoming Data by Jurisdiction</Description>
+    <Role>Reviewer</Role>
+    <Function>Foreign Outgoing Data</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Package Status</Description>
+    <Role>Reviewer</Role>
+    <Function>Package Status</Function>
+    <UserName>SARSGOV\S2018825</UserName>
+    <SID>S2018825</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User Remove User</Description>
+    <Role>CBC User</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\S2022881</UserName>
+    <SID>S2022881</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User ENQUIRE MASTER-LOCAL FILES</Description>
+    <Role>CBC User</Role>
+    <Function>ENQUIRE MASTER-LOCAL FILES</Function>
+    <UserName>SARSGOV\S2022881</UserName>
+    <SID>S2022881</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User REJECTED SUBMISSIONS</Description>
+    <Role>CBC User</Role>
+    <Function>REJECTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S2022881</UserName>
+    <SID>S2022881</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User ACCEPTED SUBMISSIONS</Description>
+    <Role>CBC User</Role>
+    <Function>ACCEPTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S2022881</UserName>
+    <SID>S2022881</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User NEW DECLARATIONS</Description>
+    <Role>CBC User</Role>
+    <Function>NEW DECLARATIONS</Function>
+    <UserName>SARSGOV\S2022881</UserName>
+    <SID>S2022881</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User Add User</Description>
+    <Role>CBC User</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\S2022881</UserName>
+    <SID>S2022881</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User VIEWED DECLARATIONS</Description>
+    <Role>CBC User</Role>
+    <Function>VIEWED DECLARATIONS</Function>
+    <UserName>SARSGOV\S2022881</UserName>
+    <SID>S2022881</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User NEW SUBMISSIONS</Description>
+    <Role>CBC User</Role>
+    <Function>NEW SUBMISSIONS</Function>
+    <UserName>SARSGOV\S2022881</UserName>
+    <SID>S2022881</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User Change User Role</Description>
+    <Role>CBC User</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\S2022881</UserName>
+    <SID>S2022881</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User ACCEPTED WITH WARNINGS</Description>
+    <Role>CBC User</Role>
+    <Function>ACCEPTED WITH WARNINGS</Function>
+    <UserName>SARSGOV\S2022881</UserName>
+    <SID>S2022881</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User IN-PROGRESS</Description>
+    <Role>CBC User</Role>
+    <Function>IN-PROGRESS</Function>
+    <UserName>SARSGOV\S2022881</UserName>
+    <SID>S2022881</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC User User Profile</Description>
+    <Role>CBC User</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\S2022881</UserName>
+    <SID>S2022881</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Approved Localfiles</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Approved Localfiles</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator VIEWED DECLARATIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>VIEWED DECLARATIONS</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator New Local Files</Description>
+    <Role>CBC Administrator</Role>
+    <Function>New Local Files</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ACCEPTED WITH WARNINGS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ACCEPTED WITH WARNINGS</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator NEW</Description>
+    <Role>CBC Administrator</Role>
+    <Function>NEW SUBMISSIONS</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Validated</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Validated</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator NEW DECLARATIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>NEW DECLARATIONS</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator IN-PROGRESS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>IN-PROGRESS</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Change User Role</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Partially Approved</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Partially Approved</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ENQUIRE MASTER-LOCAL FILES</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ENQUIRE MASTER-LOCAL FILES</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Declined Local Files</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Declined Local Files</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Add User</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator REJECTED SUBMISSIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>REJECTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator View Reports</Description>
+    <Role>CBC Administrator</Role>
+    <Function>View Reports</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Main Menu</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Main Menu</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator User Profile</Description>
+    <Role>CBC Administrator</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator CBC_ApproveDataReady</Description>
+    <Role>CBC Administrator</Role>
+    <Function>CBC_ApproveDataReady</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator ACCEPTED SUBMISSIONS</Description>
+    <Role>CBC Administrator</Role>
+    <Function>ACCEPTED SUBMISSIONS</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>CBC Administrator Remove User</Description>
+    <Role>CBC Administrator</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\S2022914</UserName>
+    <SID>S2022914</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Verified Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Verified Foreign Packages</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Genarate Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Genarate Package</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Domestic Incoming Data by Jurisdiction</Description>
+    <Role>Reviewer</Role>
+    <Function>Foreign Outgoing Data</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Package Status</Description>
+    <Role>Reviewer</Role>
+    <Function>Package Status</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Foreign Outgoing Data</Description>
+    <Role>Reviewer</Role>
+    <Function>Domestic Incoming Data by Jurisdiction</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer User Profile</Description>
+    <Role>Reviewer</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Review Voided Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Review Voided Packages</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Master And Local Fles</Description>
+    <Role>Reviewer</Role>
+    <Function>Master And Local Fles</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Foreign Incoming Data by Jurisdiction</Description>
+    <Role>Reviewer</Role>
+    <Function>Master And Local File Submissions</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Master And Local File Submissions</Description>
+    <Role>Reviewer</Role>
+    <Function>Foreign Incoming Data By Jurisdiction</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Add User</Description>
+    <Role>Reviewer</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Rejected Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Rejected Foreign Packages</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Review Corrected Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Review Corrected Packages</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Remove User</Description>
+    <Role>Reviewer</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Enquire Packages Status</Description>
+    <Role>Reviewer</Role>
+    <Function>Enquire Packages Status</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Outgoing CBC Report Statuses</Description>
+    <Role>Reviewer</Role>
+    <Function>Outgoing CBC Report Statuses</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Change User Role</Description>
+    <Role>Reviewer</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Rejected Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Rejected Packages</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Approved Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Approved Foreign Packages</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Outgoing CBC Report Errors</Description>
+    <Role>Reviewer</Role>
+    <Function>Outgoing CBC Report Errors</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Incoming Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Incoming Packages</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Correct Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Correct Package</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Void Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Void Package</Function>
+    <UserName>SARSGOV\S2022922</UserName>
+    <SID>S2022922</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Void Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Void Package</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Correct Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Correct Package</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Incoming Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Incoming Packages</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Approved Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Approved Foreign Packages</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Rejected Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Rejected Packages</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Change User Role</Description>
+    <Role>Reviewer</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Outgoing CBC Report Errors</Description>
+    <Role>Reviewer</Role>
+    <Function>Outgoing CBC Report Errors</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Outgoing CBC Report Statuses</Description>
+    <Role>Reviewer</Role>
+    <Function>Outgoing CBC Report Statuses</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Enquire Packages Status</Description>
+    <Role>Reviewer</Role>
+    <Function>Enquire Packages Status</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Remove User</Description>
+    <Role>Reviewer</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Review Corrected Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Review Corrected Packages</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Rejected Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Rejected Foreign Packages</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Add User</Description>
+    <Role>Reviewer</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Master And Local File Submissions</Description>
+    <Role>Reviewer</Role>
+    <Function>Foreign Incoming Data By Jurisdiction</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Foreign Incoming Data by Jurisdiction</Description>
+    <Role>Reviewer</Role>
+    <Function>Master And Local File Submissions</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Master And Local Fles</Description>
+    <Role>Reviewer</Role>
+    <Function>Master And Local Fles</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Review Voided Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Review Voided Packages</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer User Profile</Description>
+    <Role>Reviewer</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Foreign Outgoing Data</Description>
+    <Role>Reviewer</Role>
+    <Function>Domestic Incoming Data by Jurisdiction</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Package Status</Description>
+    <Role>Reviewer</Role>
+    <Function>Package Status</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Domestic Incoming Data by Jurisdiction</Description>
+    <Role>Reviewer</Role>
+    <Function>Foreign Outgoing Data</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Genarate Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Genarate Package</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Verified Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Verified Foreign Packages</Function>
+    <UserName>SARSGOV\s2024134</UserName>
+    <SID>s2024134</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Verified Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Verified Foreign Packages</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Domestic Incoming Data by Jurisdiction</Description>
+    <Role>Reviewer</Role>
+    <Function>Foreign Outgoing Data</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Package Status</Description>
+    <Role>Reviewer</Role>
+    <Function>Package Status</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Genarate Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Genarate Package</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Foreign Outgoing Data</Description>
+    <Role>Reviewer</Role>
+    <Function>Domestic Incoming Data by Jurisdiction</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer User Profile</Description>
+    <Role>Reviewer</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Review Voided Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Review Voided Packages</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Master And Local Fles</Description>
+    <Role>Reviewer</Role>
+    <Function>Master And Local Fles</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Foreign Incoming Data by Jurisdiction</Description>
+    <Role>Reviewer</Role>
+    <Function>Master And Local File Submissions</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Master And Local File Submissions</Description>
+    <Role>Reviewer</Role>
+    <Function>Foreign Incoming Data By Jurisdiction</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Add User</Description>
+    <Role>Reviewer</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Rejected Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Rejected Foreign Packages</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Review Corrected Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Review Corrected Packages</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Enquire Packages Status</Description>
+    <Role>Reviewer</Role>
+    <Function>Enquire Packages Status</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Remove User</Description>
+    <Role>Reviewer</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Outgoing CBC Report Statuses</Description>
+    <Role>Reviewer</Role>
+    <Function>Outgoing CBC Report Statuses</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Outgoing CBC Report Errors</Description>
+    <Role>Reviewer</Role>
+    <Function>Outgoing CBC Report Errors</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Change User Role</Description>
+    <Role>Reviewer</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Approved Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Approved Foreign Packages</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Rejected Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Rejected Packages</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Incoming Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Incoming Packages</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Correct Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Correct Package</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Void Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Void Package</Function>
+    <UserName>SARSGOV\S2025376</UserName>
+    <SID>S2025376</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Correct Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Correct Package</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Void Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Void Package</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Incoming Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Incoming Packages</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Outgoing CBC Report Errors</Description>
+    <Role>Reviewer</Role>
+    <Function>Outgoing CBC Report Errors</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Approved Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Approved Foreign Packages</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Rejected Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Rejected Packages</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Change User Role</Description>
+    <Role>Reviewer</Role>
+    <Function>Change User Role</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Outgoing CBC Report Statuses</Description>
+    <Role>Reviewer</Role>
+    <Function>Outgoing CBC Report Statuses</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Remove User</Description>
+    <Role>Reviewer</Role>
+    <Function>Remove User</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Enquire Packages Status</Description>
+    <Role>Reviewer</Role>
+    <Function>Enquire Packages Status</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Review Corrected Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Review Corrected Packages</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Rejected Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Rejected Foreign Packages</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Add User</Description>
+    <Role>Reviewer</Role>
+    <Function>Add User</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Master And Local File Submissions</Description>
+    <Role>Reviewer</Role>
+    <Function>Foreign Incoming Data By Jurisdiction</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Foreign Incoming Data by Jurisdiction</Description>
+    <Role>Reviewer</Role>
+    <Function>Master And Local File Submissions</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Master And Local Fles</Description>
+    <Role>Reviewer</Role>
+    <Function>Master And Local Fles</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Review Voided Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Review Voided Packages</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer User Profile</Description>
+    <Role>Reviewer</Role>
+    <Function>User Profile</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Foreign Outgoing Data</Description>
+    <Role>Reviewer</Role>
+    <Function>Domestic Incoming Data by Jurisdiction</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Domestic Incoming Data by Jurisdiction</Description>
+    <Role>Reviewer</Role>
+    <Function>Foreign Outgoing Data</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Package Status</Description>
+    <Role>Reviewer</Role>
+    <Function>Package Status</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Genarate Package</Description>
+    <Role>Reviewer</Role>
+    <Function>Genarate Package</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+  <CacheUserAccessDetails>
+    <Description>Reviewer Verified Foreign Packages</Description>
+    <Role>Reviewer</Role>
+    <Function>Verified Foreign Packages</Function>
+    <UserName>SARSGOV\Sa-appsuptestiis</UserName>
+    <SID>Sa-appsu</SID>
+  </CacheUserAccessDetails>
+</ArrayOfCacheUserAccessDetails>

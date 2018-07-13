@@ -1,0 +1,237 @@
+﻿{
+  "soap12:Envelope": {
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "@xmlns:soap12": "http://www.w3.org/2003/05/soap-envelope",
+    "@xmlns:esb": "http://www.egovernment.gov.za/GMD/MessageIdentification/xml/schemas/version/7.1",
+    "soap12:Header": {
+      "esb:MessageIdentification": {
+        "esb:channelID": "EFL",
+        "esb:applicationID": "SubmitCBCDeclaration",
+        "esb:messageSeqNo": "9000000000026888456",
+        "esb:messageTimeStamp": "2017-10-30T11:39:45",
+        "esb:externalReferenceID": "9425189710",
+        "esb:originatingChannelID": "EFL",
+        "esb:universalUniqueID": "EBB5CEC2-C921-4B87-9173-E263E99E3862",
+        "esb:versionNo": "1.3",
+        "esb:priority": "9",
+        "esb:domain": "Third Party Data",
+        "esb:activityName": "Submit CBC Declaration"
+      }
+    },
+    "soap12:Body": {
+      "tnsf:SubmitCountryByCountryDeclarationRequest": {
+        "@xmlns:tnsf": "http://www.sars.gov.za/enterpriseMessagingModel/ThirdPartyData/SubmitCountryByCountryDeclaration/xml/schemas/version/1.3",
+        "CountryByCountryDeclaration": {
+          "@xmlns": "http://www.sars.gov.za/enterpriseMessagingModel/ThirdPartyData/CountryByCountryDeclaration/xml/schemas/version/1.3",
+          "CBC_OECD": {
+            "@xmlns": "urn:oecd:ties:cbc:v1",
+            "MessageSpec": {
+              "ReportingPeriod": "2015-06-30",
+              "TransmittingCountry": "ZAR",
+              "ReceivingCountry": "ZAR",
+              "MessageType": "CBC"
+            },
+            "CbcBody": {
+              "ReportingEntity": {
+                "Entity": {
+                  "Address": {
+                    "@legalAddressType": "OECD302",
+                    "AddressFree": "LTA PARK,JET PARK,1459",
+                    "CountryCode": "AF"
+                  },
+                  "Name": [ "GRINAKER-LTA ENGINEERING AND MINING SERVICES LIMITED", null ],
+                  "IN": {
+                    "@issuedBy": "ZA",
+                    "#text": "1963/006056/06"
+                  },
+                  "TIN": {
+                    "@issuedBy": "ZA",
+                    "#text": "9425189710"
+                  },
+                  "ResCountryCode": "AL"
+                },
+                "ReportingRole": "CBC702",
+                "DocSpec": { "DocRefId": "2015AL-443414121" }
+              },
+              "AdditionalInfo": {
+                "ResCountryCode": "AL",
+                "SummaryRef": "CBC604",
+                "DocSpec": {
+                  "DocTypeIndic": "OECD1",
+                  "DocRefId": "2015AL-443414121"
+                },
+                "OtherInfo": "ZXVZVZ"
+              },
+              "CbcReports": [
+                {
+                  "ConstEntities": {
+                    "BizActivities": "CBC503",
+                    "ConstEntity": {
+                      "1": { "TIN": { "@issuedBy": "AS" } },
+                      "Name": {
+                        "RegisteredName": "DFHFDH",
+                        "Tradingname": "HFGGF"
+                      },
+                      "IN": {
+                        "@issuedBy": "AS",
+                        "#text": "123456789"
+                      },
+                      "TIN": "9425189710",
+                      "Address": {
+                        "@legalAddressType": "OECD302",
+                        "AddressFree": "SSGDSG",
+                        "CountryCode": "AS"
+                      }
+                    },
+                    "OtherEntityInfo": "sfsdgdg"
+                  },
+                  "DocSpec": { "DocTypeIndic": "OECD1" },
+                  "Summary": {
+                    "Capital": {
+                      "@currCode": "ALL",
+                      "#text": "100"
+                    },
+                    "TaxPaid": {
+                      "@currCode": "ALL",
+                      "#text": "100"
+                    },
+                    "Earnings": {
+                      "@currCode": "ALL",
+                      "#text": "10"
+                    },
+                    "TaxAccrued": {
+                      "@currCode": "ALL",
+                      "#text": "100"
+                    },
+                    "Assets": {
+                      "@currCode": "ALL",
+                      "#text": "100"
+                    },
+                    "Revenues": {
+                      "Unrelated": {
+                        "currCode": { "@currCode": "ALL" },
+                        "#text": " \r\n  100 \r\n  "
+                      },
+                      "Related": {
+                        "@currCode": "ALL",
+                        "#text": "10000"
+                      },
+                      "Total": {
+                        "@currCode": "ALL",
+                        "#text": "10100"
+                      }
+                    },
+                    "ProfitOrLoss": {
+                      "@currCode": "ALL",
+                      "#text": "100"
+                    },
+                    "NbEmployees": "100"
+                  }
+                },
+                {
+                  "ConstEntities": {
+                    "BizActivities": "CBC506",
+                    "ConstEntity": {
+                      "1": { "TIN": { "@issuedBy": "AD" } },
+                      "Name": {
+                        "RegisteredName": "DSDFSDFSD",
+                        "Tradingname": "SDFSDFSD"
+                      },
+                      "IN": {
+                        "@issuedBy": "AS",
+                        "#text": "123456789"
+                      },
+                      "TIN": "9425189710",
+                      "Address": {
+                        "@legalAddressType": "OECD302",
+                        "AddressFree": "DGDSDGSG",
+                        "CountryCode": "AS"
+                      }
+                    },
+                    "OtherEntityInfo": "acvvz"
+                  },
+                  "DocSpec": { "DocTypeIndic": "OECD1" },
+                  "Summary": {
+                    "Capital": {
+                      "@currCode": "AMD",
+                      "#text": "10"
+                    },
+                    "TaxPaid": {
+                      "@currCode": "AMD",
+                      "#text": "100"
+                    },
+                    "Earnings": {
+                      "@currCode": "AMD",
+                      "#text": "10"
+                    },
+                    "TaxAccrued": {
+                      "@currCode": "AMD",
+                      "#text": "100"
+                    },
+                    "Assets": {
+                      "@currCode": "AMD",
+                      "#text": "10"
+                    },
+                    "Revenues": {
+                      "Unrelated": {
+                        "currCode": { "@currCode": "AMD" },
+                        "#text": " \r\n  10 \r\n  "
+                      },
+                      "Related": {
+                        "@currCode": "AMD",
+                        "#text": "10010"
+                      },
+                      "Total": {
+                        "@currCode": "AMD",
+                        "#text": "10020"
+                      }
+                    },
+                    "ProfitOrLoss": {
+                      "@currCode": "AMD",
+                      "#text": "100"
+                    },
+                    "NbEmployees": "1000"
+                  }
+                }
+              ]
+            }
+          },
+          "ContactDetails": {
+            "@xmlns": "",
+            "Surname": "Steyn",
+            "FirstNames": "Sanet",
+            "BusTelNo1": "0110000000000",
+            "CellNo": "0000000000",
+            "EmailAddress": "qa@sarsefiling.co.za"
+          },
+          "SecurityInfo": {
+            "sec:SessionID": {
+              "@xmlns:sec": "http://www.sars.gov.za/enterpriseMessagingModel/GMD/FormTypes/xml/schemas/version/1.6",
+              "#text": "xz2jr4z2i2ebmarjkbpixgtd"
+            },
+            "sec:TaxUserID": {
+              "@xmlns:sec": "http://www.sars.gov.za/enterpriseMessagingModel/GMD/FormTypes/xml/schemas/version/1.6",
+              "#text": "911654"
+            },
+            "sec:TaxPayerID": {
+              "@xmlns:sec": "http://www.sars.gov.za/enterpriseMessagingModel/GMD/FormTypes/xml/schemas/version/1.6",
+              "#text": "4369817"
+            },
+            "sec:ReturnGroupID": {
+              "@xmlns:sec": "http://www.sars.gov.za/enterpriseMessagingModel/GMD/FormTypes/xml/schemas/version/1.6",
+              "#text": "npc8uLqxc4R1faVsCCRh3T/+NjQCxeMIdY5vAVZtstmoBsQHKYI0LB/Eqk90hC50i6KHRLIfqfQFrmOXElmv3w=="
+            }
+          },
+          "TaxJurisdictions": {
+            "TaxJurisdiction": [
+              { "NoOfConstituentEntities": "1" },
+              { "NoOfConstituentEntities": "1" }
+            ]
+          },
+          "NoOfTaxJurisdictions": "2",
+          "DeclarationDate": "2017-10-30"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xsd:schema elementFormDefault="qualified" targetNamespace="http://www.egovernment.gov.za/GMD/ApplicationInformation/xml/schemas/version/3.1" xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:appInfo="http://www.egovernment.gov.za/GMD/ApplicationInformation/xml/schemas/version/3.1">
+
+	<xsd:annotation>
+		<xsd:documentation>2013-05-30, Dirk Grobler, Code changed to cater for 4 digits exactly. Description and Reference max lengths changed to 1024</xsd:documentation>
+		<xsd:documentation>2013-02-17, Nisch Kanahia, Added optional BusinessReference structure</xsd:documentation>
+		<xsd:documentation>2013-02-07, Nisch Kanahia, Changed maximum number of occurrences to 9999</xsd:documentation>
+		<xsd:documentation>2013-02-07, Nisch Kanahia, Schema Defined</xsd:documentation>
+	</xsd:annotation>
+	
+  <xsd:complexType name="ApplicationInformationStructure">
+    <xsd:sequence>
+    	<xsd:element name="BusinessReference" maxOccurs="1"
+    		minOccurs="0">
+    		<xsd:complexType>
+                    <xsd:all>
+                    	<xsd:element name="IdentifierType" maxOccurs="1"
+                    		minOccurs="1">
+                    		<xsd:simpleType>
+                    			<xsd:restriction base="xsd:string">
+                    				<xsd:minLength value="1"></xsd:minLength>
+                    				<xsd:maxLength value="64"></xsd:maxLength>
+                    			</xsd:restriction>
+                    		</xsd:simpleType>
+                    	</xsd:element>
+                    	<xsd:element name="IdentifierValue"
+                    		maxOccurs="1" minOccurs="1">
+                    		<xsd:simpleType>
+                    			<xsd:restriction base="xsd:string">
+                    				<xsd:minLength value="1"></xsd:minLength>
+                    				<xsd:maxLength value="64"></xsd:maxLength>
+                    			</xsd:restriction>
+                    		</xsd:simpleType>
+                    	</xsd:element>
+                    </xsd:all>
+                    
+    		</xsd:complexType>
+    	</xsd:element>
+    	<xsd:element name="ApplicationInformationResult"
+    		maxOccurs="9999" minOccurs="1">
+    		<xsd:complexType>
+    			<xsd:all>
+    				<xsd:element minOccurs="1" name="MessageType"
+    					type="appInfo:MessageTypeEnum" maxOccurs="1" />
+    				<xsd:element minOccurs="1" name="Code"
+    					maxOccurs="1">
+    					<xsd:simpleType>
+    						<xsd:restriction base="xsd:string">
+    							<xsd:pattern value="\d{4}"></xsd:pattern>
+    						</xsd:restriction>
+    					</xsd:simpleType>
+    				</xsd:element>
+    				<xsd:element minOccurs="1" name="Description"
+    					maxOccurs="1">
+    					<xsd:simpleType>
+    						<xsd:restriction base="xsd:string">
+    							<xsd:minLength value="1"></xsd:minLength>
+    							<xsd:maxLength value="1024"></xsd:maxLength>
+    						</xsd:restriction>
+    					</xsd:simpleType>
+    				</xsd:element>
+    				<xsd:element minOccurs="0" name="Reference"
+    					maxOccurs="1">
+    					<xsd:simpleType>
+    						<xsd:restriction base="xsd:string">
+    							<xsd:minLength value="1"></xsd:minLength>
+    							<xsd:maxLength value="1024"></xsd:maxLength>
+    						</xsd:restriction>
+    					</xsd:simpleType>
+    				</xsd:element>
+    			</xsd:all>
+    		</xsd:complexType>
+    	</xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:simpleType name="MessageTypeEnum">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="INFORMATION" />
+      <xsd:enumeration value="WARNING" />
+      <xsd:enumeration value="ERROR" />
+    </xsd:restriction>
+  </xsd:simpleType>
+
+
+
+    <xsd:element name="ApplicationInformation" type="appInfo:ApplicationInformationStructure"></xsd:element>
+</xsd:schema>

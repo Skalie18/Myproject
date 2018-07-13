@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<schema
+	targetNamespace="http://www.sars.gov.za/enterpriseMessagingModel/ThirdPartyData/CountryByCountryDeclaration/xml/schemas/version/1.2"
+	elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:ft="http://www.sars.gov.za/enterpriseMessagingModel/GMD/FormTypes/xml/schemas/version/1.6"
+	xmlns:bt="http://www.sars.gov.za/enterpriseMessagingModel/GMD/BaseTypes/xml/schemas/version/55.1"
+	xmlns:cbcRptData="http://www.sars.gov.za/enterpriseMessagingModel/ThirdPartyData/CountryByCountryDeclaration/xml/schemas/version/1.2"
+	xmlns:cbc="urn:oecd:ties:cbc:v1" xmlns:pref="http://www.sars.gov.za/enterpriseMessagingModel/GMD/BaseTypes/xml/schemas/version/55.2">
+
+	<import schemaLocation="SARSGMD_FormTypesV1.6.xsd"
+		namespace="http://www.sars.gov.za/enterpriseMessagingModel/GMD/FormTypes/xml/schemas/version/1.6">
+	</import>
+	<import schemaLocation="CbcXML_v1.0.xsd"
+		namespace="urn:oecd:ties:cbc:v1">
+	</import>
+	<import schemaLocation="SARSGMD_BaseTypesV55.2.xsd" namespace="http://www.sars.gov.za/enterpriseMessagingModel/GMD/BaseTypes/xml/schemas/version/55.2"></import>
+	<annotation>
+		<documentation>
+			2017-05-05 Dirk Grobler. First draft. 2017-08-14 Dirk
+			Grobler. Added fields not on the CBC schema. Updated
+			namespaces, updated structure names. 2017-08-21 Dirk
+			Grobler. Added ContactDetails structure.
+		</documentation>
+	</annotation>
+	<element name="CountryByCountryDeclaration"
+		type="cbcRptData:CountryByCountryDeclarationStructure">
+	</element>
+
+	<complexType name="CountryByCountryDeclarationStructure">
+		<all>
+			<element name="FormInfo" type="ft:FormInfoStructure"
+				minOccurs="0" maxOccurs="1">
+			</element>
+			<element name="SecurityInfo" type="ft:SecurityInfoStructure"
+				minOccurs="0" maxOccurs="1">
+			</element>
+			<element ref="cbc:CBC_OECD" minOccurs="1" maxOccurs="1"></element>
+			<element name="NoOfTaxJurisdictions" minOccurs="1"
+				maxOccurs="1">
+				<simpleType>
+					<restriction base="short">
+						<minInclusive value="0"></minInclusive>
+						<maxInclusive value="249"></maxInclusive>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="TaxJurisdictions" minOccurs="1"
+				maxOccurs="1">
+				<complexType>
+					<sequence>
+						<element name="TaxJurisdiction" minOccurs="1"
+							maxOccurs="249">
+							<complexType>
+								<all>
+									<element
+										name="NoOfConstituentEntities" minOccurs="1" maxOccurs="1">
+										<simpleType>
+											<restriction base="short">
+												<minInclusive
+													value="0">
+												</minInclusive>
+												<maxInclusive
+													value="99">
+												</maxInclusive>
+											</restriction>
+										</simpleType>
+									</element>
+								</all>
+							</complexType>
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="DeclarationDate" type="date" minOccurs="0"
+				maxOccurs="1">
+			</element>
+			<element name="ContactDetails" minOccurs="0"
+				maxOccurs="1">
+				<complexType>
+					<all>
+						<element name="Surname"
+							type="pref:SurnameType" minOccurs="1" maxOccurs="1">
+						</element>
+						<element name="FirstNames"
+							type="pref:SurnameType" minOccurs="1" maxOccurs="1">
+						</element>
+						<element name="BusTelNo1"
+							type="pref:TelFaxCellNoType" minOccurs="1" maxOccurs="1">
+						</element>
+						<element name="BusTelNo2"
+							type="pref:TelFaxCellNoType" minOccurs="0" maxOccurs="1">
+						</element>
+						<element name="CellNo"
+							type="pref:TelFaxCellNoType" minOccurs="0" maxOccurs="1">
+						</element>
+						<element name="EmailAddress" type="pref:EmailType" minOccurs="1" maxOccurs="1"></element>
+					</all>
+				</complexType>
+			</element>
+		</all>
+	</complexType>
+
+</schema>

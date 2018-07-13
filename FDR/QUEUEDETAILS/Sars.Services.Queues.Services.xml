@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncomingQueueDetails>
+  <IncomingQueueInfo>
+    <PortNumber>1412</PortNumber>
+    <HostName>10.30.6.152</HostName>
+    <Channel>FDR.SVRCONN</Channel>
+    <QueueManagerName>QMGEN</QueueManagerName>
+    <QueueName>FDR.MANAGESTATUS.REQ</QueueName>
+    <IsActive>true</IsActive>
+    <PostToUrl>http://localhost/SARS_SYSTESM_WEB/Mics/acceptmessage.aspx</PostToUrl>
+    <Description>Some Description</Description>
+    <Owner>S1037927</Owner>
+    <FriendlyName>ENQUIRE PARTY DETAILS</FriendlyName>
+    <ServiceRunning>false</ServiceRunning>
+  </IncomingQueueInfo>
+
+ <IncomingQueueInfo>
+    <PortNumber>1412</PortNumber>
+    <HostName>10.30.6.152</HostName>
+    <Channel>FDR.SVRCONN</Channel>
+    <QueueManagerName>QMGEN</QueueManagerName>
+    <QueueName>FDR.RECEIVECBCREPORT.REQ</QueueName>
+    <IsActive>true</IsActive>
+    <PostToUrl>http://localhost/SARS_SYSTESM_WEB/Mics/acceptmessage.aspx</PostToUrl>
+    <Description>Some Description</Description>
+    <Owner>S1037927</Owner>
+    <FriendlyName>ENQUIRE PARTY DETAILS</FriendlyName>
+    <ServiceRunning>false</ServiceRunning>
+  </IncomingQueueInfo>
+</IncomingQueueDetails>

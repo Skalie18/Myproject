@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ProdMaster.master.cs" Inherits="ProdMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <title></title>
+    <meta charset="UTF-8" http-equiv="x-ua-compatible" content="IE=Edge" />
+  
+  
+    <link href="styles/survey.css" rel="stylesheet" />
+    <link href="styles/final.css" rel="stylesheet" />
+    <link href="styles/toolBars.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <link href="styles/Site.css" rel="stylesheet" />
+    <link href="styles/bootstrap.css" rel="stylesheet" />
+    <link href="styles/gridview.css" rel="stylesheet" />
+    
+    
+    <style>
+        .ui-datepicker {
+            padding: 0.2em 0.2em 0;
+            width: 250px!important;
+        }
+    </style>
+    
+   <%--   <link href="styles/Site-QA.css" rel="stylesheet" />
+    <link href="styles/bootstrap-QA.css" rel="stylesheet" />
+    <link href="styles/gridview-QA.css" rel="stylesheet" />--%>
+    
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" AsyncPostBackTimeout="300">
+        </asp:ScriptManager>
+        <div id="main">
+        
+            <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+
+                <ContentTemplate>
+                    <table>
+                        <tr>
+                            
+
+                            <td>
+
+                                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </ContentTemplate>
+            </asp:UpdatePanel>
+
+        </div>
+    </form>
+</body>
+</html>

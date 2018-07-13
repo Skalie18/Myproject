@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xs:schema elementFormDefault="qualified"
+	targetNamespace="http://www.egovernment.gov.za/GMD/MessageIdentification/xml/schemas/version/7.1"
+	xmlns:esb="http://www.egovernment.gov.za/GMD/MessageIdentification/xml/schemas/version/7.1"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:annotation>
+		<xs:documentation>2013-02-12, Nisch Kanahia, Renamed financialValue to financialValue1 and made optional, added optional financialValue2, financialValue3, financialValue4 and financialValue5 elements</xs:documentation>
+		<xs:documentation>2013-02-08, Nisch Kanahia, Added
+			externalChannelReferenceNo as an optional field</xs:documentation>
+		<xs:documentation>2013-02-07, Nisch Kanahia, Changed financial amount
+			restriction to 17.2 and changed restriction on version number to not
+			allow 0</xs:documentation>
+		<xs:documentation>2013-02-07, Nisch Kanahia, Schema Defined
+		</xs:documentation>
+	</xs:annotation>
+	<xs:element name="MessageIdentification" type="esb:MessageIdentificationStructure">
+	</xs:element>
+	<xs:complexType name="MessageIdentificationStructure">
+		<xs:all>
+			<xs:element minOccurs="1" maxOccurs="1" name="channelID">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="10"></xs:maxLength>
+						<xs:minLength value="1"></xs:minLength>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element minOccurs="1" maxOccurs="1"
+				name="applicationID">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"></xs:minLength>
+						<xs:maxLength value="255"></xs:maxLength>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element minOccurs="1" maxOccurs="1"
+				name="messageSeqNo">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="\d{1,20}"></xs:pattern>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element minOccurs="1" maxOccurs="1"
+				name="messageTimeStamp" type="xs:dateTime">
+
+			</xs:element>
+			<xs:element minOccurs="1" maxOccurs="1"
+				name="externalReferenceID">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="64"></xs:maxLength>
+						<xs:minLength value="1"></xs:minLength>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+
+			<xs:element minOccurs="1" maxOccurs="1"
+				name="originatingChannelID">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="10"></xs:maxLength>
+						<xs:minLength value="1"></xs:minLength>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element minOccurs="1" maxOccurs="1"
+				name="universalUniqueID">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="64"></xs:maxLength>
+						<xs:minLength value="1"></xs:minLength>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+
+			<xs:element name="externalChannelReferenceNo" maxOccurs="1"
+				minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"></xs:minLength>
+						<xs:maxLength value="64"></xs:maxLength>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="versionNo" maxOccurs="1" minOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:float">
+
+						<xs:minExclusive value="0"></xs:minExclusive>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="priority" maxOccurs="1" minOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+
+						<xs:minInclusive value="0"></xs:minInclusive>
+
+						<xs:maxInclusive value="9"></xs:maxInclusive>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="domain" maxOccurs="1" minOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"></xs:minLength>
+						<xs:maxLength value="50"></xs:maxLength>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="activityName" maxOccurs="1"
+				minOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"></xs:minLength>
+						<xs:maxLength value="50"></xs:maxLength>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="financialValue1" maxOccurs="1"
+				minOccurs="0" type="esb:financialValueType">
+
+			</xs:element>
+			<xs:element name="financialValue2"
+				type="esb:financialValueType" maxOccurs="1" minOccurs="0">
+			</xs:element>
+			<xs:element name="financialValue3"
+				type="esb:financialValueType" maxOccurs="1" minOccurs="0">
+			</xs:element>
+			<xs:element name="financialValue4"
+				type="esb:financialValueType" maxOccurs="1" minOccurs="0">
+			</xs:element>
+			<xs:element name="financialValue5"
+				type="esb:financialValueType" maxOccurs="1" minOccurs="0">
+			</xs:element>
+		</xs:all>
+	</xs:complexType>
+	<xs:simpleType name="financialValueType">
+		<xs:restriction base="xs:decimal">
+			<xs:totalDigits value="17"></xs:totalDigits>
+			<xs:fractionDigits value="2"></xs:fractionDigits>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

@@ -1,0 +1,227 @@
+﻿body {
+    font-family: Verdana, Tahoma, Geneva, sans-serif;
+    letter-spacing: 0.01em;
+    color: #336699;
+    font-size: .6em !important;
+}
+table {
+    width: 99%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+td {
+    padding-bottom: 10px;
+    vertical-align: top !important;
+}
+.form-region > table tr td:nth-child(odd) {
+    width: 20%;
+    padding-bottom: 1px;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+.form-region > div > table tr td table tr td:nth-child(odd) {
+    width: 20%;
+    padding-bottom: 1px;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+.form-container {
+    width: 95%;
+    margin: auto;
+    padding-top: 20px;
+}
+.form-heading { 
+    /*background: #b0e0e6;*/
+     background: #EBA768;
+    /*color: #0E446F;*/
+    color: #fff;
+    border-radius: 5px 5px 0 0; 
+    /*border: solid 3px #b0e0e6;*/
+    border: solid 3px #EBA768;
+    width: 98%;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding: 5px;
+    text-transform: uppercase;
+} 
+.form-region {
+    border-top: 15px#FFE4C4 solid;
+    border-bottom: 5px #FFE4C4 solid;
+    border-left: 3px #FFE4C4 solid;
+    border-right: 3px #FFE4C4 solid;
+    border-radius: 0 0 5px 5px;
+    padding: 5px;
+    width: 98%;
+}
+
+
+.form-region li {
+    list-style: square;
+}
+.left-align {
+    text-align: left!important;
+}
+
+
+
+ 
+
+
+.form-heading::selection {
+    color: red;
+}
+.form-sub-heading {
+    background: #EBA768;
+    color: #fff0f5;
+    border-radius: 5px;
+    border: solid 1px #EBA768;
+    font-weight: bold;
+    width: 98%;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 5px 5px 10px;
+}
+.form-region > table tr:hover td {
+    background-color: #f8f8ff;
+    color: gray;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.declaration-panel,.form-notice  {
+    border-top: 15px #FFE4C4 solid;
+    border-bottom: 15px #FFE4C4 solid;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-top: 10px #FFE4C4 solid;
+   
+    border-left: 1px #FFE4C4 solid;
+    border-right: 1px #FFE4C4 solid;
+    padding: 5px;
+    width: 98%;
+}
+
+    
+
+.salary-details-table table tr td:first-child {
+    width: 25%!important;
+}
+
+.form-header-text {
+    float: left;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+    width: calc(100% - 150px);
+    border-top: 1px #FFE4C4 solid;
+    border-bottom: 1px #FFE4C4 solid;
+    border-radius: 6px;
+    margin-right: 20px;
+    background-color: #f8f8ff;
+}
+.form-title {
+    float: right;
+    padding:20px 10px 20px 5px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 150px;
+    text-align: right;
+    display: block;
+    border-top: 1px #428bca solid;
+    border-bottom: 1px #428bca solid;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 10px;
+    background-color: #f8f8ff;
+}
+
+.forms-list {
+    margin: 20px;
+    padding: 20px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .forms-list table {
+        border-collapse: collapse;
+    }
+        .forms-list table td {
+            padding: 15px;
+            text-decoration: none;
+        }
+            .forms-list table tr td :first-child {
+                width: 300px;
+                text-wrap: none;
+            }
+        .forms-list table tr td :last-child {
+            width: calc(100% - 100px);
+            text-wrap: none;
+        }
+        .forms-list table td a {
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+        }
+        .forms-list table tr {
+            border-top: 1px #336699 solid;
+            border-bottom: 1px #336699 solid;
+            border-left: 15px transparent solid;
+        }
+            .forms-list table tr:hover {
+                padding: 20px;
+                border-left: 15px #336699 solid;
+                text-decoration: none;
+                margin: 15px;
+                background: #c0c0c0;
+                color: red;
+                cursor: pointer;
+            }
+    .forms-list .arrow-right:hover {
+        border-left: 15px solid #336699;
+    }
+ul li {
+    padding:10px;
+}
+body::selection {
+    background: khaki;
+    color: #000;
+    font-weight: bold;
+
+}
+
+.page-container {
+    border: solid 4px #f8f8ff;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    min-height: 600px;
+}
+
+div[id$="_telcontainer"] {
+    border-left: 10px #428bca solid !important;
+}
+
+.telephone-container {
+    width: 99% !important;
+}
+.error-validation {
+    background: red;
+    color: #ffffff;
+}
+.selectedRow
+{
+    color:Red!important;
+    text-transform:uppercase;
+    font-style:italic;
+    font-weight: bold;
+    background: yellow!important;
+}
+fieldset {
+    border-radius: 5px !important;
+    border: #428bca 1px solid;
+}

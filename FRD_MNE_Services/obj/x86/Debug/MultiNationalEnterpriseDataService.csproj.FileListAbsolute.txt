@@ -1,0 +1,4 @@
+d:\projects\FRD_MNE_Services\FRD_MNE_Services\bin\Debug\FRD_MNE_Services.exe
+d:\projects\FRD_MNE_Services\FRD_MNE_Services\bin\Debug\FRD_MNE_Services.pdb
+d:\projects\FRD_MNE_Services\FRD_MNE_Services\obj\x86\Debug\FRD_MNE_Services.exe
+d:\projects\FRD_MNE_Services\FRD_MNE_Services\obj\x86\Debug\FRD_MNE_Services.pdb

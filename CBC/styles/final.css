@@ -1,0 +1,101 @@
+﻿#navigation 
+{
+	top: 5em;
+	left: 1em;
+	position: static;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:1em;
+}
+
+#navigation ul 
+{
+    list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation li 
+{
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.home-item
+{
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	border-left: 12px solid #336699;
+	border-right: 1px solid #6495ED;
+	background-color: #6495ED;
+	color: #FFFFFF;
+	text-decoration: none;	
+}
+
+.aheading
+{
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	border-left: 12px solid #336699;
+	border-right: 1px solid #6495ED;
+	background-color: #6495ED;
+	color: #FFFFFF;
+	text-decoration: none;	
+}
+.asubmenu
+{
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	border-left: 12px solid #336699;
+	border-right: 1px solid #6495ED;
+	background-color: #6495ED;
+	color: #FFFFFF;
+	text-decoration: none;	
+}
+
+#navigation .submenu_block
+{
+	margin-left: 12px;
+}
+
+#navigation ul.submenu_block li 
+{
+	border-bottom: 1px solid #336699;
+	margin:0;
+	background-color: #6495ED;
+	color: #711515;
+}
+
+#navigation a.aheading:link, #navigation a.aheading:visited
+{
+	background-color: #4682B4;
+	color: #000080;
+	filter: progid:DXImageTransform.Microsoft.Gradient (GradientType=0,StartColorStr='#1E90FF',EndColorStr='#4682B4');
+}
+
+#navigation a.aheading:hover 
+{
+	background-color: #336699;
+	color: #FFFFFF;
+}
+.heading-clicked
+{
+    background-color: #336699;
+	color: #FFFFFF;
+}
+
+#navigation li a:hover 
+{
+	background-color: #336699;
+	color: #FFFFFF;
+}
+.error
+{
+    color: #FFFF00;
+    font-family: verdana;
+    font-size: large;    
+}
+
+.heading-clicked
+{
+    background-color: #336699;
+	color: #FFFFFF;
+}

@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFunctions>
+  <Functions>
+    <FunctionId>d14fa422-4a9b-4981-a407-01e31129d158</FunctionId>
+    <Description>Outgoing CBC Report Errors</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-06-21T16:16:49.5</TimeCreated>
+    <Location>/fdr/secureurl/viewquery.aspx?qid=06dd7b2b-9a3e-432c-a55c-35df82ebb830</Location>
+    <FunctionOrder d3p1:nil="true" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance" />
+    <GroupId>d41009c1-f8ea-40fa-85cd-a5f67c9ccbfd</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>7984b239-8e50-4c04-9832-1554b93459e9</FunctionId>
+    <Description>_Validate Files</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-09-26T16:19:32.413</TimeCreated>
+    <FunctionOrder d3p1:nil="true" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance" />
+    <GroupId>57e96981-ae76-4ce1-a788-af288288e145</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>39b1132e-356e-41d9-a5ef-5761ced6e4a3</FunctionId>
+    <Description>Foreign Incoming Data By Jurisdiction</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-05-16T10:53:29.35</TimeCreated>
+    <Location>/fdr/secureurl/viewquery.aspx?qid=2f42ed86-0b74-4aa1-9053-76841676ea59</Location>
+    <FunctionOrder d3p1:nil="true" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance" />
+    <GroupId>d41009c1-f8ea-40fa-85cd-a5f67c9ccbfd</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>ecec808e-db02-4b13-95de-59e03b66b22c</FunctionId>
+    <Description>ENQUIRE MASTER-LOCAL FILES</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-10-30T12:59:45.357</TimeCreated>
+    <Location>/fdr/pages/enquiremasterandlocalfiles.aspx</Location>
+    <FunctionOrder d3p1:nil="true" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance" />
+    <GroupId>b790e638-a3ab-491d-9770-6a0a75440fa8</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>8d2ca076-b8da-4db7-952a-5b4a80e5c0b6</FunctionId>
+    <Description>_View Files</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-09-26T16:19:04.923</TimeCreated>
+    <FunctionOrder d3p1:nil="true" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance" />
+    <GroupId>57e96981-ae76-4ce1-a788-af288288e145</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>dbb6a17b-4ae9-4a4d-a92d-5baf4e92a72a</FunctionId>
+    <Description>Foreign Outgoing Data</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-05-16T10:54:28.987</TimeCreated>
+    <Location>/fdr/secureurl/viewquery.aspx?qid=b5e3cbad-e4ae-438e-ae53-380a481f77e8</Location>
+    <FunctionOrder d3p1:nil="true" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance" />
+    <GroupId>d41009c1-f8ea-40fa-85cd-a5f67c9ccbfd</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>9435c2c3-7ab7-4b0c-a21f-72b9484fd685</FunctionId>
+    <Description>CBC_ApproveDataReady</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-05-30T15:30:17.873</TimeCreated>
+    <FunctionOrder d3p1:nil="true" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance" />
+    <GroupId>57e96981-ae76-4ce1-a788-af288288e145</GroupId>
+    <IncludeInMenu>false</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>3a384f33-08a9-4a1a-ac4f-7d97192ac90c</FunctionId>
+    <Description>VIEW SENT LETTERS</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-11-16T18:22:05.117</TimeCreated>
+    <Location>/fdr/admin/sentletters.aspx</Location>
+    <FunctionOrder d3p1:nil="true" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance" />
+    <GroupId>e634f247-4ff3-4a80-b39d-0d85182f9179</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>f56e4431-e5e2-44d6-a017-818b023e95eb</FunctionId>
+    <Description>ENQUIRE U3TM</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-11-09T17:47:19.41</TimeCreated>
+    <Location>/fdr/pages/u3tm.aspx</Location>
+    <FunctionOrder d3p1:nil="true" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance" />
+    <GroupId>e634f247-4ff3-4a80-b39d-0d85182f9179</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>a2d108af-4865-408f-a154-9da2221c7460</FunctionId>
+    <Description>Master And Local File Submissions</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-05-16T10:54:58.347</TimeCreated>
+    <Location>/fdr/secureurl/viewquery.aspx?qid=916d3243-cf09-4c27-b5bf-f34f306c2819</Location>
+    <FunctionOrder d3p1:nil="true" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance" />
+    <GroupId>d41009c1-f8ea-40fa-85cd-a5f67c9ccbfd</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>28182a87-4550-4e3b-a3cc-d7131c2fc673</FunctionId>
+    <Description>Outgoing CBC Report Statuses</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-06-21T16:19:05.7</TimeCreated>
+    <Location>/fdr/secureurl/viewquery.aspx?qid=fdf011e3-5563-4f21-8508-a8eac2b6a420</Location>
+    <FunctionOrder d3p1:nil="true" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance" />
+    <GroupId>d41009c1-f8ea-40fa-85cd-a5f67c9ccbfd</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>4443ec9b-6011-41a3-89d9-edb7fc8ce5aa</FunctionId>
+    <Description>Domestic Incoming Data by Jurisdiction</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-05-16T10:53:44.683</TimeCreated>
+    <Location>/fdr/secureurl/viewquery.aspx?qid=5c1f710a-ec87-476c-8059-5a4b542067f4</Location>
+    <FunctionOrder d3p1:nil="true" xmlns:d3p1="http://www.w3.org/2001/XMLSchema-instance" />
+    <GroupId>d41009c1-f8ea-40fa-85cd-a5f67c9ccbfd</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>b080bfcc-56d1-4a77-a416-eb542135be62</FunctionId>
+    <Description>Master And Local Fles</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-05-16T11:55:31.69</TimeCreated>
+    <Location>/fdr/pages/outgoingfiles.aspx</Location>
+    <FunctionOrder>1</FunctionOrder>
+    <GroupId>bb5aa51b-1e17-436a-ad93-df54ae0512c2</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>dd843518-03ec-40dd-858d-f83294d2170a</FunctionId>
+    <Description>Approve Foreign Packages</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-05-16T11:22:55.427</TimeCreated>
+    <Location>/fdr/pages/approveincomingpackage.aspx</Location>
+    <FunctionOrder>1</FunctionOrder>
+    <GroupId>d82766bb-bfb0-44de-a60a-478d41603dbb</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>0bbcb01f-194b-4960-8510-ffd6ad7ed39b</FunctionId>
+    <Description>View Reports</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-08-10T12:16:01.733</TimeCreated>
+    <FunctionOrder>1</FunctionOrder>
+    <GroupId>aa544e80-e2c1-4ad4-b431-77fd32922818</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>f5b5ffa4-7712-42e2-ba0d-deadc6bf020d</FunctionId>
+    <Description>New Local Files</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-08-16T09:49:53.483</TimeCreated>
+    <Location>/fdr/pages/viewlocalfiles.aspx</Location>
+    <FunctionOrder>1</FunctionOrder>
+    <GroupId>74177b4f-8102-4b99-8082-ffb5547c4247</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>33ad63e7-21c0-4c96-afdd-b8e4b339a711</FunctionId>
+    <Description>Incoming Packages</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-05-16T11:21:32.167</TimeCreated>
+    <Location>/fdr/pages/incomingpackage.aspx</Location>
+    <FunctionOrder>1</FunctionOrder>
+    <GroupId>d82766bb-bfb0-44de-a60a-478d41603dbb</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>dd846e19-6761-4009-873d-c42db8032af4</FunctionId>
+    <Description>New Master Files</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-08-16T09:49:26.453</TimeCreated>
+    <Location>/fdr/pages/viewmasterfiles.aspx</Location>
+    <FunctionOrder>1</FunctionOrder>
+    <GroupId>cd06a707-a7e5-4888-8841-55708a28b103</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>24e42b9f-9fd3-4d6b-96a0-18a155af989a</FunctionId>
+    <Description>Add User</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-08-10T12:32:14.993</TimeCreated>
+    <Location>/fdr/secureurl/assignusertorole.aspx</Location>
+    <FunctionOrder>1</FunctionOrder>
+    <GroupId>2737ac48-2277-4210-8c5c-c9c04773ba6b</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>7986d90a-6cab-480a-8421-0cc64b5e13c0</FunctionId>
+    <Description>NEW DECLARATIONS</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-10-02T11:42:18.02</TimeCreated>
+    <Location>/fdr/pages/incomingcbcdeclataions.aspx</Location>
+    <FunctionOrder>1</FunctionOrder>
+    <GroupId>9b12dd80-7fb9-445c-8af7-25aa8abf770c</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>cf34ceb0-3838-4d38-9243-21cb6f91b69c</FunctionId>
+    <Description>EMAIL FILE NOTIFICATION TEMPLATES</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-10-08T12:38:16.487</TimeCreated>
+    <Location>/fdr/pages/configurenotificationemails.aspx</Location>
+    <FunctionOrder>1</FunctionOrder>
+    <GroupId>e634f247-4ff3-4a80-b39d-0d85182f9179</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>7bd78341-653c-474a-90cf-29463e7dd2fd</FunctionId>
+    <Description>NEW SUBMISSIONS</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-09-25T19:46:55.117</TimeCreated>
+    <Location>/fdr/pages/viewsubmissions.aspx</Location>
+    <FunctionOrder>1</FunctionOrder>
+    <GroupId>b790e638-a3ab-491d-9770-6a0a75440fa8</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>0fce1e5a-1a6c-4871-a312-3f6d1c3f56da</FunctionId>
+    <Description>Genarate Package</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-05-16T11:06:34.603</TimeCreated>
+    <Location>/fdr/pages/generateoutgoingcbcr.aspx</Location>
+    <FunctionOrder>1</FunctionOrder>
+    <GroupId>3805ba5c-ebba-4413-90f7-321c97c05995</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>ec9461f2-9139-45d6-be17-475ef835e75f</FunctionId>
+    <Description>SMS FILE NOTIFICATION TEMPLATES</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-10-08T13:27:33.05</TimeCreated>
+    <Location>/fdr/pages/configurenotificationsms.aspx</Location>
+    <FunctionOrder>2</FunctionOrder>
+    <GroupId>e634f247-4ff3-4a80-b39d-0d85182f9179</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>f7350afc-da84-4c77-81ae-661d5aa07342</FunctionId>
+    <Description>Verified Packages</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-04-16T12:15:15.963</TimeCreated>
+    <Location>/fdr/pages/verifiedoutgoingcbcr.aspx</Location>
+    <FunctionOrder>2</FunctionOrder>
+    <GroupId>3805ba5c-ebba-4413-90f7-321c97c05995</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>8d35f1c6-82a2-466d-b2e9-cfcf2a2de30e</FunctionId>
+    <Description>Approved Master Files</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-08-16T09:48:10.217</TimeCreated>
+    <Location>/fdr/pages/approvedmasterfiles.aspx</Location>
+    <FunctionOrder>2</FunctionOrder>
+    <GroupId>cd06a707-a7e5-4888-8841-55708a28b103</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>f955bd62-514f-4b2d-9d1d-e060648686fe</FunctionId>
+    <Description>VIEWED DECLARATIONS</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-10-02T11:42:25.71</TimeCreated>
+    <Location>/fdr/pages/viewedincomingcbcdeclataions.aspx</Location>
+    <FunctionOrder>2</FunctionOrder>
+    <GroupId>9b12dd80-7fb9-445c-8af7-25aa8abf770c</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>94c0e367-8930-4f98-ae49-dcf3f398ece1</FunctionId>
+    <Description>Change User Role</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-05-16T12:04:26.32</TimeCreated>
+    <Location>/fdr/admin/default2.aspx</Location>
+    <FunctionOrder>2</FunctionOrder>
+    <GroupId>2737ac48-2277-4210-8c5c-c9c04773ba6b</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>ddf8277f-64c3-47c1-a10c-7adbd2979d93</FunctionId>
+    <Description>Verified Foreign Packages</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-05-16T11:21:46.337</TimeCreated>
+    <Location>/fdr/pages/verifiedincomingcbcr.aspx</Location>
+    <FunctionOrder>2</FunctionOrder>
+    <GroupId>d82766bb-bfb0-44de-a60a-478d41603dbb</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>8c2ae3fc-8166-4da9-bf1e-84a3b8671f83</FunctionId>
+    <Description>IN-PROGRESS</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-09-25T19:47:17.783</TimeCreated>
+    <Location>/fdr/pages/inprogress.aspx</Location>
+    <FunctionOrder>2</FunctionOrder>
+    <GroupId>b790e638-a3ab-491d-9770-6a0a75440fa8</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>df143fe4-b123-4c0d-9a01-862bbd92bd08</FunctionId>
+    <Description>Partially Validated</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-08-10T12:17:16.54</TimeCreated>
+    <FunctionOrder>2</FunctionOrder>
+    <GroupId>aa544e80-e2c1-4ad4-b431-77fd32922818</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>49ad67ea-06f9-4db2-9cd9-87ff514e950e</FunctionId>
+    <Description>Approved Localfiles</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-08-16T09:40:37.75</TimeCreated>
+    <Location>/fdr/pages/approvedlocalfiles.aspx</Location>
+    <FunctionOrder>2</FunctionOrder>
+    <GroupId>74177b4f-8102-4b99-8082-ffb5547c4247</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>b8a2ff2d-f49d-4489-b2ff-cd2b462b167e</FunctionId>
+    <Description>Approved Foreign Packages</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-05-16T11:22:02.617</TimeCreated>
+    <Location>/fdr/pages/approvedincomingpackage.aspx</Location>
+    <FunctionOrder>3</FunctionOrder>
+    <GroupId>d82766bb-bfb0-44de-a60a-478d41603dbb</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>7782e9a7-d7f8-4e46-91d2-6733bbcd4106</FunctionId>
+    <Description>Approve Packages</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-04-16T12:15:26.59</TimeCreated>
+    <Location>/fdr/pages/approveoutgoincbc.aspx</Location>
+    <FunctionOrder>3</FunctionOrder>
+    <GroupId>3805ba5c-ebba-4413-90f7-321c97c05995</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>ac6ae09b-c2bc-4d4f-9954-780407706348</FunctionId>
+    <Description>Validated</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-08-10T12:17:29.787</TimeCreated>
+    <FunctionOrder>3</FunctionOrder>
+    <GroupId>aa544e80-e2c1-4ad4-b431-77fd32922818</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>e97b8866-af65-412d-8810-268d1587a121</FunctionId>
+    <Description>Declined Master Files</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-08-16T09:48:27.693</TimeCreated>
+    <Location>/fdr/pages/declinedmasterfiles.aspx</Location>
+    <FunctionOrder>3</FunctionOrder>
+    <GroupId>cd06a707-a7e5-4888-8841-55708a28b103</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>8e18429e-e764-4d10-b7e5-fc06cfe79786</FunctionId>
+    <Description>Declined Local Files</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-08-16T09:40:32.413</TimeCreated>
+    <Location>/fdr/pages/declinedlocalfiles.aspx</Location>
+    <FunctionOrder>3</FunctionOrder>
+    <GroupId>74177b4f-8102-4b99-8082-ffb5547c4247</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>2116652f-06c0-4343-8f8f-fd1c32c83a75</FunctionId>
+    <Description>ACCEPTED SUBMISSIONS</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-09-25T19:47:42.977</TimeCreated>
+    <Location>/fdr/pages/acceptedsubmissions.aspx</Location>
+    <FunctionOrder>3</FunctionOrder>
+    <GroupId>b790e638-a3ab-491d-9770-6a0a75440fa8</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>8106870f-7075-4e23-bd9b-f4e3a0161401</FunctionId>
+    <Description>Remove User</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-08-10T12:32:27.813</TimeCreated>
+    <Location>/fdr/secureurl/removeuserfromrole.aspx</Location>
+    <FunctionOrder>3</FunctionOrder>
+    <GroupId>2737ac48-2277-4210-8c5c-c9c04773ba6b</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>dffedfc9-2202-4757-87e6-433591267a63</FunctionId>
+    <Description>Rejected Foreign Packages</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-05-16T11:22:15.35</TimeCreated>
+    <Location>/fdr/pages/rejectedincomingcbcr.aspx</Location>
+    <FunctionOrder>4</FunctionOrder>
+    <GroupId>d82766bb-bfb0-44de-a60a-478d41603dbb</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>ada5c7c1-1f54-4a10-83c8-51790df24ae0</FunctionId>
+    <Description>User Profile</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-10-02T18:17:01.017</TimeCreated>
+    <Location>/fdr/pages/userprofile.aspx</Location>
+    <FunctionOrder>4</FunctionOrder>
+    <GroupId>2737ac48-2277-4210-8c5c-c9c04773ba6b</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>078e9468-5889-42d6-8f0c-d60dd0c26961</FunctionId>
+    <Description>Generate Package</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-04-16T12:18:04.697</TimeCreated>
+    <Location>/fdr/pages/regeneratecbcr.aspx</Location>
+    <FunctionOrder>4</FunctionOrder>
+    <GroupId>3805ba5c-ebba-4413-90f7-321c97c05995</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>886768c9-9d4e-468c-ba97-b2a915404a68</FunctionId>
+    <Description>ACCEPTED WITH WARNINGS</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-10-05T13:06:18.703</TimeCreated>
+    <Location>/fdr/pages/acceptedwithwarnings.aspx</Location>
+    <FunctionOrder>4</FunctionOrder>
+    <GroupId>b790e638-a3ab-491d-9770-6a0a75440fa8</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>57201060-6775-46c1-8a10-5446a56a6fe3</FunctionId>
+    <Description>Partially Approved</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-08-16T09:41:49.093</TimeCreated>
+    <FunctionOrder>5</FunctionOrder>
+    <GroupId>74177b4f-8102-4b99-8082-ffb5547c4247</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>abbb9cf3-aeef-4633-a502-d67bda5c80c7</FunctionId>
+    <Description>REJECTED SUBMISSIONS</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-09-25T19:47:54.727</TimeCreated>
+    <Location>/fdr/pages/declinedsubmissions.aspx</Location>
+    <FunctionOrder>5</FunctionOrder>
+    <GroupId>b790e638-a3ab-491d-9770-6a0a75440fa8</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>7cd8ad24-c294-4ed0-9d86-1e2bfeefa007</FunctionId>
+    <Description>Approved Packages</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-04-16T12:15:40.863</TimeCreated>
+    <Location>/fdr/pages/approvedoutgoingcbcr.aspx</Location>
+    <FunctionOrder>5</FunctionOrder>
+    <GroupId>3805ba5c-ebba-4413-90f7-321c97c05995</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>a09a7104-a4ac-4122-974a-eff41f5a23d6</FunctionId>
+    <Description>Package Status</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-05-16T11:24:55.62</TimeCreated>
+    <Location>/fdr/pages/incomingfilestatuses.aspx</Location>
+    <FunctionOrder>5</FunctionOrder>
+    <GroupId>d82766bb-bfb0-44de-a60a-478d41603dbb</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>69f35d7e-9d92-445d-a5ad-ecc0cb31c849</FunctionId>
+    <Description>Rejected Packages</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-04-16T12:15:56.42</TimeCreated>
+    <Location>/fdr/pages/rejectedoutgoingcbcr.aspx</Location>
+    <FunctionOrder>6</FunctionOrder>
+    <GroupId>3805ba5c-ebba-4413-90f7-321c97c05995</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>8f2d2dc0-48b2-4be3-9056-52311e8f00b5</FunctionId>
+    <Description>Manage MNE List</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-08-10T12:59:12.897</TimeCreated>
+    <Location>/fdr/pages/managemne.aspx</Location>
+    <FunctionOrder>6</FunctionOrder>
+    <GroupId>e634f247-4ff3-4a80-b39d-0d85182f9179</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>71657af1-4a7e-4252-bfde-26913bdfcec2</FunctionId>
+    <Description>Main Menu</Description>
+    <Active>true</Active>
+    <TimeCreated>2017-08-10T12:32:21.983</TimeCreated>
+    <Location>/fdr/secureurl/menu.aspx</Location>
+    <FunctionOrder>7</FunctionOrder>
+    <GroupId>e634f247-4ff3-4a80-b39d-0d85182f9179</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>2ebf6a90-3176-4c5a-b308-886219a1e1ea</FunctionId>
+    <Description>Submitted Packages</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-05-16T11:07:02.43</TimeCreated>
+    <Location>/fdr/pages/submittedoutgoingcbcr.aspx</Location>
+    <FunctionOrder>7</FunctionOrder>
+    <GroupId>3805ba5c-ebba-4413-90f7-321c97c05995</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>1b28080d-f6f4-4ec2-969a-96efb8a71fae</FunctionId>
+    <Description>Review Corrected Packages</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-05-16T11:07:14.64</TimeCreated>
+    <Location>/fdr/pages/reviewcorrections.aspx</Location>
+    <FunctionOrder>8</FunctionOrder>
+    <GroupId>3805ba5c-ebba-4413-90f7-321c97c05995</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>4a47c15d-8534-474d-9719-e628e6a91060</FunctionId>
+    <Description>Review Voided Packages</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-05-16T11:06:48.327</TimeCreated>
+    <Location>/fdr/pages/reviewvoid.aspx</Location>
+    <FunctionOrder>9</FunctionOrder>
+    <GroupId>3805ba5c-ebba-4413-90f7-321c97c05995</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>89948ec2-4824-465d-b8e5-0f3768a616f2</FunctionId>
+    <Description>Enquire Packages Status</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-04-16T12:16:38.963</TimeCreated>
+    <Location>/fdr/pages/enquirecbcrstatus.aspx</Location>
+    <FunctionOrder>10</FunctionOrder>
+    <GroupId>3805ba5c-ebba-4413-90f7-321c97c05995</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>96919937-865c-46b2-a4a6-f0c8271c07f9</FunctionId>
+    <Description>Correct Package</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-05-16T11:07:25.043</TimeCreated>
+    <Location>/fdr/pages/correctpackages.aspx</Location>
+    <FunctionOrder>11</FunctionOrder>
+    <GroupId>3805ba5c-ebba-4413-90f7-321c97c05995</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+  <Functions>
+    <FunctionId>3f4d9609-1bf8-4070-9708-e4167742857c</FunctionId>
+    <Description>Void Package</Description>
+    <Active>true</Active>
+    <TimeCreated>2018-04-16T12:16:26.063</TimeCreated>
+    <Location>/fdr/pages/voidpackages.aspx</Location>
+    <FunctionOrder>12</FunctionOrder>
+    <GroupId>3805ba5c-ebba-4413-90f7-321c97c05995</GroupId>
+    <IncludeInMenu>true</IncludeInMenu>
+  </Functions>
+</ArrayOfFunctions>

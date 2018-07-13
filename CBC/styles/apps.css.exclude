@@ -1,0 +1,127 @@
+﻿ .sars-lbl {
+            color: gray;
+            font-size: 13px;
+            box-shadow: inset 0 0 2px rgba(000,000,000, 0.2);
+            height: 30px;
+            min-height: 30px;
+            width: 300px;
+            background-color: aliceblue;
+            padding-top: 5px;
+            padding-left: 5px;
+            border-radius: 4px 0 0 4px;
+            -webkit-border-radius: 4px 0 0 4px;
+            -moz-border-radius: 4px 0 0 4px;
+     
+        }
+        .sars-button {
+            padding-left: 10px;
+            font-size: 13px;
+            height: 28px;
+            width: 150px;
+            border: 1px solid silver;
+            box-shadow: inset 0 0 2px rgba(000,000,000, 0.2);
+            font-family: verdana;
+            color: #336699;
+        }
+
+        .sars-calendar {
+            width: 150px !important;
+            height: 30px !important;
+        }
+
+  
+
+
+		.selectedRow
+		{
+			color: Red;
+			text-transform: uppercase;
+			font-style: italic;
+		}
+		
+		.ww
+		{
+			width: 100%;
+		}
+		
+		
+		.div-10 {
+		          border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            padding-left: 10px;
+            padding-top: 10px;
+            border: 1px solid silver;
+		}
+		
+		
+		.documents
+		{
+			width: 100%;
+			border-collapse: collapse;
+			border: 1px solid silver;
+			background-color: ghostwhite;
+		}
+		
+		.documents td, th
+		{
+			text-align: left;
+		}
+		
+		.documents td
+		{
+			padding: 10px;
+			border: 1px solid silver;
+			font-family: verdana;
+		}
+		.documents th
+		{
+			background-color: silver;
+			padding: 15px;
+			border: 1px solid silver;
+			font-family: verdana;
+		}
+		.documents tr:hover
+		{
+			background-color: gray;
+			color: #fff;
+			cursor: pointer;
+		}
+		input
+		{
+			border-radius: 4px;
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+		}
+		.rounded
+		{
+			border-radius: 4px;
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+		}
+		.rounded-buttons 
+		{
+			
+			
+			border-radius: 4px;
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			background-color: #336699;
+			color: #fff;
+		}
+		
+		    legend
+        {
+            border: 1px solid silver;
+            border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+             background-color: khaki;
+        }
+         fieldset
+        {
+            border: 1px solid silver;
+            border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+        }

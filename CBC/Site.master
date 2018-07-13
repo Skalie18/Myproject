@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <title></title>
+    <meta charset="UTF-8" http-equiv="x-ua-compatible" content="IE=Edge" />
+
+    <link href="styles/Site.css" rel="stylesheet" />
+    <link href="styles/bootstrap.css" rel="stylesheet" />
+    <link href="styles/gridview.css" rel="stylesheet" />
+
+    <%--   <link href="styles/Site-QA.css" rel="stylesheet" />
+    <link href="styles/bootstrap-QA.css" rel="stylesheet" />
+    <link href="styles/gridview-QA.css" rel="stylesheet" />--%>
+
+    <link href="styles/survey.css" rel="stylesheet" />
+    <link href="styles/final.css" rel="stylesheet" />
+    <link href="styles/toolBars.css" rel="stylesheet" />
+
+
+
+    <style>
+        .ui-datepicker {
+            padding: 0.2em 0.2em 0;
+            width: 250px !important;
+        }
+    </style>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" AsyncPostBackTimeout="300">
+        </asp:ScriptManager>
+        <div id="main">
+            <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                <ContentTemplate>
+                    <table>
+                        <tr>
+                            <td style="width: 350px !important; vertical-align: top">
+
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        MAIN MENU
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="page-container">
+                                            <div id="navigation">
+                                                <ul>
+
+                                                    <li><a class="aheading" href="#">New Submissions</a>
+                                                        <ul class="submenu_block">
+
+                                                            <li><a class="asubmenu" href="<%=ResolveClientUrl("cbc01.aspx") %>">Complete CBC01 Form</a> </li>
+
+                                                            <li><a class="asubmenu" href="<%=ResolveClientUrl("MasterFileUpload.aspx") %>">Upload Master File</a> </li>
+
+                                                            <li><a class="asubmenu" href="<%=ResolveClientUrl("LocalFileUpload.aspx") %>">Upload Local File</a> </li>
+
+                                                        </ul>
+                                                    </li>
+
+                                                       <li><a class="aheading" href="#">Saved Submissions</a>
+                                                        <ul class="submenu_block">
+
+                                                            <li><a class="asubmenu" href="<%=ResolveClientUrl("SavedReports.aspx") %>">Saved Reports</a> </li>
+                                                            <li><a class="asubmenu" href="<%=ResolveClientUrl("SubmittedReports.aspx") %>">Submitted Reports</a> </li>
+                                                            <li><a class="asubmenu" href="<%=ResolveClientUrl("SavedMasterFiles.aspx") %>">Saved Master Files</a> </li>
+                                                            <li><a class="asubmenu" href="<%=ResolveClientUrl("SavedLocalFiles.aspx") %>">Saved Local File</a> </li>
+
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </ContentTemplate>
+            </asp:UpdatePanel>
+
+        </div>
+    </form>
+</body>
+</html>

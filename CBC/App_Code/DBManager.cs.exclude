@@ -1,0 +1,821 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Data;
+using System.IO;
+using System.Web;
+using Sars.Systems.Data;
+using Sars.Models.CBC;
+
+/// <summary>
+/// Summary description for DBManager
+/// </summary>
+public static class db
+{
+    #region READ FROM DB
+
+    public static FormDefaults GetFormDefaults()
+    {
+        return new FormDefaults("[dbo].[usp_READ_FormDefaults]", null).GetRecord<FormDefaults>();
+    }
+    public static string GetFormVersion(string formName)
+    {
+        using (var oCommand = new DBCommand("usp_GetFormVersion", QueryType.StoredProcedure, new DBParamCollection { { "@FormName", formName } }))
+        {
+            var version = oCommand.ExecuteScalar();
+            if (version == null || version == DBNull.Value)
+            {
+                return "v0.0";
+            }
+            return version.ToString();
+        }
+    }
+    public static UserDetails GetCurrentUserDetails()
+    {
+        var TaxUserID = HttpContext.Current.Session["TaxUserID"];
+        var TaxPayerID = HttpContext.Current.Session["TaxPayerID"];
+
+        var userDetails = new UserDetails("[dbo].[usp_GetUserInfo]",
+            new Dictionary<string, object> { { "@TaxUserID", TaxUserID }, { "@TaxPayerID", TaxPayerID } });
+        var details = userDetails.GetRecord<UserDetails>();
+        return details;
+    }
+    public static List<RequestReasonCodes> GetRequestReasonCodes(string formName)
+    {
+        return new RequestReasonCodes().RunReadProcedureList<RequestReasonCodes>("[dbo].[usp_Read_RequestReasonCodes]",
+            new DBParamCollection() { { "@FormName", formName } });
+    }
+    public static string GetRequestErrorXml(decimal requestId)
+    {
+        using (var oCommand = new DBCommand("usp_READ_RequestErrors", QueryType.StoredProcedure,
+            new DBParamCollection { { "@RequestId", requestId } }))
+        {
+            var xml = Convert.ToString(oCommand.ExecuteScalar());
+            return xml;
+        }
+    }
+    public static string GetRequestErrorXmlExtra(decimal requestId)
+    {
+        using (var oCommand = new DBCommand("ups_GET_MoreXML_Errors", QueryType.StoredProcedure,
+            new DBParamCollection { { "@RequestId", requestId } }))
+        {
+            var xml = Convert.ToString(oCommand.ExecuteScalar());
+            return xml;
+        }
+    }
+    public static T SetFieldValue<T>(DataRow row, string columnName)
+    {
+        if (row.Table.Columns.Contains(columnName))
+        {
+            if (row[columnName] == null || row[columnName] == DBNull.Value)
+            {
+                return default(T);
+            }
+            if (typeof(T) == typeof(bool))
+            {
+                return (T)(object)bool.Parse(row[columnName].ToString());
+            }
+            return (T)row[columnName];
+        }
+        return default(T);
+    }
+    public static DataRow ReadFormData(string requestId, string procedureName)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@RequestId", requestId}
+        };
+        using (var command = new DBCommand(procedureName, QueryType.StoredProcedure, oParams))
+        {
+            var xml = command.ExecuteScalar();
+            if (xml != null)
+            {
+                using (var reader = new StringReader(xml.ToString()))
+                {
+                    var ds = new RecordSet();
+                    ds.ReadXml(reader);
+                    return ds.HasRows ? ds[0] : null;
+                }
+            }
+        }
+        return null;
+    }
+
+    public static int RemoveRequest(decimal requestId, string procedure)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@RequestID", requestId}
+        };
+        using (var command = new DBCommand(procedure, QueryType.StoredProcedure, oParams))
+        {
+            return command.Execute();
+        }
+    }
+
+
+
+
+
+
+
+    public static List<AddressType> GetAllAdressTypes()
+    {
+        return new AddressType().RunReadProcedureList<AddressType>("[dbo].[uspREAD_AllAddressTypes]", null);
+    }
+    public static List<BusinessActivities> GetAllBusinessActivities()
+    {
+        return new BusinessActivities().RunReadProcedureList<BusinessActivities>("[dbo].[uspREAD_AllBusinessActivities]", null);
+    }
+
+    public static List<PostalServices> GetAllPostalServices()
+    {
+        return new PostalServices().RunReadProcedureList<PostalServices>("[dbo].[uspREAD_AllPostalServices]", null);
+    }
+    public static List<ReportingRoles> GetAllReportingRoles()
+    {
+        return new ReportingRoles().RunReadProcedureList<ReportingRoles>("[dbo].[uspREAD_AllReportingRoles]", null);
+    }
+
+    public static List<SummaryReferenceCodes> GetAllSummaryRefCodes()
+    {
+        return new SummaryReferenceCodes().RunReadProcedureList<SummaryReferenceCodes>("[dbo].[uspREAD_AllSummaryReferenceCodes]", null);
+    }
+    public static List<MasterFileCategories> GetAllMasterFileCategories()
+    {
+        return new MasterFileCategories("[dbo].[uspREAD_MasterFileCategories]", null).GetRecords<MasterFileCategories>();
+    }
+    public static List<LocalFileCategories> GetAllLocalFileCategories()
+    {
+        return new LocalFileCategories("[dbo].[uspREAD_LocalFileCategories]", null).GetRecords<LocalFileCategories>();
+    }
+
+    public static ReportEntity GetReportEntityByUserID(string taxUserId)
+    {
+        var oparams = new DBParamCollection
+        {
+            {"@TaxUserID", taxUserId }
+        };
+
+        return new ReportEntity().RunReadProcedureList<ReportEntity>("[dbo].[uspREAD_ReportEntityByUserID]", oparams)[0];
+    }
+
+    public static EntityAddress GetEntityAddressByID(string id)
+    {
+        var oparams = new DBParamCollection
+        {
+            {"@ID", id }
+        };
+
+        return new EntityAddress().RunReadProcedureList<EntityAddress>("[dbo].[uspREAD_ReportEntityAddress]", oparams)[0];
+    }
+
+    public static ReportEntityContactPersonDetails GetContactPersonByID(string id)
+    {
+        var oparams = new DBParamCollection
+        {
+            {"@ID", id }
+        };
+
+        return new ReportEntityContactPersonDetails().RunReadProcedureList<ReportEntityContactPersonDetails>("[dbo].[uspREAD_ReportEntityContactPersonDetails]", oparams)[0];
+    }
+
+    public static CBCReports GetCBCReportByID(string id)
+    {
+        var oparams = new DBParamCollection
+        {
+            {"@ID", id }
+        };
+
+        return new CBCReports().RunReadProcedureList<CBCReports>("[dbo].[uspREAD_CBCReports]", oparams)[0];
+    }
+
+    public static List<CBCReport_Summary> GetReportSummaryByID(string id)
+    {
+        var oparams = new DBParamCollection
+        {
+            {"@ReportId", id }
+        };
+
+        return new CBCReport_Summary().RunReadProcedureList<CBCReport_Summary>("[dbo].[uspREAD_CBCReport_SummaryByReportID]", oparams);
+    }
+
+    public static List<CBC01Data> GetCBCDataList()
+    {
+        return new CBC01Data().RunReadProcedureList<CBC01Data>("[dbo].[uspREAD_CBC01Data]", null);
+    }
+
+   /* public static string GetCBCData(string id)
+    {
+        var oparams = new DBParamCollection
+        {
+            {"@ID", id }
+        };
+        var cbcDataList = new CBC01Data().RunReadProcedureList<CBC01Data>("[dbo].[uspREAD_CBC01Data]", oparams);
+        if (cbcDataList != null)
+        {
+            var cbcData = cbcDataList[0];
+            return cbcData.DataValue;
+        }
+
+        return string.Empty;
+    }*/
+    public static string GetCBCData()
+    {
+        
+        var cbcDataList = new CBC01Data().RunReadProcedureList<CBC01Data>("[dbo].[uspREAD_CBC01Data]", null);
+        if (cbcDataList != null)
+        {
+            var cbcData = cbcDataList[0];
+            return cbcData.DataValue;
+        }
+
+        return string.Empty;
+    }
+
+    #endregion
+
+    #region DB UPDATES
+
+
+
+    public static int SaveFormData(DataTable requestDateTable, decimal requestId, string formId, string taxUserId,
+        string taxPayerId, string procedureName, string formName)
+    {
+        using (var data = new RecordSet("FORMADSET"))
+        {
+            data.Tables.Add(requestDateTable);
+            var xml = data.GetXml();
+            var oParams = new DBParamCollection
+            {
+                {"@DirectiveRequestID", requestId},
+                {"@FormID", formId},
+                {"@TaxUserID", taxUserId},
+                {"@TaxPayerID", taxPayerId},
+                {"@DirectiveTypeCode", formName},
+                {"@FormContetnts", xml}
+            };
+            using (var command = new DBCommand(procedureName, QueryType.StoredProcedure, oParams))
+            {
+                return command.Execute();
+            }
+        }
+    }
+
+    public static int SubmitRequest(decimal requestId, string formId)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@RequestID", requestId},
+            {"@FormID", formId}
+        };
+        using (var command = new DBCommand("[dbo].[usp_SubmitRequst]", QueryType.StoredProcedure, oParams))
+        {
+            return command.Execute();
+        }
+    }
+
+    public static int DuplicateRequest(string formId, string requestId, string userId)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@TaxUserID", userId},
+            {"@FormId", formId},
+            {"@RequestId", requestId}
+        };
+
+        using (var oCommand = new DBCommand("[dbo].[Duplicate_Directive_Request]", QueryType.StoredProcedure, oParams))
+        {
+            return oCommand.Execute();
+        }
+    }
+
+    public static int ArchieveDirective(string formId, string requestId, string userId)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@TaxUserID", userId},
+            {"@FormId", formId},
+            {"@RequestId", requestId}
+        };
+
+        using (var oCommand = new DBCommand("[dbo].[Archive_Directive_Request]", QueryType.StoredProcedure, oParams))
+        {
+            return oCommand.Execute();
+        }
+    }
+
+    public static int SendCancelRequest
+        (
+        string userId
+        , string taxpayerId
+        , string formId
+        , string requestId
+        , string cReason
+        , string cContactPerson
+        , string cDialCode
+        , string cTelNo
+        , string req_Seq_Num
+        )
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@TaxUserID", userId},
+            {"@TaxPayerID", taxpayerId},
+            {"@FormId", formId},
+            {"@RequestId", requestId},
+            {"@Reason", cReason},
+            {"@ContactPerson", cContactPerson},
+            {"@DialCode", cDialCode},
+            {"@TelNo", cTelNo},
+            {"@req_Seq_Num", req_Seq_Num }
+        };
+        using (var command = new DBCommand("[dbo].[usp_RequstDirCancelation]", QueryType.StoredProcedure, oParams))
+        {
+            return command.Execute();
+        }
+    }
+
+    public static int MoveDirectiveToPending(string directiveRequestId)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@RequestID", directiveRequestId}
+        };
+        using (var oCommand = new DBCommand("[dbo].[MoveDirectiveToPending]", QueryType.StoredProcedure, oParams))
+        {
+            return oCommand.Execute();
+        }
+    }
+
+    public static void SaveRequestDetails(
+        string sessionId
+        , string appRelativeCurrentExecutionFilePath
+        , string filePath
+        , string physicalApplicationPath
+        , string rawUrl
+        , string userAgent
+        , bool isAuthenticated
+        , string machineName
+        , string authUser
+    )
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@SessionID", sessionId},
+            {"@AppRelativeCurrentExecutionFilePath", appRelativeCurrentExecutionFilePath},
+            {"@FilePath", filePath},
+            {"@PhysicalApplicationPath", physicalApplicationPath},
+            {"@RawUrl", rawUrl},
+            {"@UserAgent", userAgent},
+            {"@IsAuthenticated", isAuthenticated},
+            {"@MachineName", machineName},
+            {"@AuthUser", authUser}
+        };
+
+        using (
+            var oCommand = new DBCommand("[dbo].[spINSERT_RequestDetails]", QueryType.StoredProcedure, oParams))
+        {
+            oCommand.Execute();
+        }
+    }
+
+    public static void SaveSystemError(string sessionId, string message, string stacktrace, string systemUser)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@Message", message},
+            {"@SessionId", sessionId},
+            {"@StackTrace", stacktrace},
+            {"@UserName", systemUser}
+        };
+
+        using (var oCommand = new DBCommand("[dbo].[spINSERT_SystemErrors]", QueryType.StoredProcedure, oParams))
+        {
+            oCommand.Execute();
+        }
+    }
+
+    public static decimal SaveReportEntityContactPersonDetails(ReportEntityContactPersonDetails recpDetails)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@ID", recpDetails.ID},
+            {"@FirstNames", recpDetails.FirstNames},
+            {"@Surname", recpDetails.Surname},
+            {"@BusTelNo1", recpDetails.BusTelNo1},
+            {"@BusTelNo2", recpDetails.BusTelNo2},
+            {"@CellNo", recpDetails.CellNo},
+            {"@EmailAddress", recpDetails.EmailAddress},
+            {"@Return_Value", null, ParameterDirection.ReturnValue}
+        };
+
+        using (var oCommand = new DBCommand("[dbo].[uspUPSERT_ReportEntityContactPersonDetails]", QueryType.StoredProcedure, oParams))
+        {
+            Hashtable oHashTable;
+            var scopeIdentity = 0L;
+            oCommand.Execute(out oHashTable);
+
+            if (oHashTable.Count > 0)
+            {
+                scopeIdentity = long.Parse(oHashTable["@Return_Value"].ToString());
+            }
+            return scopeIdentity;
+        }
+
+    }
+
+    public static decimal SaveReportEntityAddress(EntityAddress entityAddress)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@ID", entityAddress.ID},
+            {"@AddressTypeCode", entityAddress.AddressTypeCode},
+            {"@PostalServiceID", entityAddress.PostalServiceID},
+            {"@OtherPOSpecialService", entityAddress.OtherPOSpecialService},
+            {"@Number", entityAddress.Number},
+            {"@PostOffice", entityAddress.PostOffice},
+            {"@PAPostalCode", entityAddress.PAPostalCode},
+            {"@PACountryCode", entityAddress.PACountryCode},
+            {"@UnitNo", entityAddress.UnitNo},
+            {"@Complex", entityAddress.Complex},
+            {"@StreetNo", entityAddress.StreetNo},
+            {"@StreetName", entityAddress.StreetName},
+            {"@Suburb", entityAddress.Suburb},
+            {"@City", entityAddress.City},
+            {"@RESPostalCode", entityAddress.RESPostalCode},
+            {"@RESCountryCode", entityAddress.RESCountryCode},
+            {"@Return_Value", null, ParameterDirection.ReturnValue}
+        };
+
+        using (var oCommand = new DBCommand("[dbo].[uspUPSERT_ReportEntityAddress]", QueryType.StoredProcedure, oParams))
+        {
+            Hashtable oHashTable;
+            var scopeIdentity = 0L;
+            oCommand.Execute(out oHashTable);
+
+            if (oHashTable.Count > 0)
+            {
+                scopeIdentity = long.Parse(oHashTable["@Return_Value"].ToString());
+            }
+            return scopeIdentity;
+        }
+
+    }
+
+    public static decimal SaveReportEntity(ReportEntity reportingEntity)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@ID", reportingEntity.ID},
+            {"@RegisteredName", reportingEntity.RegisteredName},
+            {"@CompanyRegNo", reportingEntity.CompanyRegNo},
+            {"@CompanyRegNoIssuedByCountry", reportingEntity.CompanyRegNoIssuedByCountry},
+            {"@TaxRefNo", reportingEntity.TaxRefNo},
+            {"@TaxRefNoIssuedByCountry", reportingEntity.TaxRefNoIssuedByCountry},
+            {"@GIINNoIndicator", reportingEntity.GIINNoIndicator},
+            {"@GIINNo", reportingEntity.GIINNo},
+            {"@GIINNoIssuedByCountry", reportingEntity.GIINNoIssuedByCountry},
+            {"@ReportingRoleId", reportingEntity.ReportingRoleId},
+            {"@ResidentCountryCode", reportingEntity.ResidentCountryCode},
+            {"@UniqueNo", reportingEntity.UniqueNo},
+            {"@RecordStatusId", reportingEntity.RecordStatusId},
+            {"@ReportEntityContactPersonDetailsId", reportingEntity.ReportEntityContactPersonDetailsId},
+            {"@ReportEntityAddressId", reportingEntity.ReportEntityAddressId},
+            {"@ReportingPeriod", reportingEntity.ReportingPeriod},
+            {"@TaxUserID", reportingEntity.TaxUserID},
+            {"@Return_Value", null, ParameterDirection.ReturnValue}
+        };
+
+        using (var oCommand = new DBCommand("[dbo].[uspUPSERT_ReportEntity]", QueryType.StoredProcedure, oParams))
+        {
+            Hashtable oHashTable;
+            var scopeIdentity = 0L;
+            oCommand.Execute(out oHashTable);
+
+            if (oHashTable.Count > 0)
+            {
+                scopeIdentity = long.Parse(oHashTable["@Return_Value"].ToString());
+            }
+            return scopeIdentity;
+        }
+
+    }
+
+    public static decimal SaveCBCReport(CBCReports cbcReports)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@ID", cbcReports.ID},
+            {"@ReportEntityId", cbcReports.ReportEntityId},
+            {"@NumberOfTaxJurisdictions", cbcReports.NumberOfTaxJurisdictions},
+            {"@UniqueNo", cbcReports.UniqueNo},
+            {"@RecordStatusId", cbcReports.RecordStatusId},
+            {"@ResidentCountryCode", cbcReports.ResidentCountryCode},
+            {"@CurrencyCode", cbcReports.CurrencyCode},
+            {"@Return_Value", null, ParameterDirection.ReturnValue}
+        };
+
+        using (var oCommand = new DBCommand("[dbo].[uspUPSERT_CBCReports]", QueryType.StoredProcedure, oParams))
+        {
+            Hashtable oHashTable;
+            var scopeIdentity = 0L;
+            oCommand.Execute(out oHashTable);
+
+            if (oHashTable.Count > 0)
+            {
+                scopeIdentity = long.Parse(oHashTable["@Return_Value"].ToString());
+            }
+            return scopeIdentity;
+        }
+
+    }
+
+    public static decimal SaveReportSummary(CBCReport_Summary reportSummary)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@ID", reportSummary.ID},
+            {"@CBCReportId", reportSummary.CBCReportId},
+            {"@ProfitLossBeforeIncomeTax", reportSummary.ProfitLossBeforeIncomeTax},
+            {"@ProfitLossBeforeIncomeTaxCurrencyCode", reportSummary.ProfitLossBeforeIncomeTaxCurrencyCode},
+            {"@StatedCapital", reportSummary.StatedCapital},
+            {"@StatedCapitalCurrencyCode", reportSummary.StatedCapitalCurrencyCode},
+            {"@IncomeTaxPaid", reportSummary.IncomeTaxPaid},
+            {"@IncomeTaxPaidCurrencyCode", reportSummary.IncomeTaxPaidCurrencyCode},
+            {"@AccumulatedEarnings", reportSummary.AccumulatedEarnings},
+            {"@AccumulatedEarningsCurrencyCode", reportSummary.AccumulatedEarningsCurrencyCode},
+            {"@IncomeTaxAccrued", reportSummary.IncomeTaxAccrued},
+            {"@IncomeTaxAccruedCurrencyCode", reportSummary.IncomeTaxAccruedCurrencyCode},
+            {"@Assets", reportSummary.Assets},
+            {"@AssetsCurrencyCode", reportSummary.AssetsCurrencyCode},
+            {"@NoOfEmployees", reportSummary.NoOfEmployees},
+            {"@TaxUserID", reportSummary.TaxUserID},
+            {"@Return_Value", null, ParameterDirection.ReturnValue}
+        };
+
+        using (var oCommand = new DBCommand("[dbo].[uspUPSERT_CBCReport_Summary]", QueryType.StoredProcedure, oParams))
+        {
+            Hashtable oHashTable;
+            var scopeIdentity = 0L;
+            oCommand.Execute(out oHashTable);
+
+            if (oHashTable.Count > 0)
+            {
+                scopeIdentity = long.Parse(oHashTable["@Return_Value"].ToString());
+            }
+            return scopeIdentity;
+        }
+
+    }
+
+    public static decimal SaveRevenues(CBCReport_Revenue revenues)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@ID", revenues.ID},
+            {"@CbCReportSummaryId", revenues.CbCReportSummaryId},
+            {"@Unrelated", revenues.Unrelated},
+            {"@UnrelatedCurrencyCode", revenues.UnrelatedCurrencyCode},
+            {"@Related", revenues.Related},
+            {"@RelatedCurrencyCode", revenues.RelatedCurrencyCode},
+            {"@Total", revenues.Total},
+            {"@TotalCurrencyCode", revenues.TotalCurrencyCode},
+            {"@Return_Value", null, ParameterDirection.ReturnValue}
+        };
+
+        using (var oCommand = new DBCommand("[dbo].[uspUPSERT_CBCReport_Revenue]", QueryType.StoredProcedure, oParams))
+        {
+            Hashtable oHashTable;
+            var scopeIdentity = 0L;
+            oCommand.Execute(out oHashTable);
+
+            if (oHashTable.Count > 0)
+            {
+                scopeIdentity = long.Parse(oHashTable["@Return_Value"].ToString());
+            }
+            return scopeIdentity;
+        }
+
+    }
+
+    public static decimal SaveConstituentEntity(CBCReport_ConstituentEntity constituentEntity)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@ID", constituentEntity.ID},
+            {"@CBCReportId", constituentEntity.CBCReportId},
+            {"@NumberOfContituentEntities", constituentEntity.NumberOfContituentEntities},
+            {"@Return_Value", null, ParameterDirection.ReturnValue}
+        };
+
+        using (var oCommand = new DBCommand("[dbo].[uspUPSERT_CBCReport_ConstituentEntity]", QueryType.StoredProcedure, oParams))
+        {
+            Hashtable oHashTable;
+            var scopeIdentity = 0L;
+            oCommand.Execute(out oHashTable);
+
+            if (oHashTable.Count > 0)
+            {
+                scopeIdentity = long.Parse(oHashTable["@Return_Value"].ToString());
+            }
+            return scopeIdentity;
+        }
+
+    }
+
+    public static decimal SaveConstituentEntityData(CBCReport_ConstituentEntityData entityData)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@ID", entityData.ID},
+            {"@ConstituentEntityId", entityData.ConstituentEntityId},
+            {"@RegisteredName", entityData.RegisteredName},
+            {"@CompanyRegNo", entityData.CompanyRegNo},
+            {"@CompanyRegNoIssuedByCountry", entityData.CompanyRegNoIssuedByCountry},
+            {"@TaxRefNo", entityData.TaxRefNo},
+            {"@TaxRefNoIssuedByCountry", entityData.TaxRefNoIssuedByCountry},
+            {"@Return_Value", null, ParameterDirection.ReturnValue}
+        };
+
+        using (var oCommand = new DBCommand("[dbo].[uspUPSERT_CBCReport_ConstituentEntityData]", QueryType.StoredProcedure, oParams))
+        {
+            Hashtable oHashTable;
+            var scopeIdentity = 0L;
+            oCommand.Execute(out oHashTable);
+
+            if (oHashTable.Count > 0)
+            {
+                scopeIdentity = long.Parse(oHashTable["@Return_Value"].ToString());
+            }
+            return scopeIdentity;
+        }
+
+    }
+
+    public static decimal SaveCBCReportAddress(CBCReport_Address reportAddress)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@ID", reportAddress.ID},
+            {"@AddressTypeCode", reportAddress.AddressTypeCode},
+            {"@PostalServiceID", reportAddress.PostalServiceID},
+            {"@OtherPOSpecialService", reportAddress.OtherPOSpecialService},
+            {"@Number", reportAddress.Number},
+            {"@PostOffice", reportAddress.PostOffice},
+            {"@PAPostalCode", reportAddress.PAPostalCode},
+            {"@PACountryCode", reportAddress.PACountryCode},
+            {"@UnitNo", reportAddress.UnitNo},
+            {"@Complex", reportAddress.Complex},
+            {"@StreetNo", reportAddress.StreetNo},
+            {"@StreetName", reportAddress.StreetName},
+            {"@Suburb", reportAddress.Suburb},
+            {"@City", reportAddress.City},
+            {"@RESPostalCode", reportAddress.RESPostalCode},
+            {"@RESCountryCode", reportAddress.RESCountryCode},
+            {"@Return_Value", null, ParameterDirection.ReturnValue}
+        };
+
+        using (var oCommand = new DBCommand("[dbo].[uspUPSERT_CBCReport_Address]", QueryType.StoredProcedure, oParams))
+        {
+            Hashtable oHashTable;
+            var scopeIdentity = 0L;
+            oCommand.Execute(out oHashTable);
+
+            if (oHashTable.Count > 0)
+            {
+                scopeIdentity = long.Parse(oHashTable["@Return_Value"].ToString());
+            }
+            return scopeIdentity;
+        }
+
+    }
+
+    public static decimal SaveBusinessActivities(CBCReport_BusinessActivities businessActivities)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@ID", businessActivities.ID},
+            {"@CBCReport_ConstituentEntityDataId", businessActivities.CBCReport_ConstituentEntityDataId},
+            {"@BusinessActivitiesCode", businessActivities.BusinessActivitiesCode},
+            {"@OtherEntityInfo", businessActivities.OtherEntityInfo},
+            {"@Return_Value", null, ParameterDirection.ReturnValue}
+        };
+
+        using (var oCommand = new DBCommand("[dbo].[uspUPSERT_CBCReport_BusinessActivities]", QueryType.StoredProcedure, oParams))
+        {
+            Hashtable oHashTable;
+            var scopeIdentity = 0L;
+            oCommand.Execute(out oHashTable);
+
+            if (oHashTable.Count > 0)
+            {
+                scopeIdentity = long.Parse(oHashTable["@Return_Value"].ToString());
+            }
+            return scopeIdentity;
+        }
+
+    }
+
+    public static decimal SaveAdditionalInfo(ReportEntityAdditionalInformation additionalInfo)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@ID", additionalInfo.ID},
+            {"@ReportEntitytId", additionalInfo.ReportEntitytId},
+            {"@UniqueNo", additionalInfo.UniqueNo},
+            {"@RecordStatusId", additionalInfo.RecordStatusId},
+            {"@Return_Value", null, ParameterDirection.ReturnValue}
+        };
+
+        using (var oCommand = new DBCommand("[dbo].[uspUPSERT_ReportEntityAdditionalInformation]", QueryType.StoredProcedure, oParams))
+        {
+            Hashtable oHashTable;
+            var scopeIdentity = 0L;
+            oCommand.Execute(out oHashTable);
+
+            if (oHashTable.Count > 0)
+            {
+                scopeIdentity = long.Parse(oHashTable["@Return_Value"].ToString());
+            }
+            return scopeIdentity;
+        }
+
+    }
+
+    public static decimal SaveOtherInfo(CBCReport_OtherInformation otherInfo)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@ID", otherInfo.ID},
+            {"@AdditionalInformationId", otherInfo.AdditionalInformationId},
+            {"@FurtherBriefInformation", otherInfo.FurtherBriefInformation},
+            {"@Return_Value", null, ParameterDirection.ReturnValue}
+        };
+
+        using (var oCommand = new DBCommand("[dbo].[uspUPSERT_CBCReport_OtherInformation]", QueryType.StoredProcedure, oParams))
+        {
+            Hashtable oHashTable;
+            var scopeIdentity = 0L;
+            oCommand.Execute(out oHashTable);
+
+            if (oHashTable.Count > 0)
+            {
+                scopeIdentity = long.Parse(oHashTable["@Return_Value"].ToString());
+            }
+            return scopeIdentity;
+        }
+
+    }
+
+    public static decimal SaveCountrySummaryCodes(CBCReport_CoutryCodeSummaryRefCode countrySummaryCodes)
+    {
+        var oParams = new DBParamCollection
+        {
+            {"@ID", countrySummaryCodes.ID},
+            {"@OtherInformationId", countrySummaryCodes.OtherInformationId},
+            {"@ResidenceCounryCode", countrySummaryCodes.ResidenceCounryCode},
+            {"@SummaryRefCode", countrySummaryCodes.SummaryRefCode},
+            {"@Return_Value", null, ParameterDirection.ReturnValue}
+        };
+
+        using (var oCommand = new DBCommand("[dbo].[uspUPSERT_CBCReport_CoutryCodeSummaryRefCode]", QueryType.StoredProcedure, oParams))
+        {
+            Hashtable oHashTable;
+            var scopeIdentity = 0L;
+            oCommand.Execute(out oHashTable);
+
+            if (oHashTable.Count > 0)
+            {
+                scopeIdentity = long.Parse(oHashTable["@Return_Value"].ToString());
+            }
+            return scopeIdentity;
+        }
+    }
+    public static decimal SaveCBCData(CBC01Data cbcData)
+    {
+        var oParams = new DBParamCollection
+            {
+                //{"@ID", cbcData.ID},
+                {"@RegisteredName", cbcData.RegisteredName},
+                {"@CompanyRegNo", cbcData.CompanyRegNo},
+                {"@DataValue", cbcData.DataValue},
+                {"@Return_Value", null, ParameterDirection.ReturnValue}
+
+            };
+        using (var oCommand = new DBCommand("[dbo].[uspINSERT_CBC01Data]", QueryType.StoredProcedure, oParams))
+        {
+            Hashtable oHashTable;
+            var scopeIdentity = 0L;
+            oCommand.Execute(out oHashTable);
+
+            if (oHashTable.Count > 0)
+            {
+                scopeIdentity = long.Parse(oHashTable["@Return_Value"].ToString());
+            }
+            return scopeIdentity;
+        }
+
+    }
+    #endregion
+}

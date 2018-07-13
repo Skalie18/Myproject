@@ -1,0 +1,185 @@
+﻿.documents {
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 5px;
+    border: #428bca;
+    width: 98%;
+    border-radius: 4px;
+}
+    .documents tr th {
+        background: #428bca;
+        text-align: left;
+        padding: 15px 8px 15px 8px;
+        color: #000 !important;
+        margin: 5px;
+        font-size: 11px !important;
+        background: -webkit-linear-gradient(to bottom, #428bca, #ffffff);
+        background: -o-linear-gradient(to bottom, #428bca, #ffffff);
+        background: -moz-linear-gradient(to bottom, #428bca, #ffffff);
+        background: linear-gradient(to bottom, #428bca, #ffffff);
+        font-size: 14px!important;
+    }
+        .documents tr th:first-child {
+            border: solid 0px #428bca;
+            border-radius: 8px 0 0 0;
+        }
+        .documents tr th:last-child {
+            border: solid 0px #428bca;
+            border-radius: 0 8px 0 0;
+        }
+
+    .documents th a {
+        color: #000 !important;
+        margin: 5px;
+        text-decoration: none;
+        font-size: 14px !important;
+    }
+    .documents td a {
+        font-size: 12px !important;
+        text-decoration: none;
+    }
+    .documents tr td {
+        text-align: left;
+        border-top: dotted 1px #428bca;
+        border-left: 0 !important;
+        border-right: 0 !important;
+        border-bottom: dotted 1px #428bca;
+        color: #000000;
+        padding: 10px;
+        font-size: 12px !important;
+    }
+    .documents tr:hover td {
+        text-align: left;
+        color: #000000 !important;
+        background: linear-gradient(to bottom, #ffffff,#428bca ) !important;
+        padding: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 10px;
+    }
+    
+    .documents tr:nth-child(odd) {
+        background-color: #f0f8ff;
+    }
+    .documents tr:last-child td table tr {
+        background-color: #fff!important;
+    }
+    
+    .documents a:visited {
+        text-decoration: none;
+    }
+    .documents input[type=text]{
+        padding:1px!important;
+        border-radius:2px!important;
+
+    }
+.page-container {
+    border: solid 4px #f8f8ff;
+    padding: 15px;
+    background-color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    min-height: 600px;
+}
+
+.link-buttons {
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff !important;
+    padding: 10px 21px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 20px;
+    width: 150px !important;
+    background-color: #428bca !important;
+    border-radius: 4px;
+    border-bottom:4px solid silver!important;
+    border-right:4px solid silver!important;
+}
+   
+.document-pager {
+    padding: 0 !important;
+    
+}
+    .document-pager span {
+        font-size: 100%;
+    }
+    .document-pager td {
+        border: 0!important;
+        cursor: default;
+        text-decoration: none;
+    }
+
+        .document-pager td a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+        }
+
+.documents table tr:last-child td:last-child {
+    border: 0;
+    border-radius: 0 0 8px 0;
+    padding: 15px !important;
+}
+.documents table tr:last-child td:first-child {
+    border: 0;
+    border-radius: 0 8px 0 8px;
+    padding: 15px !important;
+}
+.document-pager table tr:last-child td {
+    background: linear-gradient(to top, #428bca, #fff)!important;
+    border: 0;
+    padding: 15px !important;
+    border-radius: 8px 8px 0 8px;
+	-webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+    transform:skew(20deg);
+}
+.document-pager td table {
+    width: auto !important;
+    background-color: transparent !important;
+    table-layout: auto !important;
+}
+
+
+.document-pager td table tr td{
+    width: 60px !important;
+    text-align: center;
+    font-size: 10px !important;
+}
+.document-pager td table tr td a{
+    width: 60px !important;
+    text-align: center;
+    font-size: 10px !important;
+}
+
+.documents table tr:last-child{
+    background-color:transparent!important;
+}.documents table tr:last-child:hover{
+    background-color:transparent!important;
+}
+.document-pager table tr:last-child td:hover {
+    background: linear-gradient(to top, #428bca, #ffffff)!important;
+    border: 0;
+    padding: 15px !important;
+    border-radius: 0 8px 0 8px;
+
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+	-o-transform: skew(20deg); 
+    transform:skew(20deg);
+}
+
+.documents table tr td a {
+    font-size: 12px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.documents table tr td span {
+    font-size: 12px;
+    font-weight: bold;
+    color: brown;
+}

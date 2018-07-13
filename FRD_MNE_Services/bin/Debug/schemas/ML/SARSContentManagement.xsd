@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<schema
+	targetNamespace="http://www.sars.gov.za/enterpriseMessagingModel/ContentManagement/xml/schemas/version/1.8"
+	elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:ContMgt="http://www.sars.gov.za/enterpriseMessagingModel/ContentManagement/xml/schemas/version/1.8" 
+	xmlns:bt="http://www.sars.gov.za/enterpriseMessagingModel/GMD/BaseTypes/xml/schemas/version/54.8">
+	<import schemaLocation="SARSGMD_BaseTypesV54.8.xsd" namespace="http://www.sars.gov.za/enterpriseMessagingModel/GMD/BaseTypes/xml/schemas/version/54.8"></import>
+	<annotation>
+		<documentation>
+			Changed on 16/03/2011 by Miguel: 1. Structures moved from
+			Global Dictionary 2. The Value type in both EntityIdentifier
+			and DocumentIdentifier changed from IdentifierValue to
+			DocumentIDType 3. RequestOperation enumeration
+			"APPEND_CASE_NUMBER" changed to "APPEND_DOCUMENT_METADATA"
+			4. RequestOperation enumeration "ENQUIRE_DOCUMENT" added
+		</documentation>
+	</annotation>
+	<annotation>
+		<documentation>
+			Changed on 25/08/2011 by Qalo Gabela: 1. Updated ObjectType
+			by reference ObjectTypeType [created locally] instead of
+			enumeration
+		</documentation>
+	</annotation>
+	<annotation>
+		<documentation>
+			Changed on 2011-11-15 by Dirk Grobler: 1. Added
+			RequestOperation enumeration for "SEARCH" 2.Updated Format
+			type to cater for up to 3 characters
+		</documentation>
+		<documentation>
+		Changed by Tebogo Ngqobe on 20/06/2012: Added Base Types 54.8 and removed Global Dictionary v10.0 from the schema,
+		changed schema namespace version to 1.6,
+		defined local SupportingDocumentStructure locally,
+		Added UniqueIdentifiers(99 occurrences),
+		PrimarySubmissionInd of boolean type,
+		Made all multiple occurrences to be 99,
+		made supporting document structure in response structure to have 99 occurrences,
+		added field length restrictions to elements previously not with restrictions 
+		</documentation>
+		
+		<documentation>
+		Changed by Tebogo Ngqobe on 27/06/2012:Added new Request Operation "RECEIVE_COPY_DOCUMENT" to the schema
+		</documentation>
+		<documentation>
+		Changed by Tebogo Ngqobe on 03/07/2012: updated the schema to allow Contents to have up to 99 occurrences,updated schema namespace version to 1.8
+		</documentation>
+		<documentation>
+			2013-04-17 Dirk Grobler. Added enumeration called NOTIFY_UNSOLICITED_SUPPORTING_DOCUMENT for CIT Phase 2, and left namespace unchanged to ensure backwards compatibility.
+		</documentation>
+		<documentation>
+		2013-11-13 Tebogo Ngqobe.Used for AIX Attachments
+		processes:Updated "Format" to be of a locally-defined
+		"FormatType" A(10). changed namespace version to be 1.10
+		</documentation>
+		<documentation>
+		2013-11-26, Tebogo Ngqobe, Updated "Format" to be of a locally-defined
+		"FormatType" A(40). namespace version remains unchanged from 1.8
+		</documentation>
+	</annotation>
+
+
+	<element name="ContentManagementRequest"
+		type="ContMgt:SupportingDocumentManagementRequestStructure">
+	</element>
+
+	<element name="ContentManagementResponse"
+		type="ContMgt:SupportingDocumentManagementResponseStructure">
+	</element>
+
+	<simpleType name="RequestOperationType">
+		<restriction base="string">
+			<enumeration value="RECEIVE_NEW_DOCUMENT"></enumeration>
+			<enumeration value="RECEIVE_COPY_DOCUMENT"></enumeration>
+			<enumeration value="NOTIFY_SUPPORTING_DOCUMENT"></enumeration>
+            <enumeration value="NOTIFY_UNSOLICITED_SUPPORTING_DOCUMENT"></enumeration>
+            <enumeration value="NOTIFY_TRANSACTION_WITH_METADATA"></enumeration>
+			<enumeration value="APPEND_DOCUMENT_METADATA"></enumeration>
+			<enumeration value="ENQUIRE_DOCUMENT"></enumeration>
+			<enumeration value="SEARCH"></enumeration>
+
+		</restriction>
+	</simpleType>
+
+	<complexType name="SupportingDocumentManagementRequestStructure">
+        <all>
+        	<element name="RequestOperation"
+        		type="ContMgt:RequestOperationType" maxOccurs="1"
+        		minOccurs="1">
+        	</element>
+        	<element name="Contents" maxOccurs="1" minOccurs="1">
+        		<complexType>
+        			<sequence>
+                        <element name="Content" maxOccurs="99" minOccurs="1" type="ContMgt:SupportingDocumentStructure">
+
+        	</element>
+                    </sequence>
+        		</complexType></element>
+        </all>
+	</complexType>
+
+<complexType name="SupportingDocumentStructure">
+        <all>
+        	<element name="RequestorIdentifier" minOccurs="0">
+        		<simpleType>
+        			<restriction base="string">
+        				<minLength value="1"></minLength>
+        				<maxLength value="20"></maxLength>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="YearOfAssessment" type="bt:YearType"
+        		minOccurs="0" />
+        	<element name="Period" type="bt:PeriodType" maxOccurs="1"
+        		minOccurs="0">
+        	</element>
+        	<element name="CaseNumbers" minOccurs="0" maxOccurs="1">
+        		<complexType>
+        			<sequence>
+        				<element name="CaseNumber" type="bt:CaseNoType"
+        					maxOccurs="99" minOccurs="1">
+        				</element>
+        			</sequence>
+        		</complexType>
+        	</element>
+        	<element name="ContentCategories1" minOccurs="0"
+        		maxOccurs="1">
+        		<complexType>
+        			<sequence>
+        				<element name="ContentCategory1"
+        					type="ContMgt:ContentCategoryType" maxOccurs="99"
+        					minOccurs="1">
+        				</element>
+
+        			</sequence>
+        		</complexType>
+        	</element>
+
+        	<element name="ContentCategories2" maxOccurs="1"
+        		minOccurs="0">
+        		<complexType>
+        			<sequence>
+
+        				<element name="ContentCategory2"
+        					type="ContMgt:ContentCategoryType" maxOccurs="99"
+        					minOccurs="1">
+        				</element>
+        			</sequence>
+        		</complexType>
+        	</element>
+        	<element name="ContentTypes" minOccurs="0" maxOccurs="1">
+        		<complexType>
+        			<sequence>
+        				<element name="ContentType" maxOccurs="99"
+        					minOccurs="1">
+        					<simpleType>
+        						<restriction base="string">
+        							<minLength value="1"></minLength>
+        							<maxLength value="20"></maxLength>
+        						</restriction>
+        					</simpleType>
+        				</element>
+        			</sequence>
+        		</complexType>
+        	</element>
+        	<element name="EntityIdentifiers" minOccurs="0"
+        		maxOccurs="1">
+        		<complexType>
+        			<sequence>
+        				<element name="EntityIdentifier"
+        					type="ContMgt:IdentifierStructure" maxOccurs="99"
+        					minOccurs="1">
+        				</element>
+        			</sequence>
+        		</complexType>
+        	</element>
+        	<element name="DateOfDigitalization" type="date"
+        		minOccurs="0" />
+        	<element name="ContentLocation" minOccurs="0"
+        		type="ContMgt:DocumentLocationType">
+
+        	</element>
+        	<element name="Products" minOccurs="0" maxOccurs="1">
+        		<complexType>
+        			<sequence>
+        				<element name="Product"
+        					type="ContMgt:ProductType" maxOccurs="99" minOccurs="1">
+        				</element>
+        			</sequence>
+        		</complexType>
+        	</element>
+        	<element name="InformationSubClass"
+        		type="ContMgt:InformationSubClassType" minOccurs="0" />
+        	<element name="InformationSubClass2"
+        		type="ContMgt:InformationSubClassType" minOccurs="0" />
+        	<element name="InformationSubClass3"
+        		type="ContMgt:InformationSubClassType" minOccurs="0" />
+        	<element name="SpecialUsersGroups" minOccurs="0"
+        		maxOccurs="1">
+        		<complexType>
+        			<sequence>
+        				<element name="SpecialUsersGroup" maxOccurs="4"
+        					minOccurs="1">
+        					<simpleType>
+        						<restriction base="string">
+        							<enumeration value="NONE" />
+        							<enumeration value="VIP" />
+        							<enumeration value="LBC" />
+        							<enumeration value="PARLIMENTARIAN" />
+        						</restriction>
+        					</simpleType>
+        				</element>
+        			</sequence>
+        		</complexType>
+        	</element>
+
+        	<element name="SourceChannel" minOccurs="0">
+        		<simpleType>
+        			<restriction base="string">
+        				<minLength value="1"></minLength>
+        				<maxLength value="10"></maxLength>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="SourceID" maxOccurs="1" minOccurs="0">
+        		<simpleType>
+        			<restriction base="string">
+        				<minLength value="1"></minLength>
+        				<maxLength value="30"></maxLength>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="SubjectArea" minOccurs="0">
+        		<simpleType>
+        			<restriction base="string">
+        				<minLength value="1"></minLength>
+        				<maxLength value="35"></maxLength>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="RestrictedContent" minOccurs="0">
+        		<simpleType>
+        			<restriction base="int">
+
+        				<minInclusive value="0"></minInclusive>
+
+        				<maxInclusive value="1"></maxInclusive>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="DateOfReceipt" type="dateTime" minOccurs="0" />
+        	<element name="BinaryData" type="base64Binary"
+        		minOccurs="0" />
+        	<element name="ObjectType" type="ContMgt:ObjectTypeType"
+        		minOccurs="0" />
+        	<element name="ObjectName" minOccurs="0">
+        		<simpleType>
+        			<restriction base="string">
+        				<minLength value="1"></minLength>
+        				<maxLength value="255"></maxLength>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="Path" minOccurs="0">
+        		<simpleType>
+        			<restriction base="string">
+        				<minLength value="1"></minLength>
+        				<maxLength value="255"></maxLength>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="Format" type="ContMgt:FormatType"
+        		minOccurs="0" />
+        	<element name="Username" type="bt:UsernameType"
+        		minOccurs="0" />
+        	<element name="Password" type="ContMgt:PasswordType"
+        		minOccurs="0" />
+        	<element name="TransferMode" minOccurs="0">
+        		<simpleType>
+        			<restriction base="string">
+        				<enumeration value="BASE64" />
+        				<enumeration value="MTOM" />
+        				<enumeration value="UCF" />
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="AclName" minOccurs="0">
+        		<simpleType>
+        			<restriction base="string">
+        				<minLength value="1"></minLength>
+        				<maxLength value="30"></maxLength>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="DocumentID" minOccurs="0">
+        		<simpleType>
+        			<restriction base="string">
+        				<minLength value="1"></minLength>
+        				<maxLength value="35"></maxLength>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="BatchID" type="ContMgt:BatchIDType"
+        		minOccurs="0" />
+        	<element name="ClassificationMethod"
+        		type="ContMgt:ClassificationMethodType" minOccurs="0" />
+        	<element name="DataExtractMethod" minOccurs="0">
+        		<simpleType>
+        			<restriction base="string">
+        				<minLength value="1"></minLength>
+        				<maxLength value="20"></maxLength>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="ProcessStatus" minOccurs="0">
+        		<simpleType>
+        			<restriction base="string">
+        				<minLength value="1"></minLength>
+        				<maxLength value="40"></maxLength>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="ActualPageList" minOccurs="0">
+        		<simpleType>
+        			<restriction base="string">
+        				<minLength value="1"></minLength>
+        				<maxLength value="100"></maxLength>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="ExpectedPageCount" minOccurs="0">
+        		<simpleType>
+        			<restriction base="int">
+
+        				<minInclusive value="1"></minInclusive>
+        				<maxInclusive value="999"></maxInclusive>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="DocumentIdentifiers" minOccurs="0">
+        		<complexType>
+        			<sequence>
+        				<element name="DocumentIdentifier"
+        					type="ContMgt:IdentifierStructure" maxOccurs="99"
+        					minOccurs="1">
+        				</element>
+        			</sequence>
+        		</complexType>
+        	</element>
+        	<element name="OriginatingLocation"
+        		type="ContMgt:DocumentLocationType" minOccurs="0" />
+        	<element name="GeoLocation"
+        		type="ContMgt:DocumentLocationType" minOccurs="0" />
+        	<element name="ProcedureCategoryCode" minOccurs="0">
+        		<simpleType>
+        			<restriction base="string">
+        				<pattern value="[A-Z]{1}" />
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="UniqueIdentifiers" maxOccurs="1"
+        		minOccurs="0">
+        		<complexType>
+        			<sequence>
+        				<element name="UniqueIdentifier"
+        					type="bt:UniqueIdentifierType" maxOccurs="99"
+        					minOccurs="1">
+        				</element>
+        			</sequence>
+        		</complexType>
+        	</element>
+
+        	<element name="PrimaryCopyInd" maxOccurs="1"
+        		minOccurs="0">
+        		<simpleType>
+        			<restriction base="int">
+
+        				<minInclusive value="0"></minInclusive>
+
+        				<maxInclusive value="1"></maxInclusive>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="FormID" minOccurs="0">
+        		<simpleType>
+        			<restriction base="string">
+        				<minLength value="1"></minLength>
+        				<maxLength value="59"></maxLength>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="BoxNumber" minOccurs="0">
+        		<simpleType>
+        			<restriction base="string">
+        				<minLength value="1"></minLength>
+        				<maxLength value="30"></maxLength>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="SourceNumber" type="bt:TelFaxCellNoType"
+        		minOccurs="0" />
+        	<element name="DestinationNumber" type="bt:TelFaxCellNoType"
+        		minOccurs="0" />
+        	<element name="CallDate" type="date" minOccurs="0" />
+        	<element name="CallDuration" minOccurs="0" type="time"></element>
+        	<element name="Retain" minOccurs="0">
+        		<simpleType>
+        			<restriction base="string">
+        				<minLength value="1"></minLength>
+        				<maxLength value="20"></maxLength>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="CallReferenceNumber" minOccurs="0">
+        		<simpleType>
+        			<restriction base="string">
+        				<minLength value="1"></minLength>
+        				<maxLength value="35"></maxLength>
+        			</restriction>
+        		</simpleType>
+        	</element>
+        	<element name="Metadata" type="bt:MetadataStructure"
+        		minOccurs="0" />
+        </all>
+
+</complexType>
+
+	<complexType name="IdentifierStructure">
+        <all>
+			<element name="Type" maxOccurs="1" minOccurs="1">
+				<simpleType>
+					<restriction base="string">
+						<minLength value="1"></minLength>
+						<maxLength value="35"></maxLength>
+					</restriction>
+				</simpleType></element>
+			<element name="Value" maxOccurs="1" minOccurs="1">
+				<simpleType>
+					<restriction base="string">
+						<minLength value="1"></minLength>
+						<maxLength value="36"></maxLength>
+					</restriction>
+				</simpleType></element>
+		</all>
+	</complexType>
+
+
+	<simpleType name="ObjectTypeType">
+		<restriction base="string">
+			<maxLength value="30"></maxLength>
+			<minLength value="1"></minLength>
+		</restriction>
+	</simpleType>
+
+	<simpleType name="DocumentFormatType">
+		<restriction base="string">
+			<minLength value="1"></minLength>
+			<maxLength value="3"></maxLength>
+		</restriction>
+	</simpleType>
+
+
+
+
+	<simpleType name="ContentCategoryType">
+		<restriction base="string">
+			<minLength value="1"></minLength>
+			<maxLength value="70"></maxLength>
+		</restriction>
+	</simpleType>
+
+	<simpleType name="ProductType">
+		<restriction base="string">
+			<minLength value="1"></minLength>
+			<maxLength value="20"></maxLength>
+		</restriction>
+	</simpleType>
+
+	<simpleType name="InformationSubClassType">
+		<restriction base="string">
+			<minLength value="1"></minLength>
+			<maxLength value="101"></maxLength>
+		</restriction>
+	</simpleType>
+
+	<simpleType name="PasswordType">
+		<restriction base="string">
+			<minLength value="1"></minLength>
+			<maxLength value="20"></maxLength>
+		</restriction>
+	</simpleType>
+
+	<simpleType name="BatchIDType">
+		<restriction base="string">
+			<minLength value="1"></minLength>
+			<maxLength value="35"></maxLength>
+		</restriction>
+	</simpleType>
+
+	<simpleType name="ClassificationMethodType">
+		<restriction base="string">
+			<minLength value="1"></minLength>
+			<maxLength value="20"></maxLength>
+		</restriction>
+	</simpleType>
+
+	<simpleType name="DocumentLocationType">
+		<restriction base="string">
+			<minLength value="1"></minLength>
+			<maxLength value="40"></maxLength>
+		</restriction>
+	</simpleType>
+
+	<complexType name="SupportingDocumentManagementResponseStructure">
+		<sequence>
+			<element name="Contents" maxOccurs="1" minOccurs="1">
+				<complexType>
+					<sequence>
+                        <element name="Content" type="ContMgt:SupportingDocumentStructure" maxOccurs="99" minOccurs="1">
+			</element>
+                    </sequence>
+				</complexType></element>
+		</sequence>
+	</complexType>
+
+
+	<simpleType name="FormatType">
+		<restriction base="string">
+			<minLength value="1"></minLength>
+			<maxLength value="40"></maxLength>
+		</restriction>
+	</simpleType>
+</schema>

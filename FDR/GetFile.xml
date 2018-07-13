@@ -1,0 +1,28 @@
+﻿<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://www.sars.gov.za/enterpriseMessagingModel/ContentManagement/xml/schemas/version/1.2" xmlns:head="http://www.sars.gov.za/esb/common/v000006/header" xmlns:app="http://www.sars.gov.za/services/esb/v000002/applicationInformation" xmlns:ns1="http://www.sars.gov.za/enterpriseMessagingModel/GlobalMessagingDictionary/xml/schemas/version/10.0" xmlns:xsi="xsi">
+	<soapenv:Header>
+		<head:MessageIdentification>
+			<head:channelID>FDR</head:channelID>
+			<head:applicationID>DCTM_RETRIEVECONTENT_WS</head:applicationID>
+			<head:messageSeqNo>{0}</head:messageSeqNo>
+			<head:messageTimeStamp>{1}</head:messageTimeStamp>
+			<head:externalReferenceID>{2}</head:externalReferenceID>
+			<head:globalUniqueID>
+				<head:originatingChannelID>FDR</head:originatingChannelID>
+				<head:universalUniqueID>{3}</head:universalUniqueID>
+			</head:globalUniqueID>		
+		</head:MessageIdentification>
+	</soapenv:Header>
+	<soapenv:Body>
+		<ns:ContentManagementRequest xmlns:ns="http://www.sars.gov.za/enterpriseMessagingModel/ContentManagement/xml/schemas/version/1.8" xmlns:bt="http://www.sars.gov.za/enterpriseMessagingModel/GMD/BaseTypes/xml/schemas/version/54.8">
+			<ns:RequestOperation>ENQUIRE_DOCUMENT</ns:RequestOperation>
+			<ns:Contents>
+				<ns:Content>
+					<ns:Format>pdf</ns:Format>
+					<ns:Username>{4}</ns:Username>
+					<ns:Password>{5}</ns:Password>
+					<ns:DocumentID>{6}</ns:DocumentID>
+				</ns:Content>
+			</ns:Contents>
+		</ns:ContentManagementRequest>
+	</soapenv:Body>
+</soapenv:Envelope>

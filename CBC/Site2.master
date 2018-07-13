@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site2.master.cs" Inherits="Site2"%>
+
+<%@ Register Assembly="Sars.Systems" Namespace="Sars.Systems.Controls" TagPrefix="sars" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="styles/Site.css" rel="stylesheet" />
+    <link href="styles/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="styles/survey.css" rel="stylesheet" />
+    <link href="styles/toolBars.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <div id="main">
+
+
+
+            <table style="width: 100%;">
+                <tr>
+                    <td style="width: 15%; vertical-align: top;">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                MAIN MENU
+                            </div>
+                            <div class="panel-body">
+                                <sars:SideNav ID="SideNav1" runat="server" AutoBuildMenu="True" Width="300px" />
+                            </div>
+                        </div>
+
+                    </td>
+                    <td style="vertical-align: top;">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                PAGE CONTENT
+                            </div>
+                            <div class="panel-body">
+                                <table style="width: 100%;">
+
+                                    <tr>
+                                        <td>
+                                            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                                            </asp:ContentPlaceHolder>
+
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                    </td>
+                </tr>
+            </table>
+
+
+
+
+        </div>
+    </form>
+</body>
+</html>

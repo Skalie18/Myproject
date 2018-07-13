@@ -1,0 +1,10 @@
+D:\Users\s2025376\Documents\Visual Studio 2015\Projects\FDR\Country By Country\DEV\FDRServices\FDRService\CommonDatalayer\bin\Debug\CommonDatalayer.dll
+D:\Users\s2025376\Documents\Visual Studio 2015\Projects\FDR\Country By Country\DEV\FDRServices\FDRService\CommonDatalayer\bin\Debug\CommonDatalayer.pdb
+D:\Users\s2025376\Documents\Visual Studio 2015\Projects\FDR\Country By Country\DEV\FDRServices\FDRService\CommonDatalayer\bin\Debug\FDR.DataLayer.dll
+D:\Users\s2025376\Documents\Visual Studio 2015\Projects\FDR\Country By Country\DEV\FDRServices\FDRService\CommonDatalayer\bin\Debug\Sars.Models.CBC.dll
+D:\Users\s2025376\Documents\Visual Studio 2015\Projects\FDR\Country By Country\DEV\FDRServices\FDRService\CommonDatalayer\bin\Debug\Sars.Systems.dll
+D:\Users\s2025376\Documents\Visual Studio 2015\Projects\FDR\Country By Country\DEV\FDRServices\FDRService\CommonDatalayer\bin\Debug\FDR.DataLayer.pdb
+D:\Users\s2025376\Documents\Visual Studio 2015\Projects\FDR\Country By Country\DEV\FDRServices\FDRService\CommonDatalayer\bin\Debug\Sars.Models.CBC.pdb
+D:\Users\s2025376\Documents\Visual Studio 2015\Projects\FDR\Country By Country\DEV\FDRServices\FDRService\CommonDatalayer\obj\Debug\CommonDatalayer.csprojResolveAssemblyReference.cache
+D:\Users\s2025376\Documents\Visual Studio 2015\Projects\FDR\Country By Country\DEV\FDRServices\FDRService\CommonDatalayer\obj\Debug\CommonDatalayer.dll
+D:\Users\s2025376\Documents\Visual Studio 2015\Projects\FDR\Country By Country\DEV\FDRServices\FDRService\CommonDatalayer\obj\Debug\CommonDatalayer.pdb

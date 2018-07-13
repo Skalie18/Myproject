@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="dsFDRReport">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=PTADVSQC02SQL;Initial Catalog=FDR</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>14782808-a01f-4ec7-9c32-db86873a53fd</DataSourceID>
+</RptDataSource>

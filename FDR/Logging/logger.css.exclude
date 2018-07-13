@@ -1,0 +1,199 @@
+﻿/*body {
+    background: #b6b7bc;    font-size: 12px;
+    font-family: "Segoe UI", Tahoma, arial, sans-serif !important;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+/*.page {
+    width: 80%;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #496077;
+}*/
+.buttons {
+    text-align: center;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background-color: #EFF2F8;
+    text-decoration: none;
+    padding: 3px 6px;
+    border: solid 1px #999999;
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    width: 100px;
+    vertical-align: middle;
+}
+.documents {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid silver;
+    background-color: ghostwhite;
+}
+
+    .documents td, th {
+        text-align: left;
+    }
+
+    .documents td {
+        padding: 10px;
+        border: 1px solid silver;
+        font-size: x-small;
+        font-family: verdana;
+    }
+
+    .documents th {
+        background-color: silver;
+        padding: 15px;
+        border: 1px solid silver;
+        font-size: x-small;
+        font-family: verdana;
+    }
+
+    .documents tr:hover {
+        background-color: gray;
+        color: #fff;
+        cursor: pointer;
+    }
+
+input {
+    border: solid 1px silver;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.ajax__calendar_body {
+    border: 1px solid silver;
+}
+.ajax__calendar_header {
+    height: 20px;
+    color: red;
+    font-size: small;
+    font-weight: bold;
+}
+.top-align {
+vertical-align:top;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.page-header {
+    border-radius: 20px 20px 0px 0px;
+    -moz-border-radius: 20px 20px 0px 0px;
+    -webkit-border-radius: 20px 20px 0px 0px;
+    border: 1px solid #336699;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: medium;
+    background-color: #336699;
+    min-height: 25px;
+}
+
+.page-footer {
+    border-radius: 0px 0px 20px 20px;
+    -moz-border-radius: 0px 0px 20px 20px;
+    -webkit-border-radius: 0px 0px 20px 20px;
+    border: 1px solid #336699;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: small;
+    background-color: #336699;
+    min-height: 25px;
+}
+
+fieldset {
+    border: 1px solid #bbb;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+
+legend
+{
+    border: 1px solid silver;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+
+.dates {
+    width: 150px;
+    height: 30px;
+     border: 1px solid silver;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.rounded
+{
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+.text-field-long {
+    width: 300px;
+    height: 30px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+.text-field-numbers {
+    width: 50px;
+    height: 30px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    text-align: center;
+}
+
+
+
+select {
+	width: 200px;
+    height: 30px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.submit-field {
+     border: 1px solid silver;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.label-column {
+    width:30%;
+}
+.field-column {
+    width:70%;
+}*/

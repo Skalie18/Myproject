@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-19</RequestTime>
+    <Path>/FDR/Default.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/Default.aspx</Url>
+    <Time>16:33:41 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-02-19</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=0</Url>
+    <Time>16:35:07 PM +02</Time>
+  </SystemRequest>
+</ArrayOfSystemRequest>

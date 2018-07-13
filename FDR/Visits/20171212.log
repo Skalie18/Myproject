@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-12</RequestTime>
+    <Path>/FDR/Mics/urldescovery.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/Mics/urldescovery.aspx</Url>
+    <Time>10:51:40 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-12</RequestTime>
+    <Path>/FDR/Default.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/Default.aspx</Url>
+    <Time>11:00:56 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-12</RequestTime>
+    <Path>/FDR/Default.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/Default.aspx</Url>
+    <Time>11:01:03 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-12</RequestTime>
+    <Path>/FDR/Mics/urldescovery.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/Mics/urldescovery.aspx</Url>
+    <Time>12:12:04 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-12</RequestTime>
+    <Path>/fdr/pages/inprogress.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/pages/inprogress.aspx</Url>
+    <Time>12:22:39 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-12</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>12:22:42 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-12</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>12:22:45 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-12</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>12:22:45 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-12</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>12:22:46 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-12</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>12:22:51 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-12</RequestTime>
+    <Path>/fdr/pages/acceptedsubmissions.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/fdr/pages/acceptedsubmissions.aspx</Url>
+    <Time>12:22:54 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2017-12-12</RequestTime>
+    <Path>/FDR/Mics/urldescovery.aspx</Path>
+    <User>SARSGOV\S1037927</User>
+    <Url>http://localhost/FDR/Mics/urldescovery.aspx</Url>
+    <Time>14:20:47 PM +02</Time>
+  </SystemRequest>
+</ArrayOfSystemRequest>

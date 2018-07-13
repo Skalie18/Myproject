@@ -1,0 +1,1865 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>08:53:08 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>08:53:12 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>08:53:55 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>08:53:59 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>08:54:00 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>08:54:17 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/download.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/download.aspx?&amp;xid=2&amp;fname=South Africa</Url>
+    <Time>08:54:18 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>09:02:08 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>09:02:09 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>09:02:15 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>09:02:22 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>09:02:23 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>09:02:33 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/download.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/download.aspx?&amp;xid=2&amp;fname=South Africa</Url>
+    <Time>09:02:35 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>09:07:18 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>09:07:20 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>09:23:05 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>09:23:16 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>09:23:17 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>09:23:23 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/download.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/download.aspx?&amp;xid=2&amp;fname=South Africa</Url>
+    <Time>09:23:24 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>09:29:14 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>09:29:15 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>09:29:54 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>09:29:57 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>09:29:58 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>09:30:07 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/download.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/download.aspx?&amp;xid=2&amp;fname=South Africa</Url>
+    <Time>09:30:09 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>09:34:19 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>09:34:20 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>09:34:53 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>09:34:58 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>09:34:59 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>09:35:02 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/download.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/download.aspx?&amp;xid=2&amp;fname=South Africa</Url>
+    <Time>09:35:03 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>09:55:17 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>09:55:19 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>09:55:38 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>09:55:45 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>09:55:46 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>10:08:52 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>10:08:53 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>10:09:34 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>10:09:37 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>10:09:38 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>10:09:47 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/download.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/download.aspx?&amp;xid=2&amp;fname=South Africa,xcel</Url>
+    <Time>10:09:49 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>10:16:02 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>10:16:03 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>10:16:08 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>10:16:11 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>10:16:11 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>10:16:15 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/download.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/download.aspx?&amp;xid=2&amp;fname=South Africa,xcel</Url>
+    <Time>10:16:16 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>10:19:29 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>10:19:31 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>10:19:36 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>10:19:39 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>10:19:40 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>10:19:43 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/download.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/download.aspx?&amp;xid=2&amp;fname=South Africa,xcel</Url>
+    <Time>10:19:44 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>10:21:12 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>10:21:13 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>10:21:21 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>10:21:24 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>10:21:25 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>10:21:28 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/download.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/download.aspx?&amp;xid=2&amp;fname=South Africa,xcel</Url>
+    <Time>10:21:29 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>10:44:32 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>10:44:33 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>10:44:46 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>10:45:15 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>10:45:15 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>10:45:17 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/download.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/download.aspx?&amp;xid=2&amp;fname=South Africa,xcel</Url>
+    <Time>10:45:20 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>10:45:46 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>10:45:47 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>10:46:07 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>10:46:10 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>10:46:10 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>10:46:13 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/download.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/download.aspx?&amp;xid=2&amp;fname=South Africa,xcel</Url>
+    <Time>10:46:14 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>10:52:46 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>10:52:47 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>10:53:04 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>10:53:07 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>10:53:08 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>10:53:11 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/download.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/download.aspx?&amp;xid=2&amp;fname=South Africa,xcel</Url>
+    <Time>10:53:12 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>11:01:06 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>11:01:09 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>11:01:18 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>11:01:22 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>11:01:23 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>11:01:27 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/download.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/download.aspx?&amp;xid=2&amp;fname=South Africa,xcel</Url>
+    <Time>11:01:27 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>11:03:14 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>11:03:15 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>11:03:23 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>11:03:26 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>11:03:27 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>11:03:30 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/download.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/download.aspx?&amp;xid=2&amp;fname=South Africa,xcel</Url>
+    <Time>11:03:32 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>11:04:07 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/download.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/download.aspx?&amp;xid=2&amp;fname=South Africa,xcel</Url>
+    <Time>11:04:08 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>11:08:32 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>11:08:33 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>11:08:40 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>11:08:44 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>11:08:45 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/VerifyOutgoingCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/VerifyOutgoingCBC.aspx?OutId=2&amp;Period=2017&amp;Stat=3</Url>
+    <Time>11:08:48 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/download.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/download.aspx?&amp;xid=2&amp;fname=South Africa,xcel</Url>
+    <Time>11:08:49 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>11:17:19 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>11:17:20 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/generateoutgoingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/generateoutgoingcbcdeclataions.aspx</Url>
+    <Time>11:17:27 AM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>16:45:08 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>16:45:10 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/admin/default2.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/admin/default2.aspx</Url>
+    <Time>16:45:27 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/admin/default2.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/admin/default2.aspx</Url>
+    <Time>16:45:37 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/admin/default2.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/admin/default2.aspx</Url>
+    <Time>16:45:38 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/Default.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/Default.aspx</Url>
+    <Time>16:45:42 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=0</Url>
+    <Time>16:45:45 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=0</Url>
+    <Time>16:45:51 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9583039640&amp;year=2014&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTA=</Url>
+    <Time>16:45:51 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>16:45:53 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>16:48:38 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>16:48:39 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=0</Url>
+    <Time>16:49:27 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>16:49:30 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>16:49:33 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>16:49:34 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>16:49:35 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>17:26:58 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>17:26:59 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/allocate/default.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/allocate/default.aspx</Url>
+    <Time>17:27:34 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>17:27:41 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>17:27:44 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>17:27:45 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>17:27:49 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>17:28:47 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>17:28:48 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>17:28:58 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>17:28:58 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>17:29:03 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>17:34:25 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>17:34:26 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>17:34:35 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>17:34:38 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>17:34:39 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>17:34:42 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>17:42:38 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>17:42:39 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>17:42:45 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>17:42:49 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>17:42:50 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>17:42:52 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>17:45:03 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>17:45:04 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>17:45:08 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>17:45:12 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>17:45:13 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>17:45:15 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>17:47:20 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>17:47:44 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>17:48:20 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>17:48:22 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>17:48:26 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>17:48:31 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>17:48:31 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>17:48:34 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>17:56:30 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>17:56:31 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>17:56:38 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>17:56:42 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>17:56:43 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>17:57:07 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>17:57:15 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>17:58:10 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>17:58:11 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>18:01:58 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>18:01:59 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:02:03 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:02:07 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>18:02:07 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>18:02:08 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>18:03:03 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>18:03:04 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>18:06:54 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>18:06:55 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:07:00 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:07:08 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>18:07:08 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>18:07:21 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>18:09:43 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>18:09:44 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:09:51 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:09:55 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>18:09:55 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>18:09:58 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>18:11:10 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>18:11:11 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:11:16 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:11:20 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>18:11:21 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>18:11:23 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>18:20:30 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>18:20:31 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:20:33 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:20:39 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>18:20:40 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>18:20:43 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>18:29:50 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>18:29:51 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:29:56 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:30:13 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>18:30:14 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>18:30:20 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>18:31:18 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>18:31:19 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:31:25 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:31:31 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:31:34 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>18:31:35 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>18:31:42 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>18:34:57 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>18:34:58 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:35:05 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/declinedsubmissions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/declinedsubmissions.aspx</Url>
+    <Time>18:35:12 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:35:14 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:35:17 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>18:35:18 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>18:35:20 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>18:36:58 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>18:36:59 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:37:03 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:37:07 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>18:37:08 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>18:37:22 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>18:40:09 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>18:40:13 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:40:37 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:40:40 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>18:40:41 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>18:40:45 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>18:41:29 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>18:41:30 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:41:36 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:41:40 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>18:41:41 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>18:41:44 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>18:47:56 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>18:47:58 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>18:49:39 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>18:49:40 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:49:46 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:49:50 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>18:49:51 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>18:49:53 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>18:50:56 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>18:50:57 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/ApproveOutgoinCBC.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/ApproveOutgoinCBC.aspx</Url>
+    <Time>18:51:11 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/secureurl/AccessFunctionDenied.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/secureurl/AccessFunctionDenied.aspx?func=Approve Outgoing CBCR</Url>
+    <Time>18:51:12 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:51:18 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/fdr/pages/incomingcbcdeclataions.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/fdr/pages/incomingcbcdeclataions.aspx?new=1</Url>
+    <Time>18:51:22 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/pages/cbcForm.aspx</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/pages/cbcForm.aspx?refno=9080191837&amp;year=2017&amp;bck=L2Zkci9wYWdlcy9pbmNvbWluZ2NiY2RlY2xhdGFpb25zLmFzcHg/bmV3PTE=</Url>
+    <Time>18:51:23 PM +02</Time>
+  </SystemRequest>
+  <SystemRequest>
+    <RequestTime>2018-03-01</RequestTime>
+    <Path>/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Path>
+    <User>SARSGOV\s2024134</User>
+    <Url>http://localhost/FDR/mnelistservice.asmx/GetCBCDataByTaxRefNo</Url>
+    <Time>18:51:25 PM +02</Time>
+  </SystemRequest>
+</ArrayOfSystemRequest>
