@@ -1,0 +1,2194 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+
+}
+
+.thumbnail {
+  height: 200px;
+}
+
+.thumbnail img.pull-right {
+  width: 50px;
+}
+
+.label3 {
+    color: #005187;
+    display: inline-block;
+    font-family: 'Arial';
+    font-size: 11.2px;
+    /*max-width: 80%;*/
+}
+
+.PageHeaderLabel {
+    color: #005187;
+    display: inline-block;
+    font-family: 'Arial';
+    font-size: 30px;
+    /*max-width: 80%;*/
+}
+.FormIDLabel {
+  color: #005187;
+  display: inline-block;
+  font-family: 'Arial';
+  font-size: 16px;
+  /*max-width: 80%;*/
+}
+
+.label4 {
+    color: #005187;
+    display: inline-block;
+    font-family: 'Arial';
+    font-size: 11.2px;
+    /*max-width: 80%;*/
+}
+
+.label5 {
+    color: #005187;
+    display: inline-block;
+    font-family: 'Arial';
+    font-size: 9px;
+    /*max-width: 80%;*/
+}
+
+.SubformHeading2 {
+    background-color: #4F82AD !important;
+    border: solid 1px #4F82AD !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.SubformHeading3 {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    background-color: #d6d9e0;
+    border: solid 1px #d6d9e0;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 12.8px;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+}
+
+.ContainerHeader{
+    background: #005187;
+    color: #fff;
+    font-family: 'Arial';
+    height: 30px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+  
+
+}
+
+.SubContainerHeader{
+    background: #4F82AD;
+    color: #fff;
+    font-family: 'Arial';
+    height: 30px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+  
+
+} 
+
+.ColumnHeader{
+    background: #4F82AD;
+    color: #fff;
+    font-family: 'Arial';
+    height: 30px;
+    width: 100%;
+    border-radius: 4px; 
+    font-size: 16px;
+
+} 
+
+ /*input:required {
+    box-shadow: 0 0 1.5px 2px red;
+}
+
+textarea:required {
+    box-shadow: 0 0 1.5px 2px red;
+} */
+
+.SubAccordionContainerHeader{
+    background:none;
+    color: #fff;
+    font-family: 'Arial';
+    height: 20px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+  
+
+} 
+
+.formhearder{
+  background:none;
+  color: #fff;
+  font-family: 'Arial';
+  height: 20px;
+  width: 50%;
+  border-radius: 4px;
+  font-size: 16px;
+
+
+} 
+
+.SubformHeadingdec {
+    display: inline-block;
+    height: auto;
+    width: 40%;
+    background-color: #d6d9e0;
+    border: solid 1px #d6d9e0;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 12.8px;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+  }
+  
+  .thumbnail {
+    height: 200px;
+  }
+  
+  .thumbnail img.pull-right {
+    width: 50px;
+  }
+  
+  html {
+    font-family: 'Arial';
+  }
+  
+  body {
+    margin: 0;
+    z-index: auto;
+  }
+  
+  blockquote {
+    border-left: none !important;
+    margin: 0 0 5px !important;
+  }
+  
+  input[type="checkbox"] {
+    height: 15px;
+    width: 15px;
+  }
+  
+  /* input:required {
+    box-shadow: 0 0 1.5px 2px red;
+  } */
+  
+  /* input:checked {
+    box-shadow: none;
+  } */
+  
+   input.ng-invalid {
+    border-color: red !important;
+  } 
+  
+  /* input.ng-valid {
+  } */
+  
+  input[type="radio"] {
+    -webkit-appearance: checkbox; /* Chrome, Safari, Opera */
+    -moz-appearance: checkbox; /* Firefox */
+    -ms-appearance: checkbox; /* not currently supported */
+  }
+  
+  .newbx {
+    display: inline-block;
+    background-image: url(../img/vert_grid_many_50.png);
+    background-size: 1237.5px 0.94em;
+    outline: 0;
+    font-size: 30px;
+    text-indent: 0.15em;
+    letter-spacing: 0.225em;
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 1em;
+  }
+  
+  input[type=checkbox] {
+    height: 1em;
+    width: 0.9em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;  background-image: url(../assets/images/checkbox_unselected.png);
+    background-size: 0.93em 0.975em;
+    margin: 2px;
+    font-size: 30px;
+  }
+  
+  input[type=checkbox]:checked {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background-image: url(../assets/images/checkbox_selected.png);
+      background-size: 0.93em 0.975em;
+      height: 1em;
+      width: 0.9em;
+       margin: 2px;
+      font-size: 30px;
+  }
+  
+  .note-border {
+    border: 1px solid; 
+    border-radius: 2px;
+    padding: 5px;
+  }
+  
+  .MasterContainer {
+    background-color: #121212;
+    margin-left: 20%;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    vertical-align: top;
+    display: table-cell;
+    height: 100%;
+    position: fixed;
+    padding-right: 2%;
+  }
+  
+  .textInput {
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .numberInput {
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: right;
+  }
+  
+  .numberInput-left .numberInput {
+    text-align: left;
+  }
+  
+  .textArea {
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bold;
+    position: absolute;
+    letter-spacing: 2px;
+    border: solid 2px;
+  }
+  
+  .imageField {
+    position: absolute;
+    border: solid;
+  }
+  
+  .textInputInvalid {
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bold;
+    position: absolute;
+    outline: none !important;
+    border: 2px solid #2CB7E6;
+    box-shadow: 0 0 10px #719ECE;
+  }
+  
+  .groupSubform {
+    height: auto;
+    width: auto;
+    display: none;
+    vertical-align: top;
+    border-radius: 4px; /*
+    */
+    position: relative;
+    /*        animation: new-item-animation .3s linear forwards;*/
+  }
+  
+  .groupSubformVisible {
+    height: auto;
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 4px; /*
+    */
+    position: relative;
+  }
+  
+  .errorMessage {
+    min-height: 10%;
+    color: #005187;
+    padding: 5px;
+    display: inline-block;
+    font-family: 'Arial';
+    font-size: 13px;
+    font-weight: bolder;
+  }
+  
+  /* input[type="text"] {
+    border: solid 2px #000;
+  }
+   */
+    input[type="text"].focus {
+        border: solid 2px #F5052D;
+    }
+  
+  .textInputInline {
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bold;
+    width: 40%;
+  }
+  
+  .mainContainer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90%;
+    position: fixed;
+    display: table;
+    table-layout: fixed;
+  }
+  
+  /* input[type="text"]:valid {
+    border: 1px solid #000;
+  } */
+  
+  .xmlTextArea {
+    width: 300px;
+    height: 200px;
+    background-color: #92ACCA;
+    border: 3px solid #92ACCA;
+  }
+  
+  input[type="text"]:invalid {
+    border: 1px solid red;
+    box-shadow: 0 0 10px #719ECE;
+  }
+  
+  input[type="text"]:focus {
+    outline: none !important;
+    border: 2px solid #2CB7E6;
+    box-shadow: 0 0 10px #719ECE;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .pageContent {
+    background-color: #FFFFFF;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start; /* new */
+    flex-wrap: wrap;
+  }
+  
+  .wizardPageContent {
+    background-color: #FFFFFF;
+    height: 85%;
+    margin-left: auto;
+    position: relative;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-align: start;
+    flex-basis: auto;
+  }
+  
+  
+  .AdobePage {
+    background-color: #FFFFFF;
+    height: 950px;
+    margin-left: auto;
+    position: relative;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 1%;
+    box-shadow: 10px 10px 5px #000;
+    vertical-align: top;
+    /*    -webkit-touch-callout: none;  iOS Safari 
+    -webkit-user-select: none;    Chrome/Safari/Opera 
+    -khtml-user-select: none;     Konqueror 
+    -moz-user-select: none;       Firefox 
+    -ms-user-select: none;        IE/Edge 
+  //  user-select: none;            non-prefixed version, currently
+                                    not supported by any browser */
+  }
+  
+  .MainTitle {
+    width: 100%;
+    height: 7%;
+    display: inline-block;
+    vertical-align: top;
+    top: 0;
+  }
+  
+  .Logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 170px;
+    height: auto;
+  }
+  
+  .SubformHeadingContainer {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    margin-bottom: 2px;
+    position: absolute;
+    padding-bottom: 2px;
+    z-index: 100;
+  }
+  
+  .SubformHeadingContainer2 {
+    display: inline-block;
+    position: absolute;
+    width: auto;
+    height: auto;
+    vertical-align: top;
+    margin-bottom: 2px;
+    z-index: 100;
+    padding-bottom: 2px;
+  }
+  
+  .subformID {
+    height: 100%;
+    width: 10%;
+    float: right;
+    display: inline-block;
+    color: #000000;
+    background-color: transparent;
+    font-family: arial;
+    font-weight: bold;
+    z-index: 90;
+  }
+  
+  .Title {
+    display: inline-block;
+    height: auto;
+    text-align: center;
+    color: #005187;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 0;
+    left: 50;
+  }
+  
+  .FormID {
+    position: relative;
+    top: 0;
+    right: 0;
+    text-align: center;
+    border: solid 2px #005187;
+    border-radius: 3px;
+    display: inline-block;
+    float: right;
+    margin: auto;
+    padding: 5px;
+  }
+  
+  .note {
+    position: relative;
+    top: 0;
+    right: 10%;
+    text-align: center;
+    border: solid 2px #005187;
+    border-radius: 3px;
+    display: inline-block;
+    float: right;
+    margin: auto;
+    padding: 5px;
+    font-size: 10px;
+  }
+  
+  /*.panel-info > .panel-heading {
+    color: none !important;
+    background-color: none !important;
+    border-color: none !important;
+  }*/
+  
+  .row-spacing {
+    margin-bottom: 5px !important;
+  }
+  
+  .WizSubformHeading1 {
+    background-color: #005187 !important;
+    border: solid 1px #005187 !important;
+    font-weight: bold;
+    color: #fff !important;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .SubformHeading1 {
+    background-color: #005187 !important;
+    border: solid 1px #005187 !important;
+    font-weight: bold;
+    color: #fff !important;
+  }
+  
+  .SubformHeadingHidden {
+    display: none;
+  }
+  
+  .label3 {
+    color: #005187;
+    display: inline-block;
+    font-family: 'Arial';
+    font-size: 11.2px;
+    /*max-width: 80%;*/
+  }
+  
+  .label4 {
+    color: #005187;
+    display: inline-block;
+    font-family: 'Arial';
+    font-size: 11.2px;
+    /*max-width: 80%;*/
+  }
+  
+  .label5 {
+    color: #005187;
+    display: inline-block;
+    font-family: 'Arial';
+    font-size: 9px;
+    /*max-width: 80%;*/
+  }
+  
+  .SubformHeading2 {
+    background-color: #4F82AD !important;
+    border: solid 1px #4F82AD !important;
+    color: #fff !important;
+    font-weight: bold;
+  }
+  
+  .SubformHeading3 {
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    background-color: #d6d9e0;
+    border: solid 1px #d6d9e0;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 12.8px;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .whiteBackgroundLabel {
+    background-color: #fff;
+    border: solid 1px #92ACCA;
+    color: #92ACCA;
+    border-radius: 5px;
+    z-index: 0.5;
+    display: inline-block;
+    color: #005187;
+    font-family: 'Arial';
+    font-size: 9px;
+  }
+  
+  .whiteBackGround {
+    background-color: #fff;
+    border: solid 1px #92ACCA;
+    border-radius: 5px;
+    margin-left: 1px;
+    display: inline-block;
+    min-width: 43px;
+    position: absolute;
+    font-family: 'Arial';
+    font-size: 9px;
+  }
+  
+  .backGround {
+    background-color: #92ACCA;
+    border: solid 1px #92ACCA;
+    border-radius: 5px;
+    margin-left: 1px;
+    display: inline-block;
+    min-width: 43px;
+    position: absolute;
+    font-family: 'Arial';
+    font-size: 11.2px;
+  }
+  
+  .threeSubform {
+    min-height: 60px;
+    max-height: inherit;
+    width: auto;
+    display: inline-block;
+    border-color: lavender;
+    width: 33%;
+    vertical-align: top;
+    position: relative;
+    margin-bottom: 1%;
+    border: 1px solid;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .twoSubform {
+    /*  min-height:60px;
+            max-height: inherit;
+            width: 66%;
+            display:block;
+            position:relative;
+            box-shadow: 0px 5px 0px #000;
+            border: 1px solid;
+            overflow:hidden;
+                
+            opacity: 1;
+            -webkit-animation: new-item-animation .3s linear forwards;
+            -o-animation: new-item-animation .3s linear forwards;
+            animation: new-item-animation .3s linear forwards;*/
+    min-height: 60px;
+    max-height: inherit;
+    width: auto;
+    display: inline-block;
+    border-color: lavender;
+    width: 66%;
+    position: relative;
+    margin-bottom: 1%;
+    border: 1px solid;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  
+  .inputContainer {
+    /*  margin: 1px;
+            width: auto;
+            display: inline-block;
+            animation: inputConteiner-animation 1s;
+            position: absolute;*/
+    display: inline-block;
+    position: absolute;
+    width: auto;
+    height: auto;
+  }
+  /**
+  .wizardSubform{
+    margin-bottom: 1%;
+    border-radius: 4px;
+    display: inline-block;
+    width: 100%;
+    height: 750px;
+    /*border: red solid;*/
+  /*         height: 100%;*/
+  /*    position:relative;*/
+  /*    width:1171.8px;
+  */
+  /*  border: 1px solid;
+        border-radius: 4px;
+        border-color: lavender;
+        overflow:hidden;
+        margin: auto;
+        opacity: 1;
+        -webkit-animation: new-item-animation .3s linear forwards;
+        -o-animation: new-item-animation .3s linear forwards;
+        animation: new-item-animation .3s linear forwards;*
+  } 
+  
+  */
+  .clear {
+    clear: both;
+  }
+  
+  .line {
+    color: blue;
+    background-color: inherit;
+    border: none;
+  }
+  
+  .subform {
+    height: auto;
+    width: auto;
+    display: none;
+    border-radius: 4px;
+    position: inherit;
+    animation: new-item-animation .3s linear forwards;
+  }
+  
+  /*.subformVisible{
+    height: auto;
+    width: auto;
+    display:inline-block;
+    border-radius: 4px;
+    position:inherit;
+    animation: new-item-animation .3s linear forwards;
+    border: solid;
+  
+  }*/
+  
+  
+  .subformVisible {
+    height: auto;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 4px;
+    position: relative;
+    animation: new-item-animation .3s linear forwards;
+  }
+  
+  .wizardInnerContainer {
+    padding: 2px;
+    height: auto;
+    vertical-align: top;
+    width: 380px;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .smallSubformContainer {
+    padding: 2px;
+    height: auto;
+    vertical-align: bottom;
+    width: 380px;
+    position: relative;
+    border: solid;
+  }
+  
+  
+  .inputContainerWizard {
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    animation: inputConteiner-animation 1s;
+    vertical-align: middle;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    position: relative;
+    color: #FFF;
+  }
+  
+  .inputContainer4 {
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    animation: inputConteiner-animation 1s;
+    vertical-align: middle;
+    padding-top: 11px;
+  }
+  
+  .inputContainer3 {
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    animation: inputConteiner-animation 1s;
+    vertical-align: middle;
+    position: relative;
+  }
+  
+  
+  .inputContainer2 {
+    margin: 1px;
+    width: auto;
+    display: inline-block;
+    height: auto;
+    padding-top: 12px;
+  }
+  
+  /*
+  .inputContainer label{
+        margin: auto;
+        min-width: 10px;
+        display: inline-block;
+        vertical-align: middle;
+        
+  }*/
+  
+  .AdobeReader {
+    background-color: #7F827E;
+    height: 90%;
+    left: 0%;
+    top: 10%;
+    position: fixed;
+    font-family: Arial;
+    overflow: scroll;
+    width: 100%;
+    display: table-cell;
+    overflow-x: scroll;
+    overflow-y: scroll;
+  }
+  
+  .AdobeReader_test {
+    background-color: #7F827E;
+    height: 90%;
+    left: 0%;
+    top: 10%;
+    position: fixed;
+    font-family: Arial;
+    overflow: scroll;
+    width: 100%;
+    display: table-cell;
+    overflow-x: scroll;
+    overflow-y: scroll;
+  }
+  
+  
+  .MenuBar_test {
+    height: 10%;
+    width: 80%;
+    z-index: 100;
+    position: fixed;
+    left: 20%;
+    top: 0%;
+    display: table-cell;
+    background-image: url('../resources/images/menubar.png');
+  }
+  
+  .MenuBar {
+    height: 10%;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    display: table-cell;
+    background-image: url('../resources/images/menubar.png');
+  }
+  
+  .footer {
+    position: absolute;
+    display: table;
+    top: 92%;
+    left: 20px;
+    width: 95%;
+    height: 8%;
+    border-top: solid 1px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    border: solid 1px;
+  }
+  
+  .dataBarcode {
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    top: 3%;
+  }
+  
+  .wipBarcode {
+    position: absolute;
+    height: 35%;
+    width: 35%;
+    left: 0;
+    margin-top: 2%;
+  }
+  
+  .PageNoContainer {
+    position: absolute;
+    left: 42%;
+    top: 0;
+    height: 100%;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  
+  /*#Reset{
+    background: url('../resources/images/resetButton.png');
+    cursor:pointer;
+    border: none;
+    color:transparent;
+    background-size: cover;
+    width:80px;
+    height:30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }*/
+  .formButtons {
+    z-index: 100;
+    height: 5%;
+    display: table-cell;
+    background-color: #005187;
+    position: fixed;
+    top: 0;
+    left: 20%;
+  }
+  
+  .FormButtons {
+    background-color: #005187;
+    border-left-color: #ffffff;
+    border-right-color: #ffffff;
+    border: #fff solid;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bolder;
+    width: auto;
+    border-bottom: none;
+    border-top: none;
+  }
+  
+  #btnAdd {
+    background: url('../resources/images/plus.button.gif');
+    cursor: pointer;
+    border: none;
+    color: transparent;
+    /*background-size: cover;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  
+  #btnUp {
+    background: url('../resources/images/ButtonUp.jpg');
+    cursor: pointer;
+    border: none;
+    color: transparent;
+    /*background-size: cover;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  
+  #btnDown {
+    background: url('../resources/images/ButtonDown.jpg');
+    cursor: pointer;
+    border: none;
+    color: transparent;
+    /*background-size: cover;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+   background-position: right;
+  }
+  
+  #btnRemove {
+    background: url('../resources/images/minus.button.png');
+    cursor: pointer;
+    border: none;
+    color: transparent;
+    /*background-size: cover;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  
+  .controls_show ul {
+    widows: 100%;
+    list-style: none;
+  }
+  
+  .controls_show {
+    width: 15%;
+    float: right;
+    overflow-x: scroll;
+    top: 1;
+    left: 1;
+  }
+  
+    .controls_show ul li {
+        clear: none;
+        width: 100%;
+        border-right: 2px solid #ffffff;
+        margin-top: 5px;
+    }
+  
+  
+  
+  
+  .inputContainer2 {
+    margin: 1px;
+    width: auto;
+    display: inline-block;
+    height: auto;
+  }
+  
+  .label2 {
+    margin: auto;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    color: #005187;
+    font-family: Arial;
+    font-size: 11.2px;
+    margin-left: 0px;
+    word-break: normal;
+  }
+  
+  .inputContainer input {
+    margin-top: 5px;
+    vertical-align: top;
+    alignment-baseline: middle;
+    border-width: 2px;
+    animation: inputConteiner-animation 1s;
+  }
+  
+  
+  .containerID {
+    width: 100%;
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 12px;
+    color: #000;
+    z-index: 90;
+  }
+  
+  
+  .wizardLabel {
+    color: #005187;
+    position: relative;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: bold;
+    width: 1%;
+    display: inline-block;
+  }
+  
+  .wizardQlabel {
+    color: #005187;
+    font-family: Arial;
+    font-size: 11.2px;
+    margin-left: 1px;
+    font-weight: bold;
+    vertical-align: bottom;
+    display: inline-block;
+    width: 310px;
+    position: relative;
+  }
+  
+  .labelITR12 {
+    color: #005187;
+    font-family: 'Arial';
+    font-size: 11.2px;
+    margin-left: 1px;
+    display: inline-block;
+    position: absolute;
+  }
+  
+  
+  
+  
+  select, option {
+    width: 200px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .open {
+    display: block;
+  }
+  
+  .closed {
+    display: none;
+  }
+  
+  li {
+    list-style-type: none;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    font-size: 18px;
+  }
+  
+    li img {
+        vertical-align: middle;
+    }
+  
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .formNavigation {
+    width: 20%;
+    float: left;
+    overflow-x: scroll;
+    overflow-wrap: break-word;
+    top: 1;
+    left: 1;
+    height: 100%;
+    position: fixed;
+    display: table-cell;
+    background-color: steelblue;
+  }
+  
+  .level1ListItem > a {
+    list-style: none;
+    border: 2px #005187 solid;
+    color: #005187;
+    list-style-type: none;
+    width: 100%;
+    background-color: #ffffff;
+    text-decoration: none;
+    height: auto;
+    display: table;
+    left: 1;
+    float: left;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .level2ListItem > a {
+    list-style: none;
+    background-color: #005187;
+    color: #fff;
+    border: 3px #005187 solid;
+    list-style-type: none;
+    width: 90%;
+    text-decoration: none;
+    height: auto;
+    display: table;
+    float: left;
+    height: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .level3ListItem > a {
+    list-style: none;
+    background-color: #005187;
+    color: #fff;
+    border: 3px #005187 solid;
+    list-style-type: none;
+    width: 80%;
+    text-decoration: none;
+    height: auto;
+    display: table;
+    float: left;
+    height: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .level1ListItem > a:hover {
+    background-color: lightsteelblue;
+  }
+  
+  .level2ListItem > a:hover {
+    background-color: lightsteelblue;
+  }
+  
+  .HierachicalHeader {
+    font-weight: bolder;
+    list-style: none;
+    border: 2px #005187 solid;
+    color: #005187;
+    list-style-type: none;
+    width: 100%;
+    background-color: #ffffff;
+    text-decoration: none;
+    height: auto;
+    display: table;
+    left: 1;
+    float: left;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .focusedOn {
+    border: #9ecaed solid 3px;
+    outline: none;
+    box-shadow: 0 0 15px #9ecaed;
+  }
+  
+  .FocusedOff {
+    border: #fff solid 1px;
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .Selected {
+    border: 2px #fff solid;
+    color: #fff;
+    background-color: #005187;
+  }
+  
+  ::-moz-selection {
+    background-color: Transparent;
+    color: #000;
+  }
+  
+  ::selection {
+    background-color: Transparent;
+   color: #000;
+  }
+  
+  
+  .popUpHeader {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    background-color: #005187;
+    z-index: 1003;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Arial";
+    font-weight: bolder;
+  }
+  
+  .black_overlay {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 5;
+    opacity: .80;
+  }
+  
+  .popUp {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 40%;
+    width: 30%;
+    height: auto;
+    min-height: 10%;
+    padding: 16px;
+    border: 5px solid #005187;
+    background-color: white;
+    z-index: 100;
+    -moz-z-index: 100;
+    border-radius: 10px;
+  }
+  
+  .listView {
+    /* overflow-y: scroll;*/
+    width: 100%;
+    height: 70%;
+    overflow-x: hidden;
+    margin-top: 10px;
+  }
+  
+  .listItems {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border: solid 1px #005187;
+    border-radius: 1px;
+    font-family: Arial;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    /*overflow: auto;*/
+  }
+  
+  .popUpButtons {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    width: 50%;
+    font-size: 12px;
+    background: #005187;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+    .popUpButtons:hover {
+        background: #137cc2;
+        text-decoration: none;
+    }
+  
+  .popUpButtonsContainer {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    vertical-align: central;
+    text-align: center;
+  }
+  
+  .searchTextInput {
+    width: 100%;
+    margin-top: 10px;
+    border: 5px;
+  }
+  
+  .visblePage {
+    display: inline-block;
+  }
+  
+  .hiddenPage {
+    display: none;
+  }
+  
+  .wizardField {
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  
+  .wizardFieldHidden {
+    display: none;
+  }
+  
+  .wizardSubform {
+    width: 32%;
+    display: inline-block;
+    height: auto;
+  }
+  
+  .wizardSubformHidden {
+    width: 32%;
+    display: inline-block;
+    height: auto;
+    display: none;
+  }
+  
+  .wizardInput {
+    float: right;
+  }
+  
+  .wizardField > .radioGroup {
+    float: right;
+    display: inline-block;
+    width: auto;
+    align-content: space-between;
+  }
+  
+  
+  
+  
+  .wizardRadioField {
+  }
+  
+  
+  .wizardRadioField {
+    display: none;
+  }
+  
+    .wizardRadioField:checked ~ .wizardRadioField:disabled + label span {
+        background: url(../resources/images/selectButtons/selected.locked.png) no-repeat;
+        background-size: contain;
+    }
+  
+    .wizardRadioField:disabled + label span {
+        background: url(../resources/images/selectButtons/unselected.locked.png) no-repeat;
+        background-size: contain;
+        pointer-events: none;
+    }
+  
+    .wizardRadioField + label span {
+        color: red;
+        display: inline-block;
+        height: 22px;
+        width: 22px;
+        vertical-align: bottom;
+        background: url(../resources/images/selectButtons/unselected.png) no-repeat;
+        cursor: pointer;
+        background-size: contain;
+        /*    position: absolute;*/
+    }
+  
+    .wizardRadioField:required + label span {
+        color: red;
+        display: inline-block;
+        width: 22px;
+        /*    float: right;*/
+        height: 22px;
+        vertical-align: bottom;
+        background: url(../resources/images/selectButtons/unselected.required.png) no-repeat;
+        background-position: center;
+        cursor: pointer;
+        background-size: contain;
+        /*    position: absolute;*/
+    }
+  
+  /*.wizardRadioField:checked + label span {
+    background:url(../resources/images/selectButtons/selected.png) no-repeat;
+    background-size: contain;
+  }*/
+  
+  
+  
+  
+  .radioField {
+  }
+  
+  
+  .radioField {
+    display: none;
+  }
+  
+    .radioField:disabled + label span {
+        background: url(../resources/images/selectButtons/unselected.locked.png) no-repeat;
+        background-size: contain;
+        pointer-events: none;
+    }
+  
+  
+  /*.radioField + label span {
+    color:red;
+    display:inline-block;
+    height:22px;
+    width: 22px;
+    vertical-align:bottom;
+    background:url(../resources/images/selectButtons/unselected.png) no-repeat;
+    background-size: contain;
+    cursor:pointer;
+    position: absolute;
+  }
+  
+  
+  
+  
+  
+  .radioField:required + label span {
+    color:red; 
+    display:inline-block;
+    width: 22px;
+    float: right;
+    height:22px;
+    vertical-align: bottom;
+    background:url(../resources/images/selectButtons/unselected.required.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor:pointer;
+    position: absolute;
+  }
+  
+  .radioField:checked + label span {
+    background:url(../resources/images/selectButtons/selected.png) no-repeat;
+    background-size: contain;
+  
+  }
+  
+  .radioField:checked ~ :disabled +label span {
+    background:url(../resources/images/selectButtons/selected.locked.png) no-repeat;
+    background-size: contain;
+  }
+  
+  */
+  .wizardRadioField + label span {
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    vertical-align: bottom;
+    background: url(../resources/images/unselected.background.gif) no-repeat;
+    cursor: pointer;
+  }
+  
+  
+  .wizardRadioField:required + label span {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+    background: url(../resources/images/unselected.mandatory.background.gif) no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+  
+  .wizardRadioField:checked + label span {
+    background: url(../resources/images/selected.background.gif);
+  }
+  
+  
+  
+  
+  .radioField {
+  }
+  
+  
+  .radioField {
+    display: none;
+  }
+  
+    /*
+  .radioField:checked ~ .radioField:disabled + label span {
+    background:url(../resources/images/selected.background.locked.gif) ;
+  }
+  
+  
+  
+  
+  .radioField:disabled + label span {
+    background:url(../resources/images/unselected.background.locked.gif) ;
+    pointer-events: none;
+  
+  }
+  
+  */
+  
+  
+    .radioField + label span {
+        color: red;
+        display: inline-block;
+        height: 22px;
+        width: 22px;
+        vertical-align: bottom;
+        background: url(../resources/images/unselected.background.gif) no-repeat;
+        cursor: pointer;
+        position: absolute;
+    }
+  
+    .radioField:required + label span {
+        color: red;
+        display: inline-block;
+        width: 22px;
+        float: right;
+        height: 22px;
+        vertical-align: bottom;
+        background: url(../resources/images/unselected.mandatory.background.gif) no-repeat;
+        background-position: center;
+        cursor: pointer;
+        position: absolute;
+    }
+  
+    .radioField:checked + label span {
+        background: url(../resources/images/selected.background.gif);
+    }
+  
+  .signatureCanvas {
+    z-index: 50000;
+    background-color: yellow;
+    display: none;
+    position: absolute;
+    border: 5px solid #005187;
+    background-color: white;
+    z-index: 100;
+    -moz-z-index: 100;
+    border-radius: 10px;
+  }
+  
+  .fieldConatiner {
+    top: 0;
+    left: 0;
+  }
+  
+  #buttonTest0 {
+    background-image: url('../resources/images/plus.button.gif');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover; /* Mozilla*/
+    -o-background-size: cover; /* Opera*/
+    background-size: cover; /* Generic*/
+  }
+  
+    #buttonTest0.hover {
+        cursor: pointer;
+    }
+  
+  .fieldConatinerHidden {
+    display: none;
+    top: 0;
+    left: 0;
+  }
+  
+  
+  
+  
+  .checkboxField {
+    display: none;
+  }
+  
+    .checkboxField + label span {
+        color: red;
+        display: inline-block;
+        height: 22px;
+        width: 22px;
+        float: right;
+        vertical-align: bottom;
+        background: url(../resources/images/unselected.background.gif) no-repeat;
+        cursor: pointer;
+        position: absolute;
+    }
+  
+  
+  
+  
+  
+    .checkboxField:required + label span {
+        color: red;
+        display: inline-block;
+        width: 22px;
+        float: right;
+        height: 22px;
+        vertical-align: bottom;
+        background: url(../resources/images/unselected.mandatory.background.gif) no-repeat;
+        background-position: center;
+        cursor: pointer;
+        position: absolute;
+    }
+  
+    .checkboxField:checked + label span {
+        background: url(../resources/images/selected.background.gif);
+    }
+  
+    .checkboxField:disabled + label span {
+        background: url(../resources/images/unselected.background.locked.gif);
+    }
+  
+  /* input:required {
+    box-shadow: 0 0 1.5px 2px red;
+  } */
+  
+  textarea:required {
+    border-color: red !important;
+  }
+  
+  input:checked {
+    box-shadow: none;
+  }
+  
+  /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    popup style
+  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+  
+  body.modal-open div.modal-backdrop {
+    z-index: 0;
+  }
+  
+  .modal.custom {
+    outline: none;
+  }
+  
+  .modal-open {
+    margin-right: 0px !important;
+    padding-right:0px;
+  }
+  
+  body { padding-right: 0 !important }
+  body {
+    overflow-y: scroll !important;
+  }
+  
+  .modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  
+  
+  
+  .modal.custom .modal-dialog {
+    width: 50%;
+    margin: 0 auto;
+    height: 10%;
+    vertical-align: middle;
+  }
+  
+  .modal-header {
+    padding: 9px 15px;
+    border-bottom: 1px solid #eee;
+    background-color: #0480be;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  #lookUpPopUp, #confirmValue_Popup {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+  
+  .datagrid table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    height: 250px;
+    /*overflow:scroll;*/
+  }
+  
+  .datagrid {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: auto;
+    border: 1px solid #006699;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height: 250px;
+  }
+  
+    .datagrid table td, .datagrid table th {
+        padding: 3px 10px;
+        height: 30px;
+    }
+  
+    .datagrid table thead th {
+        background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+        background: -moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+        background-color: #006699;
+        color: #FFFFFF;
+        font-size: 15px;
+        font-weight: bold;
+        border-left: 1px solid #0070A8;
+        margin-top: 30px;
+        height: 30px;
+    }
+  
+        .datagrid table thead th:first-child {
+            border: none;
+           margin-top: 30px;
+            height: 30px;
+        }
+  
+    .datagrid table tbody td {
+        color: #00496B;
+        border-left: 1px solid #E1EEF4;
+        font-size: 12px;
+        font-weight: normal;
+        margin-top: 30px;
+        height: 30px;
+    }
+  
+    .datagrid table tr {
+        cursor: pointer;
+        height: 30px;
+    }
+  
+    .datagrid table tbody tr:hover {
+        background-color: #92ACCA;
+        color: #ffffff;
+    }
+  
+    .datagrid table tbody tr {
+        background-color: #137cc2;
+        color: #ffffff;
+        margin-top: 30px;
+        height: 30px;
+    }
+  
+        .datagrid table tbody tr:nth-child(2n+1):hover {
+            background-color: #92ACCA;
+            color: #ffffff;
+        }
+  
+        .datagrid table tbody tr:nth-child(2n+1) {
+            background: #E1EEF4;
+            /*color: #00496B;*/
+            color: #ffffff;
+            margin-top: 30px;
+            height: 30px;
+        }
+  
+    .datagrid table tbody td:first-child {
+        border-left: none;
+        margin-top: 30px;
+        height: 30px;
+    }
+  
+    .datagrid table tbody tr:last-child td {
+        border-bottom: none;
+        margin-top: 30px;
+        height: 30px;
+    }
+  
+    .datagrid table tfoot td div {
+        border-top: 1px solid #006699;
+        background: #E1EEF4;
+        margin-top: 30px;
+        height: 30px;
+    }
+  
+    .datagrid table tfoot td {
+        padding: 0;
+        font-size: 12px;
+        margin-top: 30px;
+        height: 30px;
+    }
+  
+        .datagrid table tfoot td div {
+            padding: 2px;
+            margin-top: 30px;
+            height: 30px;
+        }
+  
+        .datagrid table tfoot td ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-align: right;
+            margin-top: 30px;
+            height: 30px;
+        }
+  
+    .datagrid table tfoot li {
+        display: inline;
+        margin-top: 30px;
+        height: 30px;
+    }
+  
+        .datagrid table tfoot li a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 2px 8px;
+            margin: 1px;
+            color: #FFFFFF;
+            border: 1px solid #006699;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+            background: -moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+            background-color: #006699;
+            margin-top: 30px;
+            height: 30px;
+        }
+  
+    .datagrid table tfoot th {
+        text-decoration: none;
+        border-color: #006699;
+        color: #FFFFFF;
+        background: none;
+        background-color: #00557F;
+        margin-top: 30px;
+        height: 30px;
+    }
+  
+  div.dhtmlx_window_active, div.dhx_modal_cover_dv {
+    position: fixed !important;
+  }
+  
+  table#searchTable {
+    border-collapse: collapse;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+  
+  
+  .my .glyphicon {
+    pointer-events: all;
+  }
+  
+  .btn-custom {
+    background: darkgray;
+  }
+  
+  #notFound {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .btn-custom {
+    background: #005187;
+    color: #ffffff;
+  }
+  
+  
+  
+  /* <<<<<<<<<<<<<<<<Calendar styling>>>>>>>>>>>>>>>>>>>>.*/
+  .ui-datepicker {
+    background-color: #fff;
+    border: 1px solid #66AFE9;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(102,175,233,.6);
+    display: none;
+    margin-top: 4px;
+    padding: 10px;
+    width: 240px;
+  }
+  
+    .ui-datepicker a,
+    .ui-datepicker a:hover {
+        text-decoration: none;
+    }
+  
+        .ui-datepicker a:hover,
+        .ui-datepicker td:hover a {
+            color: #2A6496;
+            -webkit-transition: color 0.1s ease-in-out;
+            -moz-transition: color 0.1s ease-in-out;
+            -o-transition: color 0.1s ease-in-out;
+            transition: color 0.1s ease-in-out;
+        }
+  
+    .ui-datepicker .ui-datepicker-header {
+        margin-bottom: 4px;
+        text-align: center;
+    }
+ 
+    .ui-datepicker .ui-datepicker-title {
+        font-weight: 700;
+    }
+  
+    .ui-datepicker .ui-datepicker-prev,
+    .ui-datepicker .ui-datepicker-next {
+        cursor: default;
+        font-family: 'Glyphicons Halflings';
+        -webkit-font-smoothing: antialiased;
+        font-style: normal;
+        font-weight: normal;
+        height: 20px;
+        line-height: 1;
+        margin-top: 2px;
+        width: 30px;
+    }
+  
+    .ui-datepicker .ui-datepicker-prev {
+        float: left;
+        text-align: left;
+    }
+  
+    .ui-datepicker .ui-datepicker-next {
+        float: right;
+        text-align: right;
+    }
+  
+    .ui-datepicker .ui-datepicker-prev:before {
+        content: "\e079";
+    }
+  
+    .ui-datepicker .ui-datepicker-next:before {
+        content: "\e080";
+    }
+  
+    .ui-datepicker .ui-icon {
+        display: none;
+    }
+  
+    .ui-datepicker .ui-datepicker-calendar {
+        table-layout: fixed;
+        width: 100%;
+    }
+  
+        .ui-datepicker .ui-datepicker-calendar th,
+        .ui-datepicker .ui-datepicker-calendar td {
+            text-align: center;
+            padding: 4px 0;
+        }
+  
+        .ui-datepicker .ui-datepicker-calendar td {
+            border-radius: 4px;
+            -webkit-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+            -moz-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+            -o-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+            transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+        }
+  
+            .ui-datepicker .ui-datepicker-calendar td:hover {
+                background-color: #eee;
+                cursor: pointer;
+            }
+  
+            .ui-datepicker .ui-datepicker-calendar td a {
+                text-decoration: none;
+            }
+  
+    .ui-datepicker .ui-datepicker-current-day {
+        background-color: #4289cc;
+    }
+  
+        .ui-datepicker .ui-datepicker-current-day a {
+            color: #fff;
+        }
+  
+    .ui-datepicker .ui-datepicker-calendar .ui-datepicker-unselectable:hover {
+        background-color: #fff;
+        cursor: default;
+    }
+  
+  /* Styles go here */
+  
+  /*.pagination-controller {
+    border: 1px solid #fcc;
+    padding: 5px;
+    margin: 3px;
+  }
+  
+    .pagination-controller small {
+        color: #c99;
+    }
+  
+  .other-controller {
+    border: 1px solid #ccf;
+    padding: 5px;
+    margin: 3px;
+  }
+  
+    .other-controller small {
+        color: #99c;
+    }
+  
+  .third-controller {
+    border: 1px solid #cfc;
+    padding: 5px;
+    margin: 3px;
+  }
+  
+    .third-controller small {
+        color: #9c9;
+    }*/
+  
+  .noPadding {
+    padding: 0px;
+  }
+  
+  .alignRight {
+    text-align: right;
+ }
+  
+  .pad-left-5 .noPadding {
+    padding-left: 10px;
+  }
+  
+  .container-Item-Margin {
+    padding: 0px;
+    margin: 2px;
+  }
+  
+  textarea { resize: none; }
+  
+  /* .alertify */
+  
+  .alertify .ajs-header { 
+    background-color: #4289cc;
+  }
+  
+  
+  .columns-3 {
+    margin: 1em;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    height: 100em;
+    -moz-column-fill: auto; /* Firefox */
+    column-fill: auto;
+  }
+  
+  .wizard-options {
+    text-align: right;
+   }
+  
+    /* input[type=text]:disabled, 
+   input[type=text]:invalid {
+    border: 1px solid red;
+}   */
+
+
+input[type="checkbox"]:invalid {
+  box-shadow: 0 0 1.5px 2px red;
+}
+
+input[type="checkbox"]:valid {
+  border: 1px solid #000;
+}
+
+input:checked {
+  box-shadow: none;
+}
+
+input[type="checkbox"][disabled] {
+  background: rgb(214, 214, 214)!important;
+}
+/* @media(min-width: 1400px){
+  .my-modal > .modal-lg {
+      width: 1200px;
+     
+  }
+}
+
+@media(min-height: 200px){
+  .my-modal > .modal-lg {
+      height: 350px;
+     
+  }
+} */
+
+
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 5px;
+  padding: 0px;
+}
+
+.levelOne {
+  /* background-color: #006DCC; */
+  background-color: #337ab7;
+  color: white;
+}
+.levelTwo {
+  background-color: #337ab7;
+  color:  white;
+}
+
+
+tr td:first-child,
+tr th:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+tr td:last-child,
+tr th:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.clickableRow {
+  cursor: pointer;
+}
+p, textarea {
+  font-variant: small-caps !important;
+  text-rendering: auto;
+}
+td, th {
+  font-size: 8pt;
+}
+table {
+  padding: 0px;
+}
+
+

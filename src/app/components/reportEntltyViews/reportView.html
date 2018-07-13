@@ -1,0 +1,143 @@
+<div>
+  <div class="header">
+    <div class="row">
+      <img class="pull-left col-sm-2" ng-src="assets/images/SarsLogo.png">
+      <div class="col-sm-6">
+        <label class="PageHeaderLabel">Country by Country Reporting (CbC)</label>
+      </div>
+      <div class="col-sm-4">
+        <div class="form-group">
+          <label class="label3 control-label col-sm-3">Reporting Period (CCYYMMDD)</label>
+          <div class="col-sm-6">
+            <input id="reportingperiod" placeholder="CCYYMMDD" ng-disabled="false" type="text" class="form-control" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.MessageSpec.ReportingPeriod">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <label class="ContainerHeader "><strong>Reporting Entlty</strong> </label>
+    <div class="col-sm-12 ">
+      <div class="formGroup">
+        <label class="control-label col-sm-1 label3">Registered Name</label>
+        <div class="col-sm-11">
+          <input id="registeredname" ng-disabled="true" type="text" class="form-control" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity[0].Name"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <br/>
+  <div class="row">
+    <div class="col-sm-12 ">
+      <div class="formGroup">
+        <label class="control-label col-sm-1 label3">Trading Name</label>
+        <div class="col-sm-11">
+          <input id="tradingname" ng-disabled="true" type="text" class="form-control" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity[1].Name"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <br/>
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="formGroup ">
+        <label class="control-label label3 col-sm-1">Company Reg No.</label>
+        <div class="col-sm-3">
+          <input id="companyregno" ng-disabled="true" type="text" class="form-control" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity[0].IN"
+          />
+        </div>
+      </div>
+      <div class="formGroup">
+        <label class="control-label label3 col-sm-1">Issued by Country</label>
+        <div class="col-sm-1">
+          <input class="form-control" ng-disabled="true" type="text" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.IN"
+          />
+        </div>
+      </div>
+      <div class="formGroup">
+        <label class="control-label label3 col-sm-1">Tax Ref No</label>
+        <div class="col-sm-3">
+          <input class="form-control" ng-disabled="true" type="text" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.TIN"
+            numbers-only />
+        </div>
+      </div>
+      <div class="formGroup">
+        <label class="control-label label3 col-sm-1">Issued by Country</label>
+        <div class="col-sm-1">
+          <input class="form-control" ng-disabled="true" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.TIN"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <br/>
+  <div class="row">
+    <div class="col-sm-12">
+      <div>
+        <div class="formGroup">
+          <label class="control-label label3 col-sm-1">GIIN No</label>
+          <div class="col-sm-5">
+            <input type="text" class="form-control" ng-disabled="true" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.IN"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="formGroup">
+        <label class="control-label label3 col-sm-1">Issued by Country</label>
+        <div class="col-sm-1">
+          <input class="form-control" ng-disabled="true" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.IN"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <br/>
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="formGroup">
+        <label class="control-label label3 col-sm-1">Reporting Role</label>
+        <div class="col-sm-2">
+          <!--<input class="form-control" type="text"  ng-required="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.ReportingRole =='' || formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.ReportingRole == angular.isUndefined" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.ReportingRole"
+          />-->
+          <ui-select ng-required="true" ng-disabled="disabled" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.ReportingRole" >
+            <ui-select-match placeholder="Select">{{$select.selected.code}}</ui-select-match>
+            <ui-select-choices repeat="report in reportingRole | propsFilter: {name: $select.search}" position='auto'>
+              <div ng-bind-html="country.name | highlight: $select.search"></div>
+              <small>
+                {{report.name}}
+              </small>
+           </ui-select-choices>
+          </ui-select>
+        </div>
+      </div>
+      <div class="formGroup">
+        <label class="control-label label3 col-sm-2">Resident Country code (e.g. South Africa = ZA)</label>
+        <div class="col-sm-1">
+          <ui-select ng-required="true" ng-disabled="disabled" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.ResCountryCode" >
+            <ui-select-match placeholder="Select">{{$select.selected.code}}</ui-select-match>
+            <ui-select-choices repeat="country in countrycodes | propsFilter: {name: $select.search}" position='auto'>
+              <div ng-bind-html="country.name | highlight: $select.search"></div>
+              <small>
+                {{country.name}}
+              </small>
+           </ui-select-choices>
+          </ui-select>
+        </div>
+      </div>
+      <div class="formGroup">
+        <label class="control-label label3 col-sm-1">Unique No.</label>
+        <div class=" col-sm-2">
+          <input type="text" class="form-control" ng-disabled="true" type="text" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.DocSpec"
+          />
+        </div>
+      </div>
+      <div class="formGroup">
+        <label class="control-label label3">Record Status:</label>
+        <label class="control-label label3">Correction<input type="checkbox" ng-disabled="true" type="text"  ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.DocSpec.DocTypeIndic" /></label>
+        <label class="control-label label3">Deletion<input type="checkbox" ng-disabled="true" type="text"  ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.DocSpec.DocTypeIndic"/></label>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,347 @@
+<!--cbc main-->
+
+<div ng-repeat="jurisdiction in jurisdictionsArr track by $index">
+    <label class="ContainerHeader"><strong>CbC Reports:</strong> </label>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Currency Code</label>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" />
+                </div>
+            </div>
+            <div class="formGroup ">
+                <label class="control-label label3 col-sm-2">Resident Country code (e.g. South Africa = ZA)</label>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.CbcReports.ResCountryCode"
+                    />
+                </div>
+            </div>
+            <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Unique No.</label>
+                <div class="col-sm-2">
+                    <input type="text" class="form-control" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.CbcReports.DocSpec"
+                    />
+                </div>
+            </div>
+            <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Record Status:</label>
+                <label class="control-label">Correction<input type="checkbox" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.CbcReports.DocSpec.DocTypeIndic" /></label>
+                <label class="control-label">Deletion<input type="checkbox" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.CbcReports.DocSpec.DocTypeIndic"/></label>
+            </div>
+
+        </div>
+    </div>
+    <label class="SubContainerHeader"><strong>Summary</strong> </label>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Profit/Loss before Income Tax</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.Summary[0].TaxPaid" />
+                </div>
+            </div>
+
+            <div class="formGroup">
+                <label class="control-label label3 col-sm-1">Currency Code</label>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.Summary[1].TaxPaid" />
+                </div>
+            </div>
+
+            <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Stated Capital</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.Summary[0].Capital" />
+                </div>
+            </div>
+
+            <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Currency Code</label>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.Summary[1].Capital" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Income Tax Paid</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.Summary[0].TaxPaid" />
+                </div>
+            </div>
+
+            <div class="formGroup">
+                <label class="control-label label3 col-sm-1">Currency Code</label>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.Summary[1].TaxPaid" />
+                </div>
+            </div>
+
+            <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Accumulated Earnings</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.Summary[0].Earnings" />
+                </div>
+            </div>
+
+            <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Currency Code</label>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.Summary[1].Earnings" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Income Tax Accrued</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.Summary[0].TaxAccrued" />
+                </div>
+            </div>
+
+            <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Currency Code</label>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.Summary[0].TaxAccrued" />
+                </div>
+            </div>
+
+            <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Assets</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.Summary[0].Assets" />
+                </div>
+            </div>
+
+            <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Currency Code</label>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.Summary[1].Assets" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">No. of Employees</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.Summary.NbEmployees" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <label class="SubContainerHeader"><strong>Revenues</strong> </label>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="formGroup ">
+                    <label class="control-label label3 col-sm-1">Unrelated</label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.Summary.Revenues[0].Unrelated" />
+                    </div>
+                </div>
+                <div class="formGroup ">
+                    <label class="control-label label3 col-sm-1">Currency Code</label>
+                    <div class="col-sm-1">
+                        <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.Summary.Revenues[1].Unrelated" />
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Related</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.Summary.Revenues[0].Related" />
+                </div>
+            </div>
+
+            <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Currency Code</label>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.Summary.Revenues[1].Related" />
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Total</label>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.Summary.Revenues[0].Total" />
+                </div>
+            </div>
+
+            <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Currency Code</label>
+                <div class="col-sm-1">
+                    <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.Summary.Revenues[1].Total" />
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div>
+        <label class="SubContainerHeader"><strong>Selection for Constituent Entities</strong> </label>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="">
+                    <div class="formGroup ">
+                        <label class="control-label label3 col-sm-2">Number of Tax Jurisdictions to report</label>
+                        <div class="col-sm-1">
+                            <input type="text" class="form-control" ng-model="formData.CountryByCountryDeclaration.TaxJurisdictions.TaxJurisdiction.NoOfConstituentEntities"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <label class="SubContainerHeader"><strong>Constituent Entity:</strong> </label>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="">
+                    <div class="formGroup ">
+                        <label class="control-label label3 col-sm-1">Registered Name</label>
+                        <div class="col-sm-11">
+                            <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.ConstEntities.ConstEntity.Name" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="">
+                    <div class="formGroup ">
+                        <label class="control-label label3 col-sm-1">Trading Name</label>
+                        <div class="col-sm-11">
+                            <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.ConstEntities.ConstEntity.Name" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="formGroup ">
+                    <label class="control-label label3 col-sm-1">Company Reg No.</label>
+                    <div class="col-sm-3">
+                        <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.ConstEntities.ConstEntity[0].IN" />
+                    </div>
+                </div>
+                <div class="formGroup">
+                    <label class="control-label label3 col-sm-1">Issued by Country</label>
+                    <div class="col-sm-1">
+                        <input class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.ConstEntities.ConstEntity[1].IN" />
+                    </div>
+                </div>
+                <div class="formGroup">
+                    <label class="control-label label3 col-sm-1">Tax Ref No</label>
+                    <div class="col-sm-3">
+                        <input class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.ConstEntities.ConstEntity[0].TIN" />
+                    </div>
+                </div>
+                <div class="formGroup">
+                    <label class="control-label label3 col-sm-1">Issued by Country</label>
+                    <div class="col-sm-1">
+                        <input class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.ConstEntities.ConstEntity[0].TIN" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <label class="SubContainerHeader"><strong>Address</strong> </label>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="formGroup ">
+                        <label class="control-label label3 col-sm-1">Address type</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.ReportingEntity.Entity[0].Address" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="formGroup ">
+                        <div class="col-sm-10">
+                            <textarea class="form-control" name="" id="" cols="30" rows="10" ng-model="formData.CBC_OECD.CbcBody.ReportingEntity.Entity.Address[1].AddressFree"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="formGroup ">
+                        <label class="control-label label3 col-sm-1">Country Code</label>
+                        <div class="col-sm-2">
+                            <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.ConstEntities.ConstEntity.Address.CountryCode"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <label class="SubContainerHeader"><strong>Business Activities</strong> </label>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="formGroup ">
+                        <label class="control-label label3 col-sm-1">Address type</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.CbcReports.ConstEntities.BizActivities"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <label class="control-label label3 col-sm-3">Main Business Activities</label>
+                    <div class="formGroup ">
+                        <div class="col-sm-12">
+                            <textarea type="text" class="form-control" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.CbcReports.ConstEntities.OtherEntityInfo"></textarea>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="formGroup ">
+                        <label class="control-label label3 col-sm-1">Country Code</label>
+                        <div class="col-sm-2">
+                            <input type="text" class="form-control" ng-model="formData.CBC_OECD.CbcBody.CbcReports.ConstEntities.ConstEntity.Address.CountryCode"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

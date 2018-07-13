@@ -1,0 +1,1404 @@
+<!doctype html>
+<html ng-app="cbcproject">
+
+<head>
+  <meta charset="utf-8">
+  <title>CBC</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-busy/4.1.4/angular-busy.min.css" />
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-block-ui/0.2.2/angular-block-ui.min.css" /> -->
+
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- run `gulp inject` to automatically populate bower styles dependencies -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css({.tmp/serve,src}) styles/app.css -->
+  <!-- inject:css -->
+  <!-- css files will be automatically insert here -->
+  <!-- endinject -->
+  <!-- endbuild -->
+</head>
+
+<body>
+  <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <[endif]-->
+
+
+
+  <div class="container" style="display:block">
+    <div class="row">
+      <h3>Please send the PRE-POP xml / json for containers to display</h3>
+    </div>
+    <div class="row">
+      <textarea id="requestXML" name="requestXML" rows="10" cols="100"></textarea>
+    </div>
+    <div class="row">
+      <input type="button" onclick="data.loadFormData(requestXML.value, 'xml', true)" value="Send XML Data">
+      <input type="button" onclick="formDataModule.loadFormData(requestXML.value, 'json', true)" value="Send JSON Data">
+    </div>
+
+    <div class="row">
+      <textarea id="results" rows="10" cols="100"></textarea>
+    </div>
+
+    <div class="row">
+      <input type="button" onclick="data.getLocalFormData('xml')" value="Get XML Data">
+      <input type="button" onclick="formTestApi.getLocalFormData('json')" value="Get JSON Data">
+      <input type="button" onclick="formDataModule.mandatoryIsValid()" value="mandatoryIsValid">
+      <input type="button" onclick="formDataModule.minimalIsValid()" value="minimalIsValid">
+      <input type="button" onclick="formDataModule.isFormValid()" value="isFormValid">
+    </div>
+  </div>
+  <form id="mainForm" name="CBCForm" ng-controller="MainController as main">
+    <!-- <fieldset ng-disabled="!readOnly">   -->
+      <div class="" ng-cloak>
+
+        <div>
+          <div class="header">
+            <div class="row">
+              <img class="pull-left col-sm-2" ng-src="assets/images/SarsLogo.png">
+              <div class="col-sm-6">
+                <label class="PageHeaderLabel">Country by Country Reporting (CbC)</label>
+                <br>
+
+                <input type="hidden" name="formData.CountryByCountryDeclaration.FormInfo.VersionNo" ng-init="formData.CountryByCountryDeclaration.FormInfo.VersionNo='3.0'"
+                />
+
+                <label class="label3">Version:3.2.1</label>
+              </div>
+              <div class="col-sm-4">
+                <div class="form-group">
+                  <label class="label3 control-label col-sm-3">Reporting Period (CCYYMMDD)</label>
+                  <div class="col-sm-6">
+                    <input id="reportingperiod" name="Reporting Period (CCYYMMDD)" data-fieldlabel="Reporting Period (CCYYMMDD)" placeholder="CCYYMMDD"
+                      ng-disabled="false" type="text" class="form-control" required="true" required-empty ng-model="formData.CountryByCountryDeclaration.CBC_OECD.MessageSpec.ReportingPeriod"
+                      sars-maxlength="8" ng-blur="runDateValidationOnExitRules($event)" />
+                  </div>
+                  <div class="col-sm-2">
+                    <label class="PageHeaderLabel">CBC01</label>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 ">
+              <label class=" panel-heading ContainerHeader ">
+                <strong>Reporting Entity</strong>
+              </label>
+              <div class="formGroup">
+                <label class="control-label col-sm-1 label3">Registered Name</label>
+                <div class="col-sm-11">
+                  <input sars-maxlength="100" required-empty data-fieldlabel="Registered Name" uppercase id="registeredname" name="Registered Name"
+                    ng-disabled="true" type="text" class="form-control" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.Name[0]"
+                    ng-required="true" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <br/>
+          <div class="row">
+            <div class="col-sm-12 ">
+              <div class="formGroup">
+                <label class="control-label col-sm-1 label3">Trading Name</label>
+                <div class="col-sm-11">
+                  <input sars-maxlength="100" data-fieldlabel="Trading Name" uppercase id="tradingname" name="Trading Name" ng-disabled="true"
+                    type="text" class="form-control" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.Name[1]"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <br/>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Company Reg No.</label>
+                <div class="col-sm-3">
+                  <input sars-maxlength="30" data-fieldlabel="Company Reg no." uppercase id="companyregno" name="Company Reg no." ng-disabled="true"
+                    type="text" class="form-control" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.IN[0]['#text']"
+                  />
+                </div>
+              </div>
+              <div class="formGroup">
+                <label class="control-label label3 col-sm-1">Issued by Country</label>
+                <div class="col-sm-1">
+                  <input class="form-control" data-fieldlabel="Issued by Country" id="companyregNoIssuedbyCounrty" name="Issued by Country"
+                    ng-disabled="true" type="text" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.IN[0]['@issuedBy']"
+                    ng-init="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.IN[0]['@INType']='Company Registration Numbe'"
+                  />
+                </div>
+              </div>
+              <div class="formGroup">
+                <label class="control-label label3 col-sm-1">Tax Ref No</label>
+                <div class="col-sm-3">
+                  <input sars-maxlength="30" data-fieldlabel="Tax Reference Number" uppercase id="taxRefNo" tax-reference name="Tax Reference Number"
+                    class="form-control" ng-disabled="true" type="text" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.TIN['#text']"
+                    numbers-only ng-required="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.TIN['#text']=='' || formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.TIN['#text']== null"
+                  />
+                </div>
+              </div>
+              <div class="formGroup">
+                <label class="control-label label3 col-sm-1">Issued by Country</label>
+                <div class="col-sm-1">
+                  <input class="form-control" data-fieldlabel="Issued by Country" name="Issued by Country" id="taxRefNoIssuedByCounrty" ng-disabled="true"
+                    ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.TIN['@issuedBy'] "
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <br/>
+          <fieldset ng-disabled="!readOnly">
+          <div class="row">
+            <div class="col-sm-12">
+              <div>
+                <div class="formGroup">
+                  <label class="control-label label3 col-sm-1">GIIN No</label>
+                  <div class="col-sm-5">
+                    <input sars-maxlength="19" data-fieldlabel="GIIN No." uppercase alpha-numeric id="giinNo" name="GIIN No." type="text" class="form-control"
+                    ng-disabled="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.DocSpec.DocTypeIndic['#text']!=='OECD2'  && formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.DocSpec.DocRefId !== undefined" 
+                     ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.IN[1]['#text']"
+                      ng-blur="validateGIINNoField($event);prepopValueWhenNotEmpty($event)" />
+                  </div>
+                </div>
+              </div>
+              <div class="formGroup">
+                <label class="control-label label3 col-sm-1">Issued by Country</label>
+                <div class="col-sm-1">
+                  <input ng-model-options="{ getterSetter: true }" class="form-control" id="giinNoIssuedByCounty" name="Issued by Country"
+                    ng-disabled="true" data-fieldlabel="Issued by Country" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.IN[1]['@issuedBy']=prepopValue"
+                    ng-init="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.IN[1]['@INType']='GIIN'"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <br/>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="formGroup">
+                <label class="  control-label label3 col-sm-1">Reporting Role </label>
+                <div class="col-sm-2" ng-class="{ 'has-error': CBCForm.ReportingRole.$invalid }">
+                  <ui-select id="reportingRole" data-fieldlabel="Reporting Role" name="ReportingRole" ng-required="true" theme="bootstrap" 
+                    id="reportingRole"
+                     ng-disabled="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.DocSpec.DocTypeIndic['#text']!=='OECD2'  && formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.DocSpec.DocRefId !== undefined" 
+                     ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.ReportingRole">
+                    <ui-select-match placeholder="Select">{{$select.selected}}</ui-select-match>
+                    <ui-select-choices repeat="report in reportingRole | propsFilter: {name: $select.search} | orderBy:'name'" position='auto'
+                      item-width="auto">
+                      <small style="font-size:75%!important;width: auto!important; word-wrap: break-word!important; white-space: normal!important">
+                        {{::report.name}}
+                      </small>
+                    </ui-select-choices>
+                  </ui-select>
+                </div>
+              </div>
+              <div class="formGroup">
+                <label class="control-label label3 col-sm-1">Resident Country code (e.g. South Africa = ZA)</label>
+                <div class="col-sm-2" ng-class="{ 'has-error': CBCForm.EntltyResidentCountryCode.$invalid }">
+                  <ui-select ng-required="true" data-fieldlabel="Residential Country Code" theme="bootstrap" id="residentCountry" name="EntltyResidentCountryCode"
+                  ng-disabled="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.DocSpec.DocTypeIndic['#text']!=='OECD2'  && formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.DocSpec.DocRefId !== undefined" 
+                     ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.ResCountryCode">
+                    <ui-select-match placeholder="Select">{{$select.selected}}</ui-select-match>
+                    <ui-select-choices repeat="country in countrycodes | propsFilter: {name: $select.search} | orderBy:'name'" position='auto'>
+                      <small style="font-size:75%!important;width: auto!important; word-wrap: break-word!important; white-space: normal!important">
+                        {{::country.name}}
+                      </small>
+                    </ui-select-choices>
+                  </ui-select>
+                </div>
+              </div>
+              <div class="formGroup">
+                <label class="control-label label3 col-sm-1">Unique No.</label>
+                <div class="col-sm-2">
+                  <input sars-maxlength="16" type="text" class="form-control" ng-disabled="true" type="text" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.DocSpec.DocRefId"
+                  />
+                </div>
+              </div>
+              <div class="formGroup">
+              <div class="col-sm-3">
+                  <label class="control-label label3">Record Status:</label>
+                <label class="control-label label3 ">Correction </label>
+                  <input type="checkbox" data-fieldlabel="Correction Deletion" name="recordStatusEntity" id="recordStatusEntity_1" ng-true-value="'OECD2'"
+                    ng-false-value="''" ng-disabled="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.DocSpec.DocRefId =='' || formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.DocSpec.DocRefId== undefined"
+                    ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.DocSpec.DocTypeIndic['#text']"
+                    ng-required="false" />
+                <label class="control-label label3">Deletion</label>
+                  <input type="checkbox" data-fieldlabel="Correction Deletion" name="recordStatusEntity" id="recordStatusEntity_2" ng-true-value="'OECD3'"
+                    ng-false-value="''" ng-disabled="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.DocSpec.DocRefId=='' || formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.DocSpec.DocRefId== undefined "
+                    ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.DocSpec.DocTypeIndic['#text']"
+                    ng-click="deletionEntityMessage(formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity, $event)"
+                    ng-required="false" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <br/>
+      </fieldset>
+        <!-- contacts-->
+
+        
+
+         
+        <div>
+          <label class=" panel-heading SubContainerHeader">
+            <strong>Contact Person Details</strong>
+          </label>
+          <br/>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">First Names</label>
+                <div class="col-sm-11">
+                  <input sars-maxlength="53" required-empty data-fieldlabel="First Names" special-character uppercase name="First Names" ng-required="true"
+                    type="text" id="name" class="form-control" ng-model="formData.CountryByCountryDeclaration.ContactDetails.FirstNames" 
+                    ng-disabled="!readOnly" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <br/>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Surname</label>
+                <div class="col-sm-11">
+                  <input sars-maxlength="53" required-empty data-fieldlabel="Surname" special-character uppercase name="Surname" type="text"
+                  ng-disabled="!readOnly" id="surname" ng-required="true" class="form-control" ng-model="formData.CountryByCountryDeclaration.ContactDetails.Surname"  
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <br/>
+          <div class="row ">
+            <div class="col-sm-12">
+              <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Bus Tel No. 1</label>
+                <div class="col-sm-3">
+                  <input type="text" required-empty sars-maxlength="15" data-fieldlabel="Bus Tel No.1" class="form-control" name="Bus Tel No. 1"
+                    ng-required="true" ng-model="formData.CountryByCountryDeclaration.ContactDetails.BusTelNo1" numbers-only
+                    ng-disabled="!readOnly"   id="BusTelNo1" ng-blur="telNumberValidation($event)"  />
+                </div>
+              </div>
+              <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Bus Tel No. 2</label>
+                <div class="col-sm-3">
+                  <input type="text" required-empty sars-maxlength="15" data-fieldlabel="Bus Tel No.2" class="form-control" name="Bus Tel No. 2"
+                    id="BusTelNo2" ng-required="((formData.CountryByCountryDeclaration.ContactDetails.BusTelNo2=='' || formData.CountryByCountryDeclaration.ContactDetails.BusTelNo2== undefined) && (formData.CountryByCountryDeclaration.ContactDetails.cell=='' || formData.CountryByCountryDeclaration.ContactDetails.cell== undefined) && (formData.CountryByCountryDeclaration.ContactDetails.BusTelNo1=='' || formData.CountryByCountryDeclaration.ContactDetails.BusTelNo1 == undefined))"
+                    ng-disabled="!readOnly"   ng-model="formData.CountryByCountryDeclaration.ContactDetails.BusTelNo2" numbers-only ng-blur="telNumberValidation($event)"
+                    />
+                </div>
+              </div>
+
+              <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Cell No.</label>
+                <div class="col-sm-3">
+                  <input sars-maxlength="15" id="CellNo" required-empty type="text" data-fieldlabel="Cell No" name="Cell No" class="form-control"
+                    ng-required="((formData.CountryByCountryDeclaration.ContactDetails.BusTelNo2=='' || formData.CountryByCountryDeclaration.ContactDetails.BusTelNo2== undefined) && (formData.CountryByCountryDeclaration.ContactDetails.cell=='' || formData.CountryByCountryDeclaration.ContactDetails.cell== undefined) && (formData.CountryByCountryDeclaration.ContactDetails.BusTelNo1=='' || formData.CountryByCountryDeclaration.ContactDetails.BusTelNo1 == undefined))"
+                    ng-disabled="!readOnly"  ng-model="formData.CountryByCountryDeclaration.ContactDetails.CellNo" numbers-only ng-blur="telNumberValidation($event)"
+                   />
+                </div>
+              </div>
+            </div>
+          </div>
+          <br/>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Email Address</label>
+                <div class="col-sm-11">
+                  <input sars-maxlength="80" data-fieldlabel="Email Address" type="text" id="emailAddress" uppercase name="Email Address" class="form-control"
+                    ng-required="formData.CountryByCountryDeclaration.ContactDetails.EmailAddress=='' || formData.CountryByCountryDeclaration.ContactDetails.EmailAddress == null"
+                    ng-disabled="!readOnly"   ng-model="formData.CountryByCountryDeclaration.ContactDetails.EmailAddress" ng-blur='runEmailAddressValidationOnExitRules($event)'
+                     />
+                </div>
+              </div>
+            </div>
+          </div>
+          <br/>
+        </div>
+
+        <div>
+          <label class=" panel-heading SubContainerHeader">
+            <strong>Address</strong>
+          </label>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Address type</label>
+
+                <div class="col-sm-3" ng-class="{ 'has-error': CBCForm.Addresstype.$invalid }">
+                  <ui-select ng-required="true" data-fieldlabel="Address type" id="Addresstype" name="Addresstype"   ng-disabled="!readOnly"
+                  ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.Address['@legalAddressType']">
+                    <ui-select-match placeholder="Select">{{$select.selected}}</ui-select-match>
+                    <ui-select-choices repeat="address in addresstypes | propsFilter: {name: $select.search} | orderBy:'name'" position='auto'>
+                      <small style="font-size:75%!important;width: auto!important; word-wrap: break-word!important; white-space: normal!important">
+                        {{::address.name}}
+                      </small>
+                    </ui-select-choices>
+                  </ui-select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br/>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="formGroup ">
+                <div class="col-sm-6">
+                  <textarea sars-maxlength="200" data-fieldlabel="Address" special-character uppercase class="form-control" required="true"
+                    required-empty name="Address" id="address" rows="6" ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.Address.AddressFree"
+                    ng-disabled="!readOnly" ></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br/>
+
+          <div class="row">
+            <div class="col-sm-8">
+              <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Country Code</label>
+                <div class="col-sm-2" ng-class="{ 'has-error': CBCForm.CountryCode.$invalid }">
+
+                  <ui-select id="countryCode" required="true" data-fieldlabel="Country Code" name="CountryCode"  ng-disabled="!readOnly"
+                    ng-model="formData.CountryByCountryDeclaration.CBC_OECD.CbcBody.ReportingEntity.Entity.Address.CountryCode">
+                    <ui-select-match placeholder="Select">{{$select.selected}}</ui-select-match>
+                    <ui-select-choices repeat="country in countrycodes | propsFilter: {name: $select.search} | orderBy:'name'" position='auto'>
+                      <small style="font-size:75%!important;width: auto!important; word-wrap: break-word!important; white-space: normal!important">
+                        {{::country.name}}
+                      </small>
+                    </ui-select-choices>
+                  </ui-select>
+                  <br/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+
+
+        <!--cbc report header-->
+        <!-- <div>
+        <label class=" panel-heading SubContainerHeader">Selection for Tax Jurisdictions</label>
+        <div class="row" >
+          <div class="col-sm-12">
+            <div class="">
+              <div class="formGroup ">
+                <label class="control-label label3 col-sm-1">Number of Tax Jurisdictions to report</label>
+                <div class="col-sm-1"> -->
+        <!-- <input id="numberofTaxJurisdictiontoreport" required-empty data-fieldlabel="Number of Tax Jurisdiction to report" name="Number of Tax Jurisdiction to report" required="true" required-empty type="text"
+                    class="form-control" ng-blur="ddRemoveCbcReport($event)" ng-model="formData.CountryByCountryDeclaration.NoOfTaxJurisdictions"
+                    numbers-only sars-maxlength="3" /> -->
+        <!-- 
+                  <input id="numberofTaxJurisdictiontoreport" data-fieldlabel="Number of Tax Jurisdiction to report" name="Number of Tax Jurisdiction to report"
+                    type="text" class="form-control" ng-model="formData.CountryByCountryDeclaration.NoOfTaxJurisdictions=jurisdictionsArr.length" ng-model-options="{ getterSetter: true }"
+                    numbers-only sars-maxlength="3" ng-disabled="true" ng-init="formData.CountryByCountryDeclaration.NoOfTaxJurisdictions=jurisdictionsArr.length" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+
+        <!-- main cbc report-->
+     <fieldset ng-disabled="!readOnly">
+     
+        <ng-form name="CBCReportFormDiv" id="CBCReportFormDiv">
+
+          <div cg-busy="{promise:myPromiseReport,message:message,backdrop:backdrop,templateUrl:templateUrl,delay:delay,minDuration:minDuration}">
+            <!-- <div block-ui="blockCbcReport"> -->
+
+            <accordion>
+              <accordion-group is-open="oneAtATime" ng-repeat="jurisdiction in DefaultCBCReport track by $index" panel-class="panel-primary"
+                name="cbcReport" ng-if="showreportDiv">
+                <accordion-heading>
+                  <div class="row">
+                    <div class="col-sm-11">
+                      <label>
+                        CBC Reports: {{resCountryName}}
+
+                      </label>
+
+                    </div>
+
+                  </div>
+                </accordion-heading>
+
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="formGroup ">
+                      <label class="control-label label3 col-sm-1">Currency Code</label>
+                      <div class="col-sm-2">
+                        <ui-select id="currencyCodeJuris" ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2' && jurisdiction.DocSpec.DocRefId !==undefined" data-fieldlabel="Currency Code" ng-class="{ 'has-error': CBCReportFormDiv.CurrencyCode.$invalid }"
+                         name="CurrencyCode" ng-model="jurisdiction.Summary.ProfitOrLoss['@currCode']" ng-required="true">
+                          <ui-select-match placeholder="Select">{{$select.selected}}</ui-select-match>
+                          <ui-select-choices repeat="currencyCode in currencyCodes | propsFilter: {name: $select.search} | orderBy:'name'" position='auto'>
+                            <small style="font-size:75%!important;width: auto!important; word-wrap: break-word!important; white-space: normal!important">
+                              {{::currencyCode.name}}
+                            </small>
+                          </ui-select-choices>
+                        </ui-select>
+                      </div>
+                    </div>
+                    <div class="formGroup ">
+                      <label class="control-label label3 col-sm-2">Resident Country code (e.g. South Africa = ZA)</label>
+                      <div class="col-sm-1" ng-class="{ 'has-error': CBCReportFormDiv.ReportResidentCountrycode.$invalid }">
+                        <ui-select id="reportResidentCountrycodeJuris" required="true" data-fieldlabel="Residential Country Code" ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined"
+                          name="ReportResidentCountrycode" ng-model="jurisdiction.ResCountryCode" on-select="onResCountryCodeSelect($item)">
+                          <ui-select-match placeholder="Select">{{$select.selected}}</ui-select-match>
+                          <ui-select-choices repeat="country in countrycodes | propsFilter: {name: $select.search} | orderBy:'name'" position='auto'>
+                            <small style="font-size:75%!important;width: auto!important; word-wrap: break-word!important; white-space: normal!important">
+                              {{::country.name}}
+                            </small>
+                          </ui-select-choices>
+                        </ui-select>
+                      </div>
+                    </div>
+                    <div class="formGroup ">
+                      <label class="control-label label3 col-sm-1">Unique No.</label>
+                      <div class="col-sm-2">
+                        <input sars-maxlength="16" type="text" ng-disabled="true" class="form-control" ng-model="jurisdiction.DocSpec.DocRefId" />
+                      </div>
+                    </div>
+                    <div class="formGroup ">
+
+                      <label class="control-label label3 col-sm-1">Record Status:</label>
+                      <label class="control-label label3">Correction
+                        <input type="checkbox" data-fieldlabel="Correction Deletion Reports"  ng-disabled="jurisdiction.DocSpec.DocRefId=='' || jurisdiction.DocSpec.DocRefId == undefined"
+                          name="recordStatusReport" id="recordStatusReports_1" ng-true-value="'OECD2'" ng-false-value="''"
+                          ng-model="jurisdiction.DocSpec.DocTypeIndic['#text']"  ng-required="jurisdiction.DocSpec.DocRefId !== undefined && jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD3'"   />
+                      </label>
+                      <label class="control-label label3">Deletion
+                        <input type="checkbox" data-fieldlabel="Correction Deletion Reports" ng-disabled="jurisdiction.DocSpec.DocRefId =='' || jurisdiction.DocSpec.DocRefId == undefined"
+                          name="recordStatusReport" id="recordStatusReport_2" ng-true-value="'OECD3'" ng-false-value="''" ng-click="deletionReportMessage(jurisdiction,$event)"
+                          ng-model="jurisdiction.DocSpec.DocTypeIndic['#text']"   ng-required="jurisdiction.DocSpec.DocRefId !== undefined  && jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2' "/>
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <br/>
+                <label class=" panel-heading SubContainerHeader">Summary:</label>
+                <!-- <label class=" panel-heading SubContainerHeader">Summary: {{::jurisdiction.ResCountryCode}} {{::$index + 1}}</label> -->
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="formGroup ">
+                      <label class="control-label label3 col-sm-1">Profit/Loss before Income Tax</label>
+                      <div class="col-sm-3">
+                        <input sars-maxlength="15" ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined" data-fieldlabel="Profit/Loss before Income Tax" id="profitLossbeforeIncomeTax" type="text" name="Profit/Loss before Income Tax"
+                          class="form-control" required-empty ng-model="jurisdiction.Summary.ProfitOrLoss['#text']" allow-decimal="false"
+                          allow-negative="true" valid-number run-on-load cbc-money-field-validator ng-required="jurisdiction.Summary.ProfitOrLoss['#text'] === undefined || jurisdiction.Summary.ProfitOrLoss['#text'] === ''"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="formGroup">
+                      <label class="control-label label3 col-sm-1">Currency Code</label>
+                      <div class="col-sm-1">
+                        <input type="text" data-fieldlabel="Currency Code" class="form-control" ng-disabled="true" required="true" required-empty
+                          ng-model="jurisdiction.Summary.ProfitOrLoss['@currCode']" model-data-getter="jurisdiction.Summary.ProfitOrLoss['@currCode']"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="formGroup ">
+                      <label class="control-label label3 col-sm-1">Stated Capital</label>
+                      <div class="col-sm-3">
+                        <input sars-maxlength="15" data-fieldlabel="Stated Capital" ng-required="jurisdiction.Summary.Capital['#text'] === undefined || jurisdiction.Summary.Capital['#text'] === ''"
+                         ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined"
+                          type="text" id="statedCapital" name="Stated Capital" class="form-control" required-empty ng-model="jurisdiction.Summary.Capital['#text']"
+                          allow-decimal="false" allow-negative="true" run-on-load cbc-money-field-validator />
+                      </div>
+                    </div>
+
+                    <div class="formGroup ">
+                      <label class="control-label label3 col-sm-1">Currency Code</label>
+                      <div class="col-sm-1">
+                        <input type="text" data-fieldlabel="Currency Code" class="form-control" ng-disabled="true" model-data-getter="jurisdiction.Summary.ProfitOrLoss['@currCode']"
+                          required="true" required-empty ng-model="jurisdiction.Summary.Capital['@currCode']" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br/>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="formGroup ">
+                      <label class="control-label label3 col-sm-1">Income Tax Paid</label>
+                      <div class="col-sm-3">
+                        <input sars-maxlength="15" data-fieldlabel="Income Tax Paid" id="incomeTaxPaid" name="Income Tax Paid" type="text" class="form-control" 
+                        ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2' && jurisdiction.DocSpec.DocRefId !==undefined"
+                          required-empty ng-model="jurisdiction.Summary.TaxPaid['#text']" valid-number allow-decimal="false"
+                          allow-negative="true" run-on-load cbc-money-field-validator ng-required="jurisdiction.Summary.TaxPaid['#text'] === undefined || jurisdiction.Summary.TaxPaid['#text'] === ''"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="formGroup">
+                      <label class="control-label label3 col-sm-1">Currency Code</label>
+                      <div class="col-sm-1">
+                        <input type="text" data-fieldlabel="Currency Code" class="form-control" ng-disabled="true" model-data-getter="jurisdiction.Summary.ProfitOrLoss['@currCode']"
+                          required="true" required-empty ng-model="jurisdiction.Summary.TaxPaid['@currCode']" />
+                      </div>
+                    </div>
+
+                    <div class="formGroup ">
+                      <label class="control-label label3 col-sm-1">Accumulated Earnings</label>
+                      <div class="col-sm-3">
+                        <input sars-maxlength="15" data-fieldlabel="Accumulated Earnings" type="text" id="accumulatedEarnings" name="Accumulated Earnings"
+                          class="form-control" required-empty ng-model="jurisdiction.Summary.Earnings['#text']" valid-number 
+                          ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined"
+                          allow-decimal="false" allow-negative="true" run-on-load cbc-money-field-validator ng-required="jurisdiction.Summary.Earnings['#text'] === undefined || jurisdiction.Summary.Earnings['#text'] === ''"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="formGroup ">
+                      <label class="control-label label3 col-sm-1">Currency Code</label>
+                      <div class="col-sm-1">
+                        <input type="text" data-fieldlabel="Currency Code" class="form-control" ng-disabled="true" model-data-getter="jurisdiction.Summary.ProfitOrLoss['@currCode']"
+                          required="true" required-empty ng-model="jurisdiction.Summary.Earnings['@currCode']" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br/>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="formGroup ">
+                      <label class="control-label label3 col-sm-1">Income Tax Accrued</label>
+                      <div class="col-sm-3">
+                        <input sars-maxlength="15" data-fieldlabel="Income Tax Accrued" id="incomeTaxAccrued" name="Income Tax Accrued" type="text"
+                          class="form-control" required-empty ng-model="jurisdiction.Summary.TaxAccrued['#text']" valid-number 
+                          ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined"
+                          allow-decimal="false" allow-negative="true" run-on-load cbc-money-field-validator ng-required="jurisdiction.Summary.TaxAccrued['#text'] === undefined || jurisdiction.Summary.TaxAccrued['#text'] === ''"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="formGroup ">
+                      <label class="control-label label3 col-sm-1">Currency Code</label>
+                      <div class="col-sm-1">
+                        <input type="text" data-fieldlabel="Currency Code" class="form-control" ng-disabled="true" required="true" required-empty
+                          model-data-getter="jurisdiction.Summary.ProfitOrLoss['@currCode']" ng-model="jurisdiction.Summary.TaxAccrued['@currCode']"
+                        />
+                      </div>
+                    </div>
+                    <div class="formGroup ">
+                      <label class="control-label label3 col-sm-1">Assets</label>
+                      <div class="col-sm-3">
+                        <input sars-maxlength="15" data-fieldlabel="Assets" id="assets" name="Assets" type="text" required-empty class="form-control"
+                          ng-model="jurisdiction.Summary.Assets['#text']" valid-number allow-decimal="false" allow-negative="true" 
+                          ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined"
+                          run-on-load cbc-money-field-validator ng-required="jurisdiction.Summary.Assets['#text'] === undefined || jurisdiction.Summary.Assets['#text'] === ''"
+                        />
+                      </div>
+                    </div>
+                    <div class="formGroup ">
+                      <label class="control-label label3 col-sm-1">Currency Code</label>
+                      <div class="col-sm-1">
+                        <input type="text" data-fieldlabel="Currency Code" class="form-control" ng-disabled="true" model-data-getter="jurisdiction.Summary.ProfitOrLoss['@currCode']"
+                          required="true" required-empty ng-model="jurisdiction.Summary.Assets['@currCode']" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br/>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="formGroup ">
+                      <label class="control-label label3 col-sm-1">No. of Employees</label>
+                      <div class="col-sm-3">
+                        <input sars-maxlength="10" data-fieldlabel="No. of Employees" id="noOfEmployees" name="No. of Employees" type="text" ng-required="jurisdiction.Summary.NbEmployees === undefined || jurisdiction.Summary.NbEmployees === ''"
+                          class="form-control" ng-model="jurisdiction.Summary.NbEmployees" numbers-only 
+                          ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br/>
+                <div>
+                  <label class=" panel-heading SubContainerHeader">Revenues:</label>
+                  <!-- <label class=" panel-heading SubContainerHeader">Revenues:{{::jurisdiction.ResCountryCode}}</label> -->
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="formGroup ">
+                        <label class="control-label label3 col-sm-1">Unrelated</label>
+                        <div class="col-sm-3">
+                          <input sars-maxlength="15" data-fieldlabel="Unrelated" id="Unrelated" name="Related" type="text" class="form-control" ng-required="jurisdiction.Summary.Revenues.Unrelated['#text'] === undefined || jurisdiction.Summary.Revenues.Unrelated['#text'] === ''"
+                            required-empty ng-model="jurisdiction.Summary.Revenues.Unrelated['#text']" run-on-load cbc-money-field-validator
+                            allow-decimal="false" valid-number allow-negative="true" 
+                            ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined" />
+                        </div>
+                      </div>
+                      <div class="formGroup ">
+                        <label class="control-label label3 col-sm-1">Currency Code</label>
+                        <div class="col-sm-1">
+                          <input type="text" data-fieldlabel="Currency Code" required="true" ng-disabled="true" model-data-getter="jurisdiction.Summary.ProfitOrLoss['@currCode']"
+                            required-empty class="form-control" ng-model="jurisdiction.Summary.Revenues.Unrelated['@currCode']"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br/>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="formGroup ">
+                      <label class="control-label label3 col-sm-1">Related</label>
+                      <div class="col-sm-3">
+                        <input sars-maxlength="15" data-fieldlabel="Related" id="related" name="Related" type="text" class="form-control" ng-required="jurisdiction.Summary.Revenues.Related['#text'] === undefined || jurisdiction.Summary.Revenues.Related['#text'] === ''"
+                          required-empty ng-model="jurisdiction.Summary.Revenues.Related['#text']" run-on-load cbc-money-field-validator
+                          allow-decimal="false" valid-number allow-negative="true" 
+                           ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined"/>
+                      </div>
+                    </div>
+                    <div class="formGroup ">
+                      <label class="control-label label3 col-sm-1">Currency Code</label>
+                      <div class="col-sm-1">
+                        <input type="text" data-fieldlabel="Currency Code" class="form-control" ng-disabled="true" model-data-getter="jurisdiction.Summary.ProfitOrLoss['@currCode']"
+                          required="true" required-empty ng-model="jurisdiction.Summary.Revenues.Related['@currCode']" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br/>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="formGroup">
+                      <label class="control-label label3 col-sm-1">Total </label>
+                      <div class="col-sm-3">
+                        <input sars-maxlength="15" data-fieldlabel="Total" ng-disabled="true" name="Total" type="text" class="form-control" ng-model="jurisdiction.Summary.Revenues.Total['#text'] = (jurisdiction.Summary.Revenues.Related['#text'] --jurisdiction.Summary.Revenues.Unrelated['#text'])"
+                          valid-number allow-decimal="false" allow-negative="true" ng-model-options="{ getterSetter: true }"
+                          run-on-load cbc-money-field-validator/>
+                      </div>
+                    </div>
+                    <div class="formGroup ">
+                      <label class="control-label label3 col-sm-1">Currency Code</label>
+                      <div class="col-sm-1">
+                        <input type="text" data-fieldlabel="Currency Code" class="form-control" ng-disabled="true" model-data-getter="jurisdiction.Summary.ProfitOrLoss['@currCode']"
+                          ng-model="jurisdiction.Summary.Revenues.Total['@currCode']" required="true" required-empty />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br/>
+                <!-- <div>
+                  <label class="panel-heading SubContainerHeader">Selection for Constituent Entities</label>
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="">
+                        <div class="formGroup">
+                          <label class="control-label label3 col-sm-2">Number of Constituent Entities in this Tax Jurisdiction</label>
+                          <div class="col-sm-1"> -->
+                            <!-- <input  sars-maxlength="3" required-empty data-fieldlabel="Number of Constituent Entities in this Tax Jurisdiction" id="numberOfConstituentEntitiesInThisTaxJurisdiction" name="Number of Constituent Entities in this Tax Jurisdiction"
+                            type="text" class="form-control" ng-blur="addRemoveCbcConstituent($event , jurisdiction, $index)" numbers-only
+                            ng-model="formData.CountryByCountryDeclaration.TaxJurisdictions.TaxJurisdiction[$index].NoOfConstituentEntities"
+                             clear-model-when-hidden  ng-required="formData.CountryByCountryDeclaration.TaxJurisdictions.TaxJurisdiction[$index].NoOfConstituentEntities==''|| formData.CountryByCountryDeclaration.TaxJurisdictions.TaxJurisdiction[$index].NoOfConstituentEntities==undefined"
+                          /> -->
+                            <!-- <input sars-maxlength="3" data-fieldlabel="Number of Constituent Entities in this Tax Jurisdiction" id="numberOfConstituentEntitiesInThisTaxJurisdiction"
+                              name="Number of Constituent Entities in this Tax Jurisdiction" type="text" class="form-control"
+                              numbers-only ng-model="constituentArr.length" ng-disabled="true" ng-model-options="{ getterSetter: true }"
+                            /> -->
+                          <!-- </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+                <!--Constituent Entity start -->
+                <ng-form  name="ConstituentEntity" id="ConstituentFormDiv">
+                  <div cg-busy="{promise:myPromiseConstituent,message:message,backdrop:backdrop,templateUrl:templateUrl,delay:delay,minDuration:minDuration}">
+                    <accordion>
+                      <accordion-group  is-open="oneAtATime" ng-repeat="constituent in jurisdiction.ConstEntities track by $index" panel-class="panel-primary" ng-if="showConstEntityDiv">
+                        <accordion-heading class="panel-primary">
+                          <div class="row">
+                            <div class="col-sm-11">
+                              <label>
+                                Constituent Entity: {{entityResCountryName}} 
+                                <!-- ng-hide="jurisdiction.ConstEntities.length-1 > $index"-->
+                              </label>
+                            </div>
+                            <!-- <div class="col-sm-1">
+                            <a ng-click="addConstituentEntity(jurisdiction,$event,$index)" ng-hide="jurisdiction.ConstEntities.length-1 > $index" class="btn btn-info btn-sm">
+                              <span class="glyphicon glyphicon-plus"></span>
+                            </a>
+                            <a ng-click="RemoveConstituentEntity(jurisdiction,$index,$event)" class="btn btn-info btn-sm">
+                              <span class="glyphicon glyphicon-minus"></span>
+                            </a>
+                          </div> -->
+                          </div>
+                        </accordion-heading>
+                        <div>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <div class="">
+                                <div class="formGroup ">
+                                  <label class="control-label label3 col-sm-1">Registered Name</label>
+                                  <div class="col-sm-11">
+                                    <input sars-maxlength="100" data-fieldlabel="Registered Name" id="conRegisteredName" uppercase name="Registered Name" type="text"
+                                      class="form-control" ng-required="constituent.ConstEntity.Name[0]===undefined || constituent.ConstEntity.Name[0]===''"
+                                      required-empty ng-model="constituent.ConstEntity.Name[0]" special-character
+                                      ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined"/>
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <br/>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <div class="">
+                                <div class="formGroup ">
+                                  <label class="control-label label3 col-sm-1">Trading Name</label>
+                                  <div class="col-sm-11">
+                                    <input sars-maxlength="100" data-fieldlabel="Trading Name" id="conTradingName" uppercase name="Trading Name" type="text"
+                                      class="form-control" ng-model="constituent.ConstEntity.Name[1]"
+                                      ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined" />
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <br/>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <div class="formGroup ">
+                                <label class="control-label label3 col-sm-1">Company Reg No.</label>
+                                <div class="col-sm-3">
+                                  <input sars-maxlength="30" data-fieldlabel="Company Reg No." id="conCompanyRegNo" uppercase name="Company Reg No." type="text"
+                                    class="form-control" ng-required="constituent.ConstEntity.IN['#text']===undefined || constituent.ConstEntity.IN['#text']===''"
+                                    required-empty ng-model="constituent.ConstEntity.IN['#text']" 
+                                    ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined"/>
+                                </div>
+                              </div>
+
+                              <div class="formGroup">
+                                <label class="control-label label3 col-sm-1">Issued by Country</label>
+                                <div class="col-sm-1" ng-class="{ 'has-error': ConstituentEntity.IssuedbyCountry.$invalid }">
+                                  <ui-select id="issuedbyCountryCon" required="true" data-fieldlabel="Issued by Country" name="IssuedbyCountry"  
+                                   ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined"
+                                    ng-model="constituent.ConstEntity.IN['@issuedBy']">
+                                    <ui-select-match placeholder="Select">{{$select.selected}}</ui-select-match>
+                                    <ui-select-choices repeat="country in countrycodes | propsFilter: {name: $select.search} | orderBy:'name'" position='auto'>
+                                      <small style="font-size:75%!important;width: auto!important; word-wrap: break-word!important; white-space: normal!important">
+                                        {{::country.name}}
+                                      </small>
+                                    </ui-select-choices>
+                                  </ui-select>
+                                </div>
+                              </div>
+                              <div class="formGroup">
+                                <label class="control-label label3 col-sm-1">Tax Ref No</label>
+                                <div class="col-sm-2">
+                                  <input sars-maxlength="30" data-fieldlabel="Tax Reference No." id="conTaxRefNo" uppercase name="Tax Reference No." type="text"
+                                    class="form-control" ng-required="constituent.ConstEntity.TIN['#text']===undefined || constituent.ConstEntity.TIN['#text']===''"
+                                    required-empty ng-model="constituent.ConstEntity.TIN['#text']" 
+                                    ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined"/>
+                                </div>
+                              </div>
+                              <div class="formGroup">
+                                <label class="control-label label3 col-sm-1 col-xs-1">Issued by Country</label>
+                                <div class="col-sm-2" ng-class="{ 'has-error': ConstituentEntity.IssuedbyCountry1.$invalid }">
+                                  <ui-select id="issuedbyCountryCon1" required="true" data-fieldlabel="Issued by Country" name="IssuedbyCountry1" 
+                                  ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined"
+                                    ng-model="constituent.ConstEntity.TIN['@issuedBy']">
+                                    <ui-select-match placeholder="Select">{{$select.selected}}</ui-select-match>
+                                    <ui-select-choices repeat="country in countrycodes | propsFilter: {name: $select.search} | orderBy:'name'" position='auto'>
+                                      <small style="font-size:75%!important;width: auto!important; word-wrap: break-word!important; white-space: normal!important">
+                                        {{::country.name}}
+                                      </small>
+                                    </ui-select-choices>
+                                  </ui-select>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <br/>
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <div class="">
+                                <div class="formGroup">
+                                  <label class="control-label label3 col-sm-1">Resident Country code (e.g. South Africa = ZA)</label>
+                                  <div class="col-sm-3" ng-class="{ 'has-error': ConstituentEntity.constituentResidentCountryCode.$invalid }">
+                                    <ui-select ng-required="true" data-fieldlabel="Residential Country Code" theme="bootstrap" id="residentCountryCode" name="constituentResidentCountryCode"
+                                    ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined" 
+                                     ng-model="constituent.ConstEntity.ResCountryCode" on-select="onEntityResCodeSelect($item)">
+                                      <ui-select-match placeholder="Select">{{$select.selected}}</ui-select-match>
+                                      <ui-select-choices repeat="country in countrycodes | propsFilter: {name: $select.search} | orderBy:'name'" position='auto'>
+                                        <small style="font-size:75%!important;width: auto!important; word-wrap: break-word!important; white-space: normal!important">
+                                          {{::country.name}}
+                                        </small>
+                                      </ui-select-choices>
+                                    </ui-select>
+                                  </div>
+                                </div>
+                                <div class="formGroup">
+                                  <label class="control-label label3 col-sm-1">Incorp Country code(e.g. South Africa = ZA)</label>
+                                  <div class="col-sm-3" ng-class="{ 'has-error': ConstituentEntity.IncorpCountrycode.$invalid }">
+                                    <ui-select data-fieldlabel="Incorp Country Code" theme="bootstrap" id="IncorpCountrycode" name="IncorpCountrycode" 
+                                      ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined"
+                                      ng-model="constituent.IncorpCountryCode">
+                                      <ui-select-match placeholder="Select">{{$select.selected}}</ui-select-match>
+                                      <ui-select-choices repeat="country in countrycodes | propsFilter: {name: $select.search} | orderBy:'name'" position='auto'>
+                                        <small style="font-size:75%!important;width: auto!important; word-wrap: break-word!important; white-space: normal!important">
+                                          {{::country.name}}
+                                        </small>
+                                      </ui-select-choices>
+                                    </ui-select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <br/>
+                          <div>
+                            <label class="SubContainerHeader">
+                              <strong>Address</strong>
+                            </label>
+                            <div class="row">
+                              <div class="col-sm-12">
+                                <div class="formGroup ">
+                                  <label class="control-label label3 col-sm-1">Address type</label>
+                                  <div class="col-sm-4" ng-class="{ 'has-error': ConstituentEntity.Addresstype{{$index}}.$invalid }">
+                                    <ui-select ng-required="true" data-fieldlabel="Address type" id="Addresstype{{$index}}" name="Addresstype{{$index}}"   
+                                    ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined"
+                                      ng-model="constituent.ConstEntity.Address['@legalAddressType']">
+                                      <ui-select-match placeholder="Select">{{$select.selected}}</ui-select-match>
+                                      <ui-select-choices repeat="address in addresstypes | propsFilter: {name: $select.search} | orderBy:'name'" position='auto'>
+                                        <small style="font-size:75%!important;width: auto!important; word-wrap: break-word!important; white-space: normal!important">
+                                          {{::address.name}}
+                                        </small>
+                                      </ui-select-choices>
+                                    </ui-select>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+                            <br/>
+                            <div class="row">
+                              <div class="col-sm-12">
+                                <div class="formGroup ">
+                                  <div class="col-sm-6">
+                                    <textarea sars-maxlength="200" data-fieldlabel="Address" id="AddressFree{{$index}}" uppercase name="AddressFree{{$index}}"
+                                      class="form-control" rows="6" ng-required="constituent.ConstEntity.Address.AddressFree===undefined || constituent.ConstEntity.Address.AddressFree===''"
+                                      required-empty ng-model="constituent.ConstEntity.Address.AddressFree" special-character   
+                                      ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined">
+                              </textarea>
+                              
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <br/>
+                            <div class="row">
+                              <div class="col-sm-8">
+                                <div class="formGroup ">
+                                  <label class="control-label label3 col-sm-1">Country Code</label>
+                                  <div class="col-sm-2" ng-class="{ 'has-error': ConstituentEntity.CountryCode.$invalid }">
+                                    <ui-select ng-required="true" id="countryCodeBus" data-fieldlabel="Country Code" name="CountryCode"  
+                                     ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined"
+                                      ng-model="constituent.ConstEntity.Address.CountryCode">
+                                      <ui-select-match placeholder="Select">{{$select.selected}}</ui-select-match>
+                                      <ui-select-choices repeat="country in countrycodes | propsFilter: {name: $select.search} | orderBy:'name'" position='auto'>
+                                        <small style="font-size:75%!important;width: auto!important; word-wrap: break-word!important; white-space: normal!important">
+                                          {{::country.name}}
+                                        </small>
+                                      </ui-select-choices>
+                                    </ui-select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <br/>
+                          </div>
+                          <div>
+                            <label class="SubContainerHeader">
+                              <strong>Business Activities</strong>
+                            </label>
+                            <div ng-repeat="busAc in  constituent.BizActivities track by $index">
+                              <div class="row">
+                                <div class="col-sm-12">
+                                  <div class="formGroup ">
+                                    <label class="control-label label3 col-sm-1">Main Business Activities</label>
+                                    <div class="col-sm-3" ng-class="{ 'has-error': ConstituentEntity.MainBusinessActivities{{$index}}.$invalid }">
+                                      <ui-select id="mainBusinessActivities"  ng-required="true" data-fieldlabel="Main Business Activity"   
+                                      ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined"
+                                        name="MainBusinessActivities{{$index}}" ng-model="constituent.BizActivities[$index]"  on-select="onSelectedBizActivity(constituent)">
+                                        <ui-select-match placeholder="Select">{{$select.selected}}</ui-select-match>
+                                        <ui-select-choices repeat="mianBus in mainBusinessActivitys | propsFilter: {name: $select.search} | orderBy:'name'" position='auto'>
+                                          <small style="font-size:75%!important;width: auto!important; word-wrap: break-word!important; white-space: normal!important">
+                                            {{::mianBus.name}}
+                                          </small>
+                                        </ui-select-choices>
+                                      </ui-select>
+                                    </div>
+                                  </div>
+                                  <button type="button" class="btn btn-info btn-sm" ng-click="addmainBusinessAc(constituent)"   ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined">
+                                    <span class="glyphicon glyphicon-plus"></span>
+                                  </button>
+                                  <button type="button" class="btn btn-info btn-sm" ng-click="removeMainBusinessAc(constituent,$index)"   ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined">
+                                    <span class="glyphicon glyphicon-minus"></span>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                            <br/>
+                            <div class="row">
+                              <div class="col-sm-12">
+                                <div class="formGroup ">
+                                  <div class="col-sm-6">
+                                    <label class="control-label label3">Other Business Activity Information</label>
+                                    <textarea sars-maxlength="4000" data-fieldlabel="Other Business Activity" id="OtherEntityInfo" uppercase name="Other Business Activity Information"
+                                      class="form-control" rows="6" ng-required="otherBusinessActivityIsRequired && constituent.OtherEntityInfo==undefined"
+                                      required-empty ng-model="constituent.OtherEntityInfo" special-character
+                                      ng-disabled="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined">
+                             </textarea>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+                            <br/>
+                            <div class="row">
+                              <div class="col-sm-12">
+                                <div class="formGroup ">
+                                  <div class="col-sm-6">
+
+                                    <button type="button" class="btn btn-primary btn-sm" ng-click="updateConstituentEntity(jurisdiction,constEntityId)" ng-show="constEntityId!==undefined">
+                                      <span>Done</span>
+                                    </button>
+                                    <button type="button" class="btn btn-info btn-sm" ng-click="cancelUpdateConstituentEntity(jurisdiction,constEntityId)" ng-show="constEntityId!==undefined">
+                                      <span>Cancel</span>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <br/>
+                          </div>
+                        </div>
+                      </accordion-group>
+                    </accordion>
+                  </div>
+                </ng-form>
+                <table class="table table-hover table-condensed table-striped">
+                  <thead class="levelOne">
+                    <tr>
+                      <th>Constituent Entity</th>
+                      <th>Registered Name</th>
+                      <th>Company Reg No.</th>
+                      <th>Tax Ref No</th>
+                      <th>Issued by Country</th>
+                      <th>Resident Country</th>
+                      <th>Edit | Delete</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr data-ng-repeat="constituent in constituentArr track by $index">
+                      <td>Constituent Entity : {{::$index+1}}</td>
+                      <td>{{constituent.ConstEntity.Name[0]}}</td>
+                      <td>{{constituent.ConstEntity.IN['#text']}}</td>
+                      <td>{{constituent.ConstEntity.TIN['#text']}}</td>
+                      <td>{{getNameOfSelectedCountryCode(constituent.ConstEntity.TIN['@issuedBy'])}}</td>
+                      <td>{{getNameOfSelectedCountryCode(constituent.ConstEntity.ResCountryCode)}}</td>
+                      <td>
+                        <a ng-click="EditConstituentEntity(reportid,$index)" class="btn btn-info btn-sm">
+                          <span class="glyphicon glyphicon-pencil"></span>
+                        </a>
+                        <a ng-click="RemoveConstituentEntity(reportid,$index)" class="btn btn-danger btn-sm"  ng-hide="jurisdiction.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && jurisdiction.DocSpec.DocRefId !==undefined">
+                          <span class="glyphicon glyphicon-trash"></span>
+                        </a>
+                      </td>
+
+                    </tr>
+
+                  </tbody>
+                </table>
+
+                <!--Constituent Entity End -->
+
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="formGroup ">
+                      <div class="col-sm-6">
+
+                        <!-- <button type="button" class="btn btn-primary btn-sm" ng-click="addCBCReport(jurisdiction)" ng-show="constEntityId==undefined">
+                          <span>Add CBC Report</span>
+                        </button> -->
+                        <button type="button" class="btn btn-info btn-sm" ng-click="updateCBCReportOnEdit()"  ng-show="reportid!==null">
+                          <span>Update CBC Report</span>
+                        </button> 
+                        <button type="button" class="btn btn-primary btn-sm" ng-click="ShowCBCContainer()" ng-show="constEntityId==undefined && reportid==null">
+                          <span>Add CBC Report</span>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-sm" ng-click="addConstituentEntity(jurisdiction,$event,$index)" ng-show="constEntityId==undefined">
+                          <span>Add Constituent Entity</span>
+                        </button>
+                        <button type="button" class="btn btn-info btn-sm" ng-click="CompletetedReport()" ng-show="constEntityId==undefined && reportid==null">
+                          <span>Done</span>
+                        </button>
+                        <button type="button" class="btn btn-danger btn-sm" ng-click="CancelReport()" ng-show="constEntityId==undefined">
+                          <span>Cancel</span>
+                        </button>
+                        <input type="hidden" ng-model="reportid" />
+                        <input type="hidden" ng-model="constEntityId" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </accordion-group>
+            </accordion>
+
+          </div>
+        </ng-form>
+      </fieldset>  
+
+        <br/>
+        <fieldset ng-disabled="!readOnly">
+        <div>
+
+          <table class="table table-hover table-condensed table-striped panel-body">
+            <thead class="levelOne">
+              <tr>
+                <th>CBC Report</th>
+                <th>No. of Constituent Entities</th>
+                <th>Resident Country</th>
+                <th>Currency Code</th>
+                <th>Profit/Loss before Income Tax</th>
+                <th>Income Tax Paid</th>
+                <th>Income Tax Accrued</th>
+                <th>Related</th>
+                <th>Unrelated</th>
+                <th>Total</th>
+                <th> Edit | Delete</th>
+                <th>
+                  <button type="button" title="Click to add CBC Report" class="btn btn-info btn-sm" ng-click="ShowCBCContainer()" ng-hide="showreportDiv">
+                    <span class="glyphicon glyphicon-plus"></span>
+                  </button>
+                </th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th>
+                  <div ng-hide="showreportDiv">
+                    <button type="button" title="Click to add CBC Report" class="btn btn-info btn-sm" ng-click="ShowCBCContainer()" ng-show="jurisdictionsArr.length > 1">
+                      <span class="glyphicon glyphicon-plus"></span>
+                    </button>
+                  </div>
+                </th>
+              </tr>
+            </tfoot>
+           
+            <tbody data-ng-repeat="jurisdictionItem in jurisdictionsArr track by $index" data-ng-switch on="dayDataCollapse[$index]"
+              ng-init="$reportIndex=$index">
+              <tr class="clickableRow" title="Click to toggle collapse/expand constituent Entities for this report." data-ng-click="selectTableRow($index)">
+                <td>CBC Report : {{::$index+1}}</td>
+                <td>{{jurisdictionItem.ConstEntities ? jurisdictionItem.ConstEntities.length : 0}}</td>
+                <td>{{getNameOfSelectedCountryCode(jurisdictionItem.ResCountryCode)}}</td>
+                <td>{{jurisdictionItem.Summary.ProfitOrLoss['@currCode']}}</td>
+                <td>{{jurisdictionItem.Summary.ProfitOrLoss['#text']}}</td>
+                <td>{{jurisdictionItem.Summary.TaxPaid['#text']}}</td>
+                <td>{{jurisdictionItem.Summary.TaxAccrued['#text']}}</td>
+                <td>{{jurisdictionItem.Summary.Revenues.Related['#text']}}</td>
+                <td>{{jurisdictionItem.Summary.Revenues.Unrelated['#text']}}</td>
+                <td>{{jurisdictionItem.Summary.Revenues.Total['#text']}}</td>
+                <td>
+                 
+                  <a ng-click="EditCBCReport($index,$event)" class="btn btn-info btn-sm">
+                    <span class="glyphicon glyphicon-pencil"></span>
+                  </a>
+                  <a ng-click="RemoveCBCReport($index,$event)" class="btn btn-danger btn-sm" ng-show="jurisdictionItem.DocSpec.DocRefId==null || jurisdictionItem.DocSpec.DocRefId ==undefined">
+                    <span class="glyphicon glyphicon-trash"></span>
+                  </a>
+
+                </td>
+                <td>
+
+                </td>
+           
+              </tr>
+              <tr data-ng-switch-when="true">
+                <td colspan="12">
+                  <div class="span10">
+                    <div class="">
+                      <table class="table table-hover table-condensed table-striped">
+                        <thead class="levelTwo">
+                          <tr>
+                            <th>Constituent Entity</th>
+                            <th>Registered Name</th>
+                            <th>Company Reg No.</th>
+                            <th>Tax Ref No</th>
+                            <th>Issued by Country</th>
+                            <th>Resident Country</th>
+
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr data-ng-repeat="constituent in jurisdictionItem.ConstEntities  track by $index">
+                            <td>Constituent Entity : {{::$index+1}}</td>
+                            <td>{{constituent.ConstEntity.Name[0]}}</td>
+                            <td>{{constituent.ConstEntity.IN['#text']}}</td>
+                            <td>{{constituent.ConstEntity.TIN['#text']}}</td>
+                            <td>{{getNameOfSelectedCountryCode(constituent.ConstEntity.TIN['@issuedBy'])}}</td>
+                            <td>{{getNameOfSelectedCountryCode(constituent.ConstEntity.ResCountryCode)}}</td>
+                      
+                      </table>
+                    </div>
+                  </div>
+                </td>
+
+              </tr>
+             
+            </tbody>
+            
+
+          </table>
+
+          <br/>
+
+        </div>
+      </fieldset>  
+      </div>
+
+      </div>
+
+      <fieldset ng-disabled="!readOnly">
+      <div cg-busy="{promise:myPromiseOtherInforMAtion,message:message,backdrop:backdrop,templateUrl:templateUrl,delay:delay,minDuration:minDuration}">
+        <!-- <div  block-ui="blockOtherInforMAtion"> -->
+        <accordion  close-others="false">
+          <accordion-group  is-open="oneAtATime"  ng-repeat="otherInfor in otherInforArr track by $index" panel-class="panel-primary">
+            <accordion-heading>
+              <div class="row">
+                <div class="col-sm-11">
+                  <label>
+                    Additional Information {{$index+1}}
+                  </label>
+
+                </div>
+                <div class="col-sm-1">
+                  <a ng-click="addOtherInforMAtionCon($event)" class="btn btn-info btn-sm" ng-hide="otherInforArr.length-1 > $index">
+                    <span class="glyphicon glyphicon-plus"></span>
+                  </a>
+                  <a ng-click="removeOtherInforMAtionCon($index)" class="btn btn-info btn-sm" ng-show="otherInfor.DocSpec.DocRefId =='' || otherInfor.DocSpec.DocRefId==undefined ">
+                    
+                    <span class="glyphicon glyphicon-minus"></span>
+                  </a>
+                </div>
+              </div>
+
+            </accordion-heading>
+            <!-- <label class="ContainerHeader col-sm-8 ">Additional Information</label>-->
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="formGroup ">
+                  <label class="control-label label3 col-sm-1">Unique No:</label>
+                  <div class="col-sm-3">
+                    <input type="text" sars-maxlength="16" name="unique" ng-disabled="true" class="form-control" ng-model="otherInfor.DocSpec.DocRefId"
+                    />
+                  </div>
+                </div>
+                <div class="formGroup ">
+                  <label class="control-label label3 col-sm-1">Record Status:</label>
+                  <label class="control-label label3">Correction
+                    <input type="checkbox" data-fieldlabel="Correction Deletion Additional Information" name="recordStautusAdditional" id="recordStautusAdditional_1"
+                      ng-true-value="'OECD2'" ng-false-value="''" ng-model="otherInfor.DocSpec.DocTypeIndic['#text']"
+                      ng-disabled="otherInfor.DocSpec.DocRefId =='' || otherInfor.DocSpec.DocRefId== undefined  " 
+                     
+                      />
+                      
+                  </label>
+                  <label class="control-label label3">Deletion
+                    <input type="checkbox" data-fieldlabel="Correction Deletion Additional Information" name="recordStautusAdditional" id="recordStautusAdditional_2"
+                      ng-true-value="'OECD3'" ng-false-value="''" ng-disabled="otherInfor.DocSpec.DocRefId =='' || otherInfor.DocSpec.DocRefId== undefined "
+                      ng-click="deletionMessage(otherInfor, $event)" ng-model="otherInfor.DocSpec.DocTypeIndic['#text']"
+                     
+                    />
+                  </label>
+                </div>
+              </div>
+            </div>
+            <br/>
+            <div>
+              <label class="SubContainerHeader">
+                <strong>Other Information</strong>
+              </label>
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="formGroup ">
+                    <div class="col-sm-5">
+                      <label class="control-label label3">Please include any further brief information or explanation you consider necessary or that would facilitate
+                        the understanding of the compulsory information provided in the Country-by-Country Report.</label>
+                      <textarea sars-maxlength="4000" data-fieldlabel="Additional Info Other Information" name="OtherInformation" special-character uppercase required="true"
+                        required-empty rows="6" class="form-control" ng-model="otherInfor.OtherInfo" id="otherInfo"
+                        ng-disabled="otherInfor.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && otherInfor.DocSpec.DocRefId !==undefined"></textarea>
+                    </div>
+
+                  </div>
+                  <div>
+                    <div class="panel-heading col-sm-4">
+                      <label class="SubContainerHeader">Resident Country Code to report on</label>
+                      <div class="formGroup row" ng-repeat="res in otherInfor.ResCountryCode track by $index">
+                        <label class="control-label label3 col-sm-4">Resident Country Code(e.g. South Africa = ZA)</label>
+                        <div class="col-sm-5" ng-class="{ 'has-error': CBCForm.ResidentCountryCode{{$index}}.$invalid }">
+                          <ui-select id="residentCountryCodeAdd" ng-required="true" data-fieldlabel="Additional Info Resident Country Code " theme="bootstrap" 
+                           ng-disabled="otherInfor.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && otherInfor.DocSpec.DocRefId !==undefined"
+                            name="ResidentCountryCode{{$index}}" ng-model="otherInfor.ResCountryCode[$index]">
+                            <ui-select-match placeholder="Select">{{$select.selected}}</ui-select-match>
+                            <ui-select-choices repeat="country in countrycodes | propsFilter: {name: $select.search} | orderBy:'name'" position='auto'>
+                              <small style="font-size:75%!important;width: auto!important; word-wrap: break-word!important; white-space: normal!important">
+                                {{::country.name}}
+                              </small>
+                            </ui-select-choices>
+                          </ui-select>
+
+                        </div>
+
+                        <div class="col-sm-3">
+                          <button type="button" class="btn btn-info btn-sm" ng-click="addResidentCountry(otherInfor)" 
+                           ng-hide="otherInfor.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && otherInfor.DocSpec.DocRefId !==undefined">
+                            <span class="glyphicon glyphicon-plus"></span>
+                          </button>
+                          <button type="button" class="btn btn-info btn-sm" ng-click="RemoveResidentCountry(otherInfor ,$index)"
+                          ng-hide="otherInfor.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && otherInfor.DocSpec.DocRefId !==undefined">
+                            <span class="glyphicon glyphicon-minus"></span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel-heading col-sm-3">
+                      <label class="SubContainerHeader"> Summary Ref Code to Report on</label>
+                      <div class="formGroup row" ng-repeat="sum in otherInfor.SummaryRef track by $index">
+                        <label class="control-label label3 col-sm-2">Summary Ref.Code</label>
+                        <div class="col-sm-6" ng-class="{ 'has-error': CBCForm.SummaryRefCode{{$index}}.$invalid }">
+                          <ui-select id="summaryRefCode" ng-required="true" data-fieldlabel="Additional Info: Summary Ref Code" theme="bootstrap" name="SummaryRefCode{{$index}}"
+                          ng-disabled="otherInfor.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && otherInfor.DocSpec.DocRefId !==undefined"
+                            ng-model="otherInfor.SummaryRef[$index]" title="{{Business.name}}">
+                            <ui-select-match placeholder="Select">{{$select.selected}}</ui-select-match>
+                            <ui-select-choices repeat="Business in BusinessActivity | propsFilter: {name: $select.search} | orderBy:'name'" position='auto'>
+                              <small style="font-size:75%!important;width: auto!important; word-wrap: break-word!important; white-space: normal!important">
+                                {{::Business.name}}
+                              </small>
+                            </ui-select-choices>
+                          </ui-select>
+
+                        </div>
+                        <div class="col-sm-4">
+                          <button type="button" class="btn btn-info btn-sm" ng-click="addSummaryRef(otherInfor)"
+                          ng-hide="otherInfor.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && otherInfor.DocSpec.DocRefId !==undefined">
+                            <span class="glyphicon glyphicon-plus"></span>
+                          </button>
+                          <button type="button" class="btn btn-info btn-sm" ng-click="RemoveRSummaryRef(otherInfor,$index)"
+                          ng-hide="otherInfor.DocSpec.DocTypeIndic['#text'] !=='OECD2'  && otherInfor.DocSpec.DocRefId !==undefined">
+                            <span class="glyphicon glyphicon-minus"></span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </accordion-group>
+        </accordion>
+      </div>
+    </fieldset>  
+      <div class="panel-heading ContainerHeader">
+        <b>Declaration</b>
+      </div>
+      <div class="col-sm-4 SubformHeadingdec">
+        <br />
+        <div class="col-sm-10">
+          <div style="background-color:#ffffff; font-size:10px;
+               padding-bottom:2px;vertical-align: top;
+              margin-bottom:2px;border-radius: 5px; border-color:#000000; 
+              z-index:100; padding-left: 2px; padding-right: 2px;
+              padding-bottom: 2px;">
+            <div id="messageToYes">
+              <label class="label3">I declare that:</label>
+              <label class="label3">The information furnished in this form is true and correct in every respect; and</label>
+              <label class="label3">I have disclosed in full the amounts during the period covered by this declaration.</label>
+              <label class="label3">I have the necessary records to support all the declarations on this form.</label>
+            </div>
+          </div>
+          <br />
+          <div class="row row-spacing">
+            <div class="col-sm-2">
+              <label class="label5">Date (CCYYMMDD)</label>
+            </div>
+            <div class="col-sm-4">
+              <input type="text" class="form-control" numbers-only id="date_received" ng-model="formData.CountryByCountryDeclaration.DeclarationDate"
+                name="date" placeholder="CCYYMMDD" sars-maxlength="8" ng-blur="runDeclarationDateValidationOnExit($event)">
+            </div>
+            <div class="col-sm-4">
+              <label class="label5">
+                For enquiries go to www.sars.gov.za or call 0800 00 SARS (7277)
+              </label>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+
+
+
+ 
+  </form>
+
+  <!-- build:js(src) scripts/vendor.js -->
+  <!-- bower:js -->
+  <!-- run `gulp inject` to automatically populate bower script dependencies -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
+  <!-- inject:js -->
+  <!-- js files will be automatically insert here -->
+  <!-- endinject -->
+
+  <!-- inject:partials -->
+  <!-- angular templates will be automatically converted in js and inserted here -->
+  <!-- endinject -->
+  <!-- endbuild -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-polyfills/0.1.41/polyfill.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-busy/4.1.4/angular-busy.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-block-ui/0.2.2/angular-block-ui.min.js"></script> -->
+  <script>
+    angular.element(document).ready(function () {
+      if (parent !== null) {
+        parent.$(parent.document).trigger('HTML5_FormLoaded');
+      }
+    });
+  </script>
+
+</body>
+
+</html>
